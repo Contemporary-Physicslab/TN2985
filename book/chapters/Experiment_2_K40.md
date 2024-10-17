@@ -13,6 +13,7 @@ This potassium isotope dominantly decays to $^{40}$Ca by emission of an electron
 The lifetime of $^{40}K$ must be of the same order of magnitude as that of the lifetime of the Earth. Otherwise, the $^{40}K$ formed in creation of the Earth would have disappeared already by radioactive decay.
 
 ```{figure} /figures/K40/EI_4figuur1.png
+---
 name: K40_intro
 width: 50%
 ---
