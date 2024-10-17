@@ -12,7 +12,7 @@ This potassium isotope dominantly decays to $^{40}$Ca by emission of an electron
 
 The lifetime of $^{40}K$ must be of the same order of magnitude as that of the lifetime of the Earth. Otherwise, the $^{40}K$ formed in creation of the Earth would have disappeared already by radioactive decay.
 
-```{figure} /figures/K40/EI_4figuur1.eps
+```{figure} /figures/K40/EI_4figuur1.png
 name: K40_intro
 width: 50%
 ---
@@ -67,7 +67,7 @@ $$ (Pmu)
 
 The parameter $\mu$ is the mean number of decay processes in a time interval $\Delta t$. The value of $\mu$ can be calculated from the values of *k* measured for a very large number of in-dependent time intervals $\Delta t$ (of equal size). The function *k*! (pronounce: k faculty) is the factorial function given by $k! = 1\times2\times3\times...\times k$ (with 0!=1).
 
-```{figure} /figures/K40/EI_4figuur2.eps
+```{figure} /figures/K40/EI_4figuur2.png
 :name: K40_Poisson
 Poisson probability distribution for $\mu=3$, plotted together with the histogram to which the distribution has been fitted. The probability distribution is asymmetric. The curve has been plotted as a continuous curve, but in reality the distribution only holds for integer values of k.
 ```
@@ -155,7 +155,7 @@ $p$ is the fraction of the presence (abundance) of the isotope $^{40}K$ in the n
 To determine the activity of one gram of KCl, we use the setup depicted in {numref}`K40_GM`. The heart of the setup is a Geiger-Muller (GM) detector, applied in this experiment to detect electrons.
 
 
-```{figure} /figures/K40/EI_4figuur3EN.eps
+```{figure} /figures/K40/EI_4figuur3EN.png
 :name: K40_GM
 Geiger-M�ller counting setup for determining the half-live of $^{40}K$.  Sample holders are available to accommodate different thicknesses of KCl powder. The holder should be placed in the uppermost slot.
 ```
@@ -218,7 +218,7 @@ $$
 Equation {eq}`G` is rather complex, making the complete uncertainty analysis for the efficiency $G$ rather involved. Therefore, the value of $G$ and the corresponding uncertainty are given here: $G=0.215$, with $u(G)=0.006$.
 
 
-```{figure} /figures/K40/EI_4figuur4EN.eps
+```{figure} /figures/K40/EI_4figuur4EN.png
 :name: Fig:K40_geometry
 Geometry of the source and detector, with indication of relevant dimensions.
 ```
