@@ -13,3 +13,4 @@ sphinx-thebe ~= 0.9.9  #temporarily disable
 
 # lastly any packages you wish to download directly from a Git repository
 download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
+sphinx-exercise ~= 0.4.1  #temporarily disable
