@@ -118,7 +118,7 @@ $$
 \bar{k}=\sum_{k=0}^{\infty} k P_{\mu}(k)=\sum_{k=0}^{\infty} k \frac{\mu^{k}}{k !} e^{-\mu}=\mu e^{-\mu} \sum_{k=1}^{\infty} \frac{\mu^{k-1}}{(k-1) !}=\mu
 $$
 
-The Poisson distribution typically holds for a probability experiment with a very large population and a small probability of �success�. Here, success means that a nucleus
+The Poisson distribution typically holds for a probability experiment with a very large population and a small probability of success. Here, success means that a nucleus
 decays; *k* in Eq. {eq}`Pmu` counts the number of successes. For radioactive decay the population is the very large number of radioactive nuclei (here: $N\sim 10^{18}$), while the probability of success is given by the small number $w=\frac{\Delta t}{\tau}$  (here: $w\sim 10^{-16}$). In the terminology of statistics, each individual counting experiment during a time period $\Delta t$ can be seen as *N* attempts (since there are *N* nuclei). In each counting experiment, the count is made how many of *N* attempts lead to success.
 
 
@@ -154,7 +154,7 @@ To determine the activity of one gram of KCl, we use the setup depicted in {numr
 
 ```{figure} /figures/K40/EI_4figuur3EN.png
 :name: K40_GM
-Geiger-M�ller counting setup for determining the half-live of $^{40}K$.  Sample holders are available to accommodate different thicknesses of KCl powder. The holder should be placed in the uppermost slot.
+Geiger-Muller counting setup for determining the half-live of $^{40}K$.  Sample holders are available to accommodate different thicknesses of KCl powder. The holder should be placed in the uppermost slot.
 ```
 
 Typically, the number of detections induced by the KCl sample is counted during a certain time period, using a counter/timer. The count rate *R* is obtained by dividing the count total $N_{count}$ by the measurement time $\Delta t: R = N_{count}/\Delta t$. Since the count rate is not equal to the activity, it is therefore expressed in $s^{-1}$ and not in Bq. The count rate is recalculated into the activity by making several corrections. The discussion below is limited to those corrections that give a significant contribution.
@@ -189,7 +189,7 @@ r_{\mathrm{corr}}(d)=a_{0}+a_{1} d+a_{2} d^{2}+\ldots
 $$ (eq:rcorr2)
 
 The least squares fit yields the coefficients $a_0, a_1, a_2, ...$ of the polynomial. Extrapolation to zero thickness implies setting $d = 0$ in the fitted polynomial, thus obtaining
-$r_{corr,0} = r_{corr}(0) = a_0$. Thus, $r_{corr,0}$ is the self-absorption corrected count rate of 1 gram of KCl, obtained via determining the count rate per gram as a function of sample thickness including correction for the background. In the symbol $r_{corr,0}$ the index �corr� denotes correction for the background, while the index �0� denotes extrapolation to zero sample thickness.
+$r_{corr,0} = r_{corr}(0) = a_0$. Thus, $r_{corr,0}$ is the self-absorption corrected count rate of 1 gram of KCl, obtained via determining the count rate per gram as a function of sample thickness including correction for the background. In the symbol $r_{corr,0}$ the index "corr" denotes correction for the background, while the index "0" denotes extrapolation to zero sample thickness.
 
 
 b. *The $\beta$-efficiency $\epsilon$*\\
@@ -198,7 +198,7 @@ This is the ratio of the number of detected $\beta$-particles to the number of $
 
 c. *Geometric efficiency G.*
 
-This is the ratio of the number of electrons reaching the detector to the number of electrons that are emitted by the source. Since electron emission from the source is omnidirectional and the detector does not completely enclose the source, only a fraction of the electrons will reach the detector. This geometric efficiency relates to the solid angle under which the detector �sees� the source (solid angle is the three-dimensional equivalent of angle in the plane). For a point source the solid angle can be easily calculated. In our case, however, the source is not a point source, resulting in a rather complex expression for G:
+This is the ratio of the number of electrons reaching the detector to the number of electrons that are emitted by the source. Since electron emission from the source is omnidirectional and the detector does not completely enclose the source, only a fraction of the electrons will reach the detector. This geometric efficiency relates to the solid angle under which the detector "sees" the source (solid angle is the three-dimensional equivalent of angle in the plane). For a point source the solid angle can be easily calculated. In our case, however, the source is not a point source, resulting in a rather complex expression for G:
 
 $$
 G=0.5 \times\left[1-\frac{1}{(1+\beta)^{1 / 2}}-\gamma \frac{3}{8} \frac{\beta}{(1+\beta)^{5 / 2}}-\gamma^{2}\left(-\frac{5}{16} \frac{\beta}{(1+\beta)^{7 / 2}}+\frac{35}{64} \frac{\beta^{2}}{\left(1+\beta^{9 / 2}\right)}\right)-\ldots\right]
