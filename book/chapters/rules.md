@@ -11,13 +11,16 @@ $$
 $$ (eq:grade)
 
 If your grade for IE2 is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
-
+```{table}
+---
 | What | How | Teamwork | Percentage |
 | ---- | --- | -------- | ---------- |
 | M\&U | online test | individual | 20\% |
 | IE1 | paper | student pair | 40\% |
 | IE2 | paper | student pair | 40\% |
-
+---
+Summary of
+```
 ### Measurement and uncertainty
 Measurement and uncertainty is a chapter in this manual which you will have to read. There will be a number of exercises, some of which will involve the use of Python. These exercises will prepare you for the test. There is an afternoon scheduled where a TA is available for help if you have questions about measurement and uncertainty and the use of Python. However, you are allowed to work at home and consult the TA using MS Teams.
 
