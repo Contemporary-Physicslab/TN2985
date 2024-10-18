@@ -11,16 +11,15 @@ $$
 $$ (eq:grade)
 
 If your grade for IE2 is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
-```{table}
----
+
 | What | How | Teamwork | Percentage |
 | ---- | --- | -------- | ---------- |
 | M\&U | online test | individual | 20\% |
 | IE1 | paper | student pair | 40\% |
 | IE2 | paper | student pair | 40\% |
----
-Summary of
-```
+
+Table: Summary of 
+
 ### Measurement and uncertainty
 Measurement and uncertainty is a chapter in this manual which you will have to read. There will be a number of exercises, some of which will involve the use of Python. These exercises will prepare you for the test. There is an afternoon scheduled where a TA is available for help if you have questions about measurement and uncertainty and the use of Python. However, you are allowed to work at home and consult the TA using MS Teams.
 
@@ -83,29 +82,8 @@ The practical sessions in the IE block cover the following topics: Python, IE-1,
 | 11 | 4.2 | Report writing | - | 4 | X |
 | 12 | 4.3 | Report writing | 27 sept hand in report | 4 + 2 (finishing report) | X |
 
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{l|r|l|l|l|l}
-         **nr} & **week} & **Topic} & **Deadline} & **time required}  & **Mandatory}\\
-         \hline
-         1 & 1.1 & Introduction &- & 2 + 2 (reading) & V\\
-         2 & 1.2 & M\&U &- & 4 (assignments) & X  \\
-         3 & 1.3 & M\&U & - &  4 (assignments) & X\\
-         4 & 2.1 & M\&U test &Test & 4 & V\\
-         5 & 2.2 & Experiment 1 & - & 4+2 (preparation) & V\\
-         6 & 2.3 & Report writing & hand in draft for feedback & 4 & X\\
-         7 & 3.1 & Report writing & hand in report & 4+2 (finishing report) & V \\
-         8 & 3.2 & IE2 &  - & 4+2 (assignments)& V\\
-         9 & 3.3 & IE2 &- & 4 & V\\
-         10 & 4.1 & x & - & - & X \\
-         11 & 4.2 & Report writing & & 4 & X\\
-         12 & 4.3 & Report writing & 27 sept hand in report & 4 + 2 (finishing report)& X\\
-    \end{tabular} 
-    \caption{Time schedule with deadlines and expected hours of homework.}
-    \label{tab:timeschedule}
-\end{table}
-%
-
+Table: Time schedule with deadlines and expected hours of homework.
+\label{tab:timeschedule}
 
 ## Rules of attendance
 To ensure that all students can complete the Introductory Laboratory Course in time, it is essential that everybody does what is asked of them. This has proved difficult for some students. This has forced us to make use of a penalty system. When penalties are imposed, they can have serious consequences: they could result in you failing the course and therefore failing the entire minor. (Below, the sanctions are indicated in italics.) For this reason, we strongly advise you to take note of the penalties for infractions like late arrival and do all you can to avoid them.
