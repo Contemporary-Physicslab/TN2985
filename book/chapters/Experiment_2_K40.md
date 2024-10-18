@@ -37,9 +37,10 @@ $$ (dN)
 Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time:
 
 $$
-N(t) = N(0) e^{-\lambda t}
+N(t) 
 $$ (N(t))
 
+= N(0) e^{-\lambda t}
 $N(0)$ is the number of radioactive nuclei in a sample at $t = 0$. Furthermore, $N(t)$ is the number of radioactive nuclei that did not yet decay at time $t$.
  
 
