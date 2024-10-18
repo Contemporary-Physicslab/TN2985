@@ -26,8 +26,8 @@ Your knowledge of measurement and uncertainty will be assessed in an online test
 
 ### IE$_1$
 The first experiment is the same for everyone and involves determining the gravitational acceleration $g$ within 0.5\%. You and your lab-partner ought to determine the fourth significant number of the gravitational acceleration. This experiment will help you get acquainted with experiments in physics. During two pre-scheduled afternoons you will work on a scientific paper using the RevTex-template. You are allowed to work at home, but it is mandatory to at least show a draft version. This will help you to adjust major mistakes. Such a paper is different in many elements from reports in other engineering subjects. The paper will be assessed.
-%
-### IE$_2$}
+
+### IE$_2$
 The second experiment will be done pairwise. There are five experiments in total of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
 
 
@@ -64,7 +64,22 @@ When you enroll in the Introductory Laboratory Course you will receive a persona
 
 
 The practical sessions in the IE block cover the following topics: Python, IE-1, writing a lab report, and IE-2. 
-%
+
+| Nr. | Week | Topic | Deadline | Time required | Mandatory |
+| --- | ---- | ----- | -------- | ------------- | --------- |
+| 1 | 1.1 | Introduction | - | 2 + 2 (reading) | V |
+| 2 | 1.2 | M\&U | - | 4 (assignments) | X |
+| 3 | 1.3 | M\&U | - | 4 (assignments) | X |
+| 4 | 2.1 | M\&U test | Test | 4 | V |
+| 5 | 2.2 | Experiment 1 | - | 4+2 (preparation) | V |
+| 6 | 2.3 | Report writing | Hand in draft for feedback | 4 | X |
+| 7 | 3.1 | Report writing | Hand in report | 4+2 (finishing report) | V |
+| 8 | 3.2 | IE2 | - | 4+2 (assignments) | V |
+| 9 | 3.3 | IE2 | - | 4 | V |
+| 10 | 4.1 | x | - | - | X |
+| 11 | 4.2 | Report writing | - | 4 | X |
+| 12 | 4.3 | Report writing | 27 sept hand in report | 4 + 2 (finishing report) | X |
+
 \begin{table}[h!]
     \centering
     \begin{tabular}{l|r|l|l|l|l}
