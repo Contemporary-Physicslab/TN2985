@@ -8,10 +8,11 @@ Newton's second law provides the equation of motion for a falling water droplet 
 
 $$
 m\frac{dv}{dt}= mg - F_D - F_B
-$$ (bwgvgl)
+$$ 
 
 Here $m$ is the mass of the droplet, $v$ the velocity of the droplet, $g$ the gravitational
-acceleration, $F_D$ the drag force and $F_B$ the buoyant force. The velocity is defined relative to the stationary air, taking downward as positive. The drag force is the result of friction of the droplet with the air. The buoyant force is described by Archimedes� principle.\\
+acceleration, $F_D$ the drag force and $F_B$ the buoyant force. The velocity is defined relative to the stationary air, taking downward as positive. The drag force is the result of friction of the droplet with the air. The buoyant force is described by Archimedes' principle. 
+
 In the rest of this manual $F_B$ is neglected. It can be expected that $F_D$ depends on the velocity of the droplet. In this experiment you will determine $F_D$ for a range of occurring velocities. To this end, you will perform two experiments: 
 1. with a drop test, you will determine the position-time relation of the falling droplet
 1. with a visualisation experiment you will take photographs of a floating droplet to determine its shape.
@@ -21,15 +22,15 @@ It is generally assumed that the drag force $F_D$ is proportional to the velocit
 
 $$
 F_D = \frac{1}{2}C_D A_{\perp}\rho_{air} v^2
-$$ (Fdrag)
+$$ 
 
-Here $C_D$ is the drag coefficient, $A_{\perp}$ the cross-sectional area of the droplet perpendicular to the direction of the velocity and $\rho_{air}$ the air density. The value of $C_D$, in turn, can also depend on the velocity. Furthermore, $C_D$ depends on the shape of the droplet.\\
+Here $C_D$ is the drag coefficient, $A_{\perp}$ the cross-sectional area of the droplet perpendicular to the direction of the velocity and $\rho_{air}$ the air density. The value of $C_D$, in turn, can also depend on the velocity. Furthermore, $C_D$ depends on the shape of the droplet.
 
 In the field of transport phenomena, one often uses characteristic numbers (in Dutch: kentallen). These are dimensionless parameters that describe a system in a general way. The Reynolds number, Re, is the most important characteristic number in fluid mechanics. It is not only used to determine whether a flow is laminar or turbulent, but also to realize similarity between two different flows. The Reynolds number is defined as:
 
 $$
 \mathrm{Re} = \frac{\rho v d}{\mu},
-$$ (Re)
+$$ 
 
 with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. Figure 1 gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
 
@@ -38,28 +39,28 @@ with $d$ is a characteristic dimension, here the largest diameter of the droplet
 Drag coefficient $C_D$ as a function of the Re-number, for a sphere (���) and a disk (- - -).
 ```
 
-For a low Re-number (Re $<$ 1) Stokes� law applies:
+For a low Re-number (Re $<$ 1) Stokes' law applies:
 
 $$
 F_D = 3\pi\mu d v
-$$ (Stokes)
+$$
 
 On the basis of the above, it follows for Re $<$ 1:
 
 $$
 C_D = \frac{24}{\mathrm{Re}}
-$$ (Cd)
+$$
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur2.eps
 :name: Experiment2_waterdropplet:fig:flow_pattern
 Flow pattern around a sphere as a function of the Re-number.
 ```
 
-With increasing Re-number, vortices arise at the rear of the particle (see {numref}`Experiment2_waterdropplet:fig:flow_pattern`). A wake is created; the boundary layer is �released� from the particle as a result of the inertia of the surrounding medium, that prefers to move straight on. N.b.: This line of reasoning assumes a medium flowing around the particle, but that situation turns out to be equivalent to the situation of the particle moving through the medium, as in the present experiment. For larger Re-numbers, the vortices increase in size and the location where the boundary layer is released moves to the front side of the particle. For even larger Re-numbers ($10^3$ � $2\cross10^5$, Newton regime) the wake becomes irregular and turbulent. Vortices are then carried along by the flow and new vortices are generated at the rear of the particle. Eventually, for very large Re-number, the boundary layer becomes turbulent and the location where the boundary layer is released moves back to the rear of the particle. In the transition range from the Stokes to the Newton regime, we can use the Schiller-Naumann relation:
+With increasing Re-number, vortices arise at the rear of the particle (see {numref}`Experiment2_waterdropplet:fig:flow_pattern`). A wake is created; the boundary layer is "released" from the particle as a result of the inertia of the surrounding medium, that prefers to move straight on. N.b.: This line of reasoning assumes a medium flowing around the particle, but that situation turns out to be equivalent to the situation of the particle moving through the medium, as in the present experiment. For larger Re-numbers, the vortices increase in size and the location where the boundary layer is released moves to the front side of the particle. For even larger Re-numbers ($10^3$ - $2\cdot 10^5$, Newton regime) the wake becomes irregular and turbulent. Vortices are then carried along by the flow and new vortices are generated at the rear of the particle. Eventually, for very large Re-number, the boundary layer becomes turbulent and the location where the boundary layer is released moves back to the rear of the particle. In the transition range from the Stokes to the Newton regime, we can use the Schiller-Naumann relation:
 
 $$
 C_D = \frac{24}{\text{Re}}(1+0.15\text{Re}^{0.687})
-$$ (SchNau)
+$$
 
 For objects moving with high velocity through a thin medium ($10^3<\text{Re}<2\times10^5$), {numref}`CdRe` shows that $C_D$ is approximately constant.
 
@@ -68,7 +69,7 @@ Using {eq}`Fdrag` and $\beta = C_D A \rho /2$, {eq}`bwgvgl` can be rewritten as 
 
 $$
 m \frac{dv}{dt} = mg - \beta v^2
-$$ (equation_of_motion)
+$$ 
 
 Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
 To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
@@ -90,7 +91,7 @@ This did not help much yet, as we have expressed $v(t)$ as an integral of the fu
 
 $$
 v(t) = v_0 + gt - \frac{1}{3}\frac{\beta}{m}g^2t^3 + \frac{2}{15}\left(\frac{\beta}{m}\right)^2 g^3t^5 + ...
-$$ (vterms)
+$$ 
 
 The four terms in the expression for $v(t)$ are the initial velocity, the free drop term, the first order correction and the second order correction, respectively. From further theory, it follows that for this experiment the first order correction is sufficient, provided
 $t < 0.7$ s. In that case, the second order correction is negligibly small compared to the first order correction. It turns out that the this condition for the drop time is met in the experiment.\\
