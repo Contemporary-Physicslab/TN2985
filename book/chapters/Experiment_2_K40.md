@@ -40,7 +40,7 @@ $$
 N(t) = N(0) e^{-\lambda t}
 $$ (N_t)
 
-The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N(t)}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
+The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N_t}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
 
 $$
 t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
@@ -51,13 +51,13 @@ The activity of a radioactive source is the number of nuclei that decay per unit
 
 $$
 A(t)=\left|\frac{d N(t)}{d t}\right|=\lambda N(0) e^{-\lambda t}
-$$ (A(t))
+$$ (A_t)
 
-The activity also decays exponentially in time, again with constant $\tau$ = 1/$\lambda$. The activity has the dimension t$^{-1}$ and thus can be expressed in s$^{-1}$. However, there is a distinct SI-unit for activity of a radioactive source, the becquerel (Bq). In this context, we note that a *count rate should be expressed in the unit in s$^{-1}$* or a similar unit (*e.g.* min$^{-1}$). A count rate only *becomes an activity with unit Bq after correction for a number of effects*, such as background radiation and the efficiency of the setup.
+The activity also decays exponentially in time, again with constant $\tau = \frac{1}{\lambda}$. The activity has the dimension $t^{-1}$ and thus can be expressed in $s^{-1}$. However, there is a distinct SI-unit for activity of a radioactive source, the becquerel (Bq). In this context, we note that a *count rate should be expressed in the unit in $s^{-1}$* or a similar unit (*e.g.* $minutes^{-1}$). A count rate only *becomes an activity with unit Bq after correction for a number of effects*, such as background radiation and the efficiency of the setup.
 
 ### Statistics of the decay
-Equation {eq}`N(t)` describes the average behaviour of radioactive decay. On a short time scale, however, the decay has a random character. The number of decay processes
-taking place in a time interval $\Delta$*t* varies in time and shows a statistical behaviour around the mean $\mu$. The statistical probability that *k* nuclei of the *N*(t) nuclei present in the sample decay in the time interval $\Delta$*t* is given by the Poisson probability distribution  *P_{$\mu$}*(*k*) :
+Equation {eq}`N_t` describes the average behaviour of radioactive decay. On a short time scale, however, the decay has a random character. The number of decay processes
+taking place in a time interval $\Delta$*t* varies in time and shows a statistical behaviour around the mean $\mu$. The statistical probability that *k* nuclei of the *N*(t) nuclei present in the sample decay in the time interval $\Delta$*t* is given by the Poisson probability distribution  *$P_{\mu}$*(*k*) :
 
 $$
 P_{\mu}(k)=\frac{\mu^{k}}{k !} e^{-\mu}
@@ -109,7 +109,7 @@ $$
 \sum_{k=0}^{\infty} P_{\mu}(k)=1.
 $$ (poisson)
 
-The correctness of Eq. {eq}`poisson` immediately follows from the Taylor series expansion of $e^{\mu}$: $e^{\mu}=\sum_{k=0}^{\infty} \mu^{k} / k!$
+The correctness of Eq. {eq}`poisson` immediately follows from the Taylor series expansion of $e^{\mu}: e^{\mu}=\sum_{k=0}^{\infty} \mu^{k} / k!$
 
 
 *Calculation of the mean*: the property that $\mu$ is the mean number of decay processes can be proven by summing over all possible value of *k*, each multiplied by the probability of its occurrence:
@@ -124,12 +124,11 @@ decays; *k* in Eq. {eq}`Pmu` counts the number of successes. For radioactive dec
 
 In the limit of very large $\mu$, the asymmetric Poisson distribution turns into the symmetric normal distribution, which in general is determined by two independent parameters (the mean and the standard deviation). For rare and random decay processes, however, only the parameter $\mu$ of the original Poisson distribution determines the resulting normal distribution (again with: mean = $\mu$ and standard deviation = $\sqrt{\mu}$ ).
 
-## Determination of the Half-Life of $^{40
-$K}
+## Determination of the Half-Life of $^{40}K$
 From the preceding chapter it follows that the half-life of a nuclide can be determined by measuring the activity as a function of time. One could measure the count rate and, if needed, correct it for background radiation. The corrected count rate is proportional to the activity. If the corrected count rate is plotted on a logarithmic scale versus time, then within the measurement uncertainty a straight line results with a slope $-\lambda$, from which $\tau$ can be calculated using Eq. {eq}`t1/2`.
 
 
-However, a sample containing $^{40}K$ is not expected to show a decrease of activity during any realistic measurement time, given the half-life of billions of years. Therefore, our first method to obtain the half-life is based on Eq. {eq}`A(t)`, by determining $A(0)$ and $N(0)$. Indeed, according to Eq. {eq}`A(t)` we have
+However, a sample containing $^{40}K$ is not expected to show a decrease of activity during any realistic measurement time, given the half-life of billions of years. Therefore, our first method to obtain the half-life is based on Eq. {eq}`A_t`, by determining $A(0)$ and $N(0)$. Indeed, according to Eq. {eq}`A_t` we have
 
 $$
 \lambda=\frac{A(0)}{N(0)}
@@ -143,8 +142,8 @@ $$ (N0/A0)
 
 The other way of determining $\tau$ is by experimentally obtaining the histogram of count totals, each total measured during the time interval $\Delta t$. By fitting a Poisson distribution to the histogram the mean $\mu$ is obtained, which via Eq. {eq}`mu` leads to $\tau$.
 
-### Determining the number of $^{40
-$K nuclei in one gram of KCl}
+### Determining the number of $^{40}K$ nuclei in one gram of KCl
+
 The quantities $N(0)$ and $A(0)$ in the equation for the half-life relate to the same number of $^{40}K$ nuclei. This situation can be realized by reducing measurement results from different samples to the mass of one gram of KCl.
 When we redefine $N(0)$ as the number of $^{40}K$ nuclei in one gram of KCl, then $N(0)$ can be expressed in $p$, $N_{A}$ and $M$.
 $p$ is the fraction of the presence (abundance) of the isotope $^{40}K$ in the natural isotope mixture, $N_{A}$ is the Avogadro constant, $M$ is the molar mass of KCl. The values of $p$, $N_{A}$ and $M$ can be looked up in a data compendium, for example [3].
