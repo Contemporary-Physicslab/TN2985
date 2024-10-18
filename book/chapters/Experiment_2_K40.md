@@ -36,6 +36,10 @@ $$ (dN)
 
 Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time: 
 
+$$
+\Delta N =-\lambda N(t)\Delta t
+$$ (dN)
+
 The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N(t)}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
 
 $$
