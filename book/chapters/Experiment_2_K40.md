@@ -157,7 +157,7 @@ To determine the activity of one gram of KCl, we use the setup depicted in {numr
 Geiger-M�ller counting setup for determining the half-live of $^{40}K$.  Sample holders are available to accommodate different thicknesses of KCl powder. The holder should be placed in the uppermost slot.
 ```
 
-Typically, the number of detections induced by the KCl sample is counted during a certain time period, using a counter/timer. The count rate *R* is obtained by dividing the count total $N_{count}$ by the measurement time $\Delta t$: $R = N_{count}/\Delta t$. Since the count rate is not equal to the activity, it is therefore expressed in s$^{-1}$ and not in Bq. The count rate is recalculated into the activity by making several corrections. The discussion below is limited to those corrections that give a significant contribution.
+Typically, the number of detections induced by the KCl sample is counted during a certain time period, using a counter/timer. The count rate *R* is obtained by dividing the count total $N_{count}$ by the measurement time $\Delta t: R = N_{count}/\Delta t$. Since the count rate is not equal to the activity, it is therefore expressed in $s^{-1}$ and not in Bq. The count rate is recalculated into the activity by making several corrections. The discussion below is limited to those corrections that give a significant contribution.
 
 
 *1. Background radiation*
