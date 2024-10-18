@@ -34,17 +34,9 @@ $$
 \Delta N =-\lambda N(t)\Delta t
 $$ (dN)
 
-Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time:
+Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time: 
 
-$$
-N(t) 
-$$ (N(t))
-
-= N(0) e^{-\lambda t}
-$N(0)$ is the number of radioactive nuclei in a sample at $t = 0$. Furthermore, $N(t)$ is the number of radioactive nuclei that did not yet decay at time $t$.
- 
-
-The inverse of $\lambda$, i.e. $\tau$ = 1/$\lambda$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N(t)}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
+The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N(t)}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
 
 $$
 t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
