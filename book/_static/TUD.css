@@ -13,32 +13,55 @@ h3 {
     color: rgb(12, 35, 64) !important;
 }
 
-/* Not all functionality working yet */
-.warning {
-    background-color: rgb(165,0,52) !important; /* Light red background */
-    border-left: 4px solid rgb(165,0,52) !important; /* Dark red border */
-    color: black !important; /* Dark red text */
-}
+[data-theme="dark"] {
 
-.admonition.warning {
-    background-color: rgb(237, 104, 66) !important; /* Light red background */
-    border-left: 4px solid rgb(165,0,52); /* Dark red border */
-    color: black !important; /* Dark red text */
+    h1 {
+        color: rgb(244, 10, 166) !important;
+    }
+    
+    h2 {
+        color: rgb(0, 118, 194) !important;
+    }
+    
+    h3 {
+        color: #FFFFFF !important;
+    }
 }
 
 .admonition.warning .admonition-title {
-    background-color: rgb(165,0,52) !important;
+    background-color: #E03C31  !important;
     color: black !important;
 }
 
-
-.admonition.note {
-    background-color: rgb(0, 166, 214) !important; /* background */
-    border-left: 4px solid rgb(12, 35, 64) !important; /* lef border */
-    color: black !important; /* text */
-}
-
 .admonition.note .admonition-title {
-    background-color: rgb(12, 35, 64) !important;
-    color: rgb(0, 166, 214) !important;
+    background-color: #00A6D6 !important;
+    color: black !important;
 }
+
+.admonition.danger .admonition-title {
+    background-color: #A50034 !important;
+    color: black !important;
+}
+
+.admonition.tip .admonition-title {
+    background-color: #6CC24A !important;
+    color: black !important;
+}
+
+/* 
+#00A6D6 blue
+#FFFFFF white
+#000000 black
+#0C2340 dark blue
+#00B8C8 turquoise
+#0076C2 blue
+#6F1D77 purple
+#EF60A3 pink
+#A50034 raspberry
+#E03C31 red
+#EC6842 orange
+#FFB81C yellow
+#6CC24A green
+#009B77 dark green
+
+ */
