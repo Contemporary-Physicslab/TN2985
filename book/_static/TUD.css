@@ -16,9 +16,22 @@ h3 {
 .admonition.warning {
     background-color: rgb(237, 104, 66); /* Light red background */
     border-left: 4px solid rgb(165,0,52); /* Dark red border */
-    color: black; /* Dark red text */ !important;
+    color: black !important; /* Dark red text */
 }
 
 .admonition.warning .admonition-title {
-    color: rgb(165,0,52); !important;
+    border-color:rgb(165,0,52) !important;
+    background-color: rgb(68, 20, 213);
+    color: black; !important;
+}
+
+.admonition.note {
+    background-color: rgb(0, 166, 214); /* Light blue background */
+    border-left: 4px solid rgb(0, 166, 214); /* Dark blue border */
+    color: black !important; /* Dark blue text */
+}
+
+.admonition.note .admonition-title {
+    background-color: rgb(0, 166, 214);
+    color: rgb(12, 35, 64) !important;
 }
