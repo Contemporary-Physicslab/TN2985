@@ -3,6 +3,7 @@ root: intro.md
 
 parts:
   - caption: General
+    numbered: true
     chapters:
     - file: chapters/rules.md
     - file: chapters/labjournal.md

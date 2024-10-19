@@ -137,6 +137,6 @@ You need to install [Arduino](https://www.arduino.cc). Furthermore, you will use
 
 ## Contact
 For advice, or to make complaints, please contact:\
-ir. C. F. J. Pols\
+dr. ir. C. F. J. Pols\
 room A005\
 e-mail c.f.j.pols@tudelft.nl.
