@@ -14,6 +14,10 @@ There are several reasons physicists carry out experiments: to develop new knowl
 
 One cannot simply carry out an experiment and call it a scientific experiment. There are many scientific rules that must be adhered to. One must put a lot of work and effort into the experiment and in writing the report before others (peers, other experts in the field) can be convinced that what was found is reliable and valid. Doing the work thoroughly will also help to make sure that the values of quantities can be determined accurately.
 
+```{warning}
+This course can significantly improve your thinking.
+```
+
 The goal of the course "Introduction to Experimentation" is to give you a first glimpse of what it means to do experiments in physics, and to demonstrate the rules that must be applied when doing such experiments. You will work with equipment that is often used by physicists in labs. You will learn how to collect, process, analyse and present experimental data. Explicitly, after following this course you are able to:
 
 * understand what is required before you can start collecting data in a scientific, physics experiment
