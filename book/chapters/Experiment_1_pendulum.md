@@ -18,7 +18,7 @@ The physics involved is pretty easy, but devising a proper method, analysing the
 3. write a concise, scientific paper on your findings
 
 ## Introduction
-The gravitational force causes you to fall (accelerate) back to earth when you jump. The value of the gravitational acceleration $g$ is well known. Near the surface in the Netherlands it has a value of 9.812 m/s$^2$. How can we determine this value with simple methods but high precision ourselves?
+The gravitational force causes you to fall (accelerate) back to earth when you jump. The value of the gravitational acceleration $g$ is well known. Near the surface in the Netherlands it has a value of 9.812 $m/s^2$. How can we determine this value with simple methods but high precision ourselves?
 
 ## Theory
 ### The pendulum
