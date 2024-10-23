@@ -249,43 +249,43 @@ You will repeatedly count the number $k$ of decayed nuclei during a time interva
 perform at least 200 individual counts. Choose the time interval $\Delta t$ such that the
 average number of counts in the interval is less than 10. Choose the sample holder with the most shallow cavity (why?) and again use the uppermost slot.
 1. Determine the mean from the count totals, using Python. This will be your first estimate of $\mu$. A logical way for this is by putting the count totals in a vector $N$. Additionally, use: 
-    \begin{lstlisting}[language=Python]
+    ```python
     min(N)
     max(N)
     len(N)
-    mu = sum(N)/len(N)          \end{lstlisting}
+    mu = sum(N)/len(N)
+    ```
 1. With Python, plot a histogram of the count totals. Then add the Poisson distribution for the value of $\mu$ (from assignment 12) to the same plot. For the plot you may approximate the Poisson distribution by replacing $k!$ in Eq. {eq}`Pmu` with the gamma function for the argument $(k+1)$. By doing so, $P_{\mu}(k)$ can also be calculated for non-integer values of $k$. Don't forget to add to the top of the script:
-    \begin{lstlisting}[language=Python]
+    ```python
     from scipy.special import gamma
-    \end{lstlisting}
+    ```
     For calculating and plotting a histogram, with 25 bins, with the centers corresponding to the number of counts within $\Delta t$ (here 0 to 24), the input in Python will be
-    \begin{lstlisting}[language=Python]
+    ```python
      n = plt.hist(N, bins=25, range=[-0.5, 24.5], rwidth=0.9)
-    \end{lstlisting}
-    We like to add the theoretical distribution corresponding to the value of $\mu$ of Assignment 12 to the plot. To this end prepare an array with closely spaced values \lstinline[columns=fixed]{kf}. For instance:
-     \begin{lstlisting}[language=Python]
+    ```
+    We like to add the theoretical distribution corresponding to the value of $\mu$ of Assignment 12 to the plot. To this end prepare an array with closely spaced values `kf`. For instance:
+     ```python
         kf = np.linspace(-0.5,24.5,100)	
 	    Pois = len(N)*(mu**kf)*np.exp(-mu)/gamma(kf+1)
         plt.plot(kf,Pois,color='k', linestyle='dashed')
-    \end{lstlisting}
+    ```
 If needed, you can adapt the axes: range, labels, font size. 
-1. Then, use \lstinline[columns=fixed]{curve fit} to fit the frequencies (= the number in the bins) to the Poisson distribution. The fit function is:
-    \begin{lstlisting}[language=Python]
+1. Then, use `curve_fit` to fit the frequencies (= the number in the bins) to the Poisson distribution. The fit function is:
+    ```python
         def func(x,a):
             y = len(N)*(a**x)*exp(-a)/gamma(x+1)
             return y
-    \end{lstlisting}
-    NOTE: It's not possible to directly multiply \lstinline[columns=fixed]{func()} in the argument of \lstinline[columns=fixed]{curve_fit} with \lstinline[columns=fixed]{len(N)}. Therefore, we have to incorporate \lstinline[columns=fixed]{len(N)} in the function definition. You could fit this as a parameter as well, but this is not required. This yields the fitted $\mu (= a)$, as well as the extreme values of $\mu$ determined by the error in the fit. 
+    ```
+    NOTE: It's not possible to directly multiply `func()` in the argument of `curve_fit` with `len(N)`. Therefore, we have to incorporate `len(N)` in the function definition. You could fit this as a parameter as well, but this is not required. This yields the fitted $\mu (= a)$, as well as the extreme values of $\mu$ determined by the error in the fit. 
 1. Plot the Poisson distribution corresponding to the $\mu$ just obtained in the same plot that already has the histogram and the previously derived distribution (assignment 13).  Evaluate the similarity of the two distributions to the histogram.
 
 	Is the figure complete? Save it.
 	1. Compare the obtained half-life to the value of Part 1, and compare each result to the literature value.
 
-\medskip
-*Measurement Plan*
+
+### Measurement Plan
 Before performing the measurements, you have to set up a measurement plan. Discuss the plan with the assistant, whom you can also ask about issues that remained unclear. If needed, perform a test measurement. After approval by the assistant, you will execute the measurement plan on the afternoon scheduled. 
 
-\medskip
 
 \begin{thebibliography}{9}
 \bibitem{USDHEW} 
