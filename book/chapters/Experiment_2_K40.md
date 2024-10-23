@@ -7,7 +7,7 @@ In the first part of this experiment you will determine the half-life of the nat
 Although not generally known, everyone is exposed to ionizing radiation of natural origin. This radiation originates from both cosmic and terrestrial sources. Terrestrial radiation arises from several kinds of radioactive substances. Some of these substances are present because of human activity (nuclear tests, nuclear power plants). A substantial part of these substances, however, occurs naturally and comprises radioactive nuclides with a long lifetime. This category includes uranium isotopes and the radioactive decay products of these isotopes, including the noble gas radon. The natural composition of potassium also includes and isotope with a very long lifetime: $^{40}K$.
  
 
-This potassium isotope dominantly decays to $^{40}Ca$ by emission of an electron, so-called $\beta^-$-decay. Further processes are $\beta^+$-decay (emission of a positron, i.e. a positively charged electron) or capture of an electron from an electron shell close to the nucleus (electron capture, EC). In these cases the decay product is $^{40}Ar$. A decay scheme of $^{40}K$ is given in Figure 1 [1].
+This potassium isotope dominantly decays to $^{40}Ca$ by emission of an electron, so-called $\beta^{-}$-decay. Further processes are $\beta^{+}$-decay (emission of a positron, i.e. a positively charged electron) or capture of an electron from an electron shell close to the nucleus (electron capture, EC). In these cases the decay product is $^{40}Ar$. A decay scheme of $^{40}K$ is given in Figure 1 [1].
 
 
 The lifetime of $^{40}K$ must be of the same order of magnitude as that of the lifetime of the Earth. Otherwise, the $^{40}K$ formed in creation of the Earth would have disappeared already by radioactive decay.
@@ -53,11 +53,11 @@ $$
 A(t)=\left|\frac{d N(t)}{d t}\right|=\lambda N(0) e^{-\lambda t}
 $$ (A_t)
 
-The activity also decays exponentially in time, again with constant $\tau = \frac{1}{\lambda}$. The activity has the dimension $t^{-1}$ and thus can be expressed in $s^{-1}$. However, there is a distinct SI-unit for activity of a radioactive source, the becquerel (Bq). In this context, we note that a *count rate should be expressed in the unit in $s^{-1}$* or a similar unit (*e.g.* $minutes^{-1}$). A count rate only *becomes an activity with unit Bq after correction for a number of effects*, such as background radiation and the efficiency of the setup.
+The activity also decays exponentially in time, again with constant $\tau = \frac{1}{\lambda}$. The activity has the dimension $t^{-1}$ and thus can be expressed in $s^{-1}$. However, there is a distinct SI-unit for activity of a radioactive source, the becquerel (Bq). In this context, we note that a *count rate should be expressed in the unit in* $s^{-1}$ or a similar unit (*e.g.* $minutes^{-1}$). A count rate only *becomes an activity with unit Bq after correction for a number of effects*, such as background radiation and the efficiency of the setup.
 
 ### Statistics of the decay
 Equation {eq}`N_t` describes the average behaviour of radioactive decay. On a short time scale, however, the decay has a random character. The number of decay processes
-taking place in a time interval $\Delta$*t* varies in time and shows a statistical behaviour around the mean $\mu$. The statistical probability that *k* nuclei of the *N*(t) nuclei present in the sample decay in the time interval $\Delta$*t* is given by the Poisson probability distribution  *$P_{\mu}$*(*k*) :
+taking place in a time interval $\Delta$*t* varies in time and shows a statistical behaviour around the mean $\mu$. The statistical probability that *k* nuclei of the *N*(t) nuclei present in the sample decay in the time interval $\Delta$*t* is given by the Poisson probability distribution  $P_{\mu}$(*k*) :
 
 $$
 P_{\mu}(k)=\frac{\mu^{k}}{k !} e^{-\mu}
@@ -209,7 +209,7 @@ Here $\beta=\left(R_{\mathrm{d}} / s\right)^{2}$ and $\gamma=\left(R_{\mathrm{s}
 You can verify that: 
 
 $$
-\begin{array}{ll}{s=6.7 \mathrm{mm},} & {u(s)=0.1 \mathrm{mm} \text { (highest position) }} \\ {R_{\mathrm{d}}=14.5 \mathrm{mm},} & {u\left(R_{\mathrm{d}}\right)=0.3 \mathrm{mm}} \\ {R_{\mathrm{s}}=15.00 \mathrm{mm},} & {u\left(\mathrm{R}_{\mathrm{s}}\right)=0.05 \mathrm{mm}}\end{array}
+\begin{array}{ll}{s=6.7 \mathrm{mm},} & {u(s)=0.1 \mathrm{mm} \text {(highest position)},} \newline {R_{\mathrm{d}}=14.5 \mathrm{mm},} & {u\left(R_{\mathrm{d}}\right)=0.3 \mathrm{mm}} \newline {R_{\mathrm{s}}=15.00 \mathrm{mm},} & {u\left(\mathrm{R}_{\mathrm{s}}\right)=0.05 \mathrm{mm}}\end{array}
 $$
 
 Equation {eq}`G` is rather complex, making the complete uncertainty analysis for the efficiency $G$ rather involved. Therefore, the value of $G$ and the corresponding uncertainty are given here: $G=0.215$, with $u(G)=0.006$.
@@ -222,8 +222,8 @@ Geometry of the source and detector, with indication of relevant dimensions.
 
 *3. Fraction of $\beta^-$ -decay*
 
-The last correction to be discussed relates to the property of the GM detector of only detecting the $\beta^-$-decay.
-The very few positrons emitted in the $\beta^+$-decay (see {numref}`K40_intro`) annihilate with electrons of the K$^{+}$ and Cl$^{-}$ ions and thus will not reach the detector. This positron annihilation results in $\gamma$-radiation, for which the detector has a very low efficiency. Electron capture (EC, see {numref}`K40_intro`) will mainly result in X-ray photons, of which a very high fraction is absorbed in the source. It follows that of the three decay channels only the fraction of $\beta^-$-decay is seen by the detector. This fraction is denoted by the symbol $f$.
+The last correction to be discussed relates to the property of the GM detector of only detecting the $\beta^{-}$-decay.
+The very few positrons emitted in the $\beta^{+}$-decay (see {numref}`K40_intro`) annihilate with electrons of the $K^{+}$ and $Cl^{-}$ ions and thus will not reach the detector. This positron annihilation results in $\gamma$-radiation, for which the detector has a very low efficiency. Electron capture (EC, see {numref}`K40_intro`) will mainly result in X-ray photons, of which a very high fraction is absorbed in the source. It follows that of the three decay channels only the fraction of $\beta^{-}$-decay is seen by the detector. This fraction is denoted by the symbol $f$.
 
 ## Assignments
 For the formulation of the problem, see the chapter GOAL. A separate afternoon will be scheduled to work on the problem analysis aad a measurement plan.
@@ -275,7 +275,7 @@ If needed, you can adapt the axes: range, labels, font size.
             y = len(N)*(a**x)*exp(-a)/gamma(x+1)
             return y
     \end{lstlisting}
-    NOTE: It�s not possible to directly multiply \lstinline[columns=fixed]{func()} in the argument of \lstinline[columns=fixed]{curve_fit} with \lstinline[columns=fixed]{len(N)}. Therefore, we have to incorporate \lstinline[columns=fixed]{len(N)} in the function definition. You could fit this as a parameter as well, but this is not required. This yields the fitted $\mu (= a)$, as well as the extreme values of $\mu$ determined by the error in the fit. 
+    NOTE: It's not possible to directly multiply \lstinline[columns=fixed]{func()} in the argument of \lstinline[columns=fixed]{curve_fit} with \lstinline[columns=fixed]{len(N)}. Therefore, we have to incorporate \lstinline[columns=fixed]{len(N)} in the function definition. You could fit this as a parameter as well, but this is not required. This yields the fitted $\mu (= a)$, as well as the extreme values of $\mu$ determined by the error in the fit. 
 1. Plot the Poisson distribution corresponding to the $\mu$ just obtained in the same plot that already has the histogram and the previously derived distribution (assignment 13).  Evaluate the similarity of the two distributions to the histogram.
 
 	Is the figure complete? Save it.
