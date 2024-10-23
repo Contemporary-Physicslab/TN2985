@@ -3,12 +3,11 @@
 ## Goal
 This experiment consists of two parts. The goal of these experiments are to get acquainted with electronics and electronic instruments. These instruments are often used in more advanced physics labs.
 
-    \LARGE{**Part 1: Boltzmann constant**}
+**Part 1: Boltzmann constant**
 The goal of the experiment is to gain experience with Digital Multi Meters (DMMs) with an experiment in which you determine the Boltzmann constant. We use a frequently used setup, the ''voltage divider''. 
 
 ## Background
-### \Large{Measurements using DMMs
-}
+### Measurements using DMMs
 DMMs are versatile measuring instruments. These instruments are used to measure voltage, current, resistance, frequencies, periods, capacities, induction, temperature, features of diodes etc. Advanced DMMs have the option to be controlled using a computer.
 
 
@@ -19,8 +18,8 @@ The sensitivity is the smallest change that still can be noted. A sensitivity of
 
 
 However, measuring 0.2 $\mu V$ does not mean this is the exact value you measure. This does depend on the accuracy, and the accuracy is not determined by the last digit of the DMM alone. The accuracy is often defined by as ''..\% reading + ..\%range + .. counts''.
-```{note}
-    **Example:**\\ Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of 1.234 V. For the Dynatek D9100 with a 2 V range is stated that the inaccuracy is given by: $\pm 0.5\%$ of the reading + 1 count. So: 0.5\% of the reading yields 6 mV + 1 digit (1 mV) gives an accuracy of 7 mV. The reading should be written as: 1.234 $\pm$ 0.007 V. 
+```{admonition} Example
+Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of 1.234 V. For the Dynatek D9100 with a 2 V range is stated that the inaccuracy is given by: $\pm 0.5\%$ of the reading + 1 count. So: 0.5\% of the reading yields 6 mV + 1 digit (1 mV) gives an accuracy of 7 mV. The reading should be written as: 1.234 $\pm$ 0.007 V. 
 ```
 
 \begin{assignment}
