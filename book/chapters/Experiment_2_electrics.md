@@ -4,6 +4,7 @@
 This experiment consists of two parts. The goal of these experiments are to get acquainted with electronics and electronic instruments. These instruments are often used in more advanced physics labs.
 
 **Part 1: Boltzmann constant**
+
 The goal of the experiment is to gain experience with Digital Multi Meters (DMMs) with an experiment in which you determine the Boltzmann constant. We use a frequently used setup, the ''voltage divider''. 
 
 ## Background
