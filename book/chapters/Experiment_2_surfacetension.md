@@ -10,18 +10,18 @@ Before you arrive at the practical, you are expected to have properly studied th
 Surface tension is a well-known phenomenon. At least, we are all familiar with it. We are familiar with water striders on the water, water sticking to the side of a rain pipe, and so on. But the idea of surface tension is rather comprehensive, often only an approximation of the phenomenon due to the abrupt transition from liquid to gas is given. The main idea is that the potential energy of a molecule at the surface is higher than at other places in the liquid. This implies that energy is needed to add molecules. Therefore there is a force that 'resist' against surface expansion. Surface tension is also an important factor in the phenomenon of capillarity, where liquid rises in a tube. 
 
 ```{figure} /figures/schaatsrijder.jpg
+---
 :name: fig:surf_tens_1
+---
 A water strider makes use of surface tension
 ```
 
+
 ## Method
-### The ring of Du No\"{u
-y}
+### The ring of Du Noüy
 If we place a metal ring with a small diameter $d$ and radius $R$ at the surface, it may not sink. Conversely, if we try to take the ring out, it seems as if it is stuck to the surface. A first approximation of the force required to pull the ring out of the water is given by:
 
-$$
-F = 4 \pi R \sigma
-$$ (eq:surf)
+$$ F = 4 \pi R \sigma $$ (eq:surf)
 
 $\sigma$ is here the surface tension. However, carefully looking at the ring we see that water sticks to the ring, meaning that a force is needed to pull the water up as well. Moreover, there is a buoyancy force acting on the ring as well. Taking these factors into account leads to the equation:
 
