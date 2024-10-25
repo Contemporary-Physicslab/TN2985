@@ -23,13 +23,16 @@ However, measuring $0.2\mu V$ does not mean this is the exact value you measure.
 Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234V$. For the Dynatek D9100 with a $2V$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6mV$ + 1 digit ($1mV$) gives an accuracy of $7mV$. The reading should be written as: $1.234 \pm 0.007 V$. 
 ```
 
-```{assignment}
+```{exercise}
+
 1. The accuracy of a DMM in the range of $10V$ is defined as: 0.0015\% of the reading and 0.0004\% of the range. The reading on the DMM is $5.00000V$. What is the accuracy of the measurement?
 1. What is the sensitivity of a measurement using a $4\frac{1}{2}$ digit DMM with a $200mV$ range?
+
 ```
 ### Ideal instruments
 A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has an  infinite internal resistance and an ammeter no resistance. In many cases these assumptions are valid. However, in cases where the circuit resistance is approximately 0 or $\infty$, we can not neglect the features of the meters. Using these meters inevitably changes the features of the circuits itself, see {numref}`fig:II:circuits`. 
-```{assignment}
+
+```{exercise}
 
 {numref}`fig:II:circuits` shows two circuits in which the current through and voltage over a diode is measured. 
 
@@ -38,6 +41,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 1. How does the resistor $R_1$ prevent blowing up the fuse of the Ammeter?
 
 ```
+
 ```{figure} /figures/II1/II_totaal_Figuur1.png
 :name: fig:II:circuits
 Two ways of measuring current and voltage through a diode
@@ -49,7 +53,7 @@ In this experiment we will determine the $(U,I)$-characteristics of a silicon di
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
 
 ```{note}
-    **Series**
+        Series
 
 $$
 I_{t} = I_{1} = I_{2} = \frac{U_{t}}{R_{t}} = \frac{U_{1}+U_{2}}{R_{1}+R_{2}}
@@ -59,13 +63,13 @@ $$
 U_{1} = \frac{R_{1}}{R_{1}+R_{2}} U_{t}
 $$
 
-    **Parallel**
+        Parallel
 
 $$
 I_{t} = I_{1} + I_{2} = \frac{U_{1}}{R_{1}} + \frac{U_{2}}{R_{2}}
 $$
 
-    **Power dissipation**
+        Power dissipation
 
 $$
 P_{t} = U_{t} I_{t} = U_{1} I_{1} + U_{2} I_{2}
@@ -73,15 +77,20 @@ $$
 
 ```
 An advantages of this circuit is that we do not measure current directly. As the current changes a few decades, we approximate the original circuit (without instruments). 
+
 ```{figure} /figures/II1/II_1_volt_div.png
 :name: fig:II1:volt_div-setup
 The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```
 
-```{assignment}
+```{exercise}
+
 Explain how you will obtain the current running through the diode using circuit {numref}`fig:II1:volt_div-setup`.
+
 ```
-```{assignment}
+
+```{exercise}
+
 Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ resistor. 
 1. Calculate the maximum current through the $330\Omega$ resistor if the maximum dissipation in the resistors is $1W$.
 1. What is the maximum source voltage which can be applied such that the maximum permissible dissipation is not exceeded?
@@ -89,10 +98,12 @@ Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ re
 
 ```
 
-```{assignment}
-A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about $1M\Omega$ in the dark and a resistance of about $1k\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. \newline
+```{exercise}
+
+A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about $1M\Omega$ in the dark and a resistance of about $1k\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
 1. What value should the Ohmic resistor ideally have? [hint: Physicist often use extreme cases to calculate what happens (0,$\infty$,R$_{LDR}$)].
 1. In our experiment the diode has a resistance of more than $1M\Omega$. Why is it not wise to choose $R_1>1M\Omega$?
+
 
 ```
 
@@ -182,7 +193,7 @@ $$ (eq:RCIt)
 The RC-circuit to charge a capacitor
 ```
 
-```{assignment}
+```{exercise}
 1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\muF$.
 1. Calculate the time required to charge a capacitor to 90\% of the applied voltage.
 
@@ -245,7 +256,7 @@ To display a signal, it is first written to memory, after which it is shown on a
 
 To study a signal effectively, two settings are important: the vertical sensitivity and the temporal axis. The former refers to the set vertical range in Volts per division ($V/div$), The temporal resolution is measured in $s/div$, where a fewer seconds per division means that higher frequency signals can be seen.
 
-```{assignment}
+```{exercise}
 ```{figure} /figures/II1/II_4_figuur43.png
 :name: ii4:fig:blokgolf
 Measurement of a periodic signal.
@@ -265,7 +276,7 @@ Determine the period, top-to-top amplitude and the pulse length.
 
 To read a signal effectively, it helps if the scope is not continuously updating the screen real-time. Triggering is a tool designed for this purpose. When a trigger level is set, the oscilloscope only starts to display a signal when it reaches that setpoint. The triggerlevel can be approached from the top or bottom, and must be configured by the slope+ or slope- setting.
 
-```{assignment}
+```{exercise}
 - Draw how the signal shown in {numref}`ii4:fig:driehoeksgolf` will be displayed when it continues on the left side on the screen if it reaches the end on the right.
 - The vertical sensitivity is set to $0.2V/div$. The scope is set to trigger at $0.35V$. Draw the signal as seen on the scope.
 
@@ -274,7 +285,7 @@ To read a signal effectively, it helps if the scope is not continuously updating
 The oscilloscope displaying a saw tooth wave signal.
 ```
 ```
-```
+
 
 (ii4:subsec:meten_en_rekenen)=
 ### Processing
@@ -318,10 +329,10 @@ Plot your measurements using a logscale for the frequency. You can use the comma
 #### Low-pass filter applied
 A Low-Pass Filter can be used to filter noise superposed over a signal. To experience the effectiveness, we will send a signal with noise to the RC circuit used in the previous exercise. The noisy signal can be send with a desktop computer to the signal generator.
 
-- Download and open the file containing the wave with noise: \verb|sineWaveWithNoise.xls|. This file contains macros to connect with the signal generator, therefore you must enable content in Excel if you're asked to in a banner.
-- The top of the Excel file has a few marked cells in which values can be altered, such as the amplitude ($V_{*PP*}$) and frequency $f$. If you wish, you can also edit the noise frequency. The graph below shows both the main signal (which we want to measure) and the noise.
+- Download and open the file containing the wave with noise: $sineWaveWithNoise.xls$. This file contains macros to connect with the signal generator, therefore you must enable content in Excel if you're asked to in a banner.
+- The top of the Excel file has a few marked cells in which values can be altered, such as the amplitude ($V_{PP}$) and frequency $f$. If you wish, you can also edit the noise frequency. The graph below shows both the main signal (which we want to measure) and the noise.
 - Press the `Utility` button, then `I/O` and finally `Show USB Id`. Copy this address into cell D3 in your Excel sheet.
-- Test if everything works with a voltage of $2V_{*PP*}$ and a frequency of $1Hz$. Press `Send to Function Generator` and check on the oscilloscope if the signal from the graph is generated.
+- Test if everything works with a voltage of $2 V_{PP}$ and a frequency of $1 Hz$. Press `Send to Function Generator` and check on the oscilloscope if the signal from the graph is generated.
 
 The signal send to the function generator is constructed by adding a base signal with the given frequency to a sine wave with the noise frequency (initially set to 100 times the base frequency, resulting in the blue curve shown in the Excel graph. This curve should match with channel 1 on your oscilloscope.
 
