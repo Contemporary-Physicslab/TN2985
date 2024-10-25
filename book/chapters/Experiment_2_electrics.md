@@ -38,7 +38,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 1. How does the resistor $R_1$ prevent blowing up the fuse of the Ammeter?
 
 ```
-```{figure} /figures/II1/II_totaal_Figuur1.eps
+```{figure} /figures/II1/II_totaal_Figuur1.png
 :name: fig:II:circuits
 Two ways of measuring current and voltage through a diode
 ```
@@ -73,7 +73,7 @@ $$
 
 ```
 An advantages of this circuit is that we do not measure current directly. As the current changes a few decades, we approximate the original circuit (without instruments). 
-```{figure} /figures/II1/II_1_volt_div.eps
+```{figure} /figures/II1/II_1_volt_div.png
 :name: fig:II1:volt_div-setup
 The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```
@@ -108,7 +108,7 @@ $$
 
 where $q$ is the charge of an electron, $-1.602\cdot10^{-19}C$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
 
-```{figure} /figures/II1/II_totaal_figuur12.eps
+```{figure} /figures/II1/II_totaal_figuur12.png
 :name: fig:UIcharacteristic
 The $(U,I)$-characteristic of the diode as determined by two first year physics students (2019). The slope is used to determine the Boltzmann constant.
 ```
@@ -177,7 +177,7 @@ $$
 I(t) = \frac{V}{R}e^{-t/\tau_0}
 $$ (eq:RCIt)
 
-```{figure} /figures/II1/RC_circuit.eps
+```{figure} /figures/II1/RC_circuit.png
 :name: fig:RC_circuit
 The RC-circuit to charge a capacitor
 ```
@@ -233,7 +233,7 @@ During this experiment, our digital oscilloscopes have $N=8$ bit resolution, suc
 The Agilent DSO3062A (used in this experiment) has a bandwidth of $60MHz$, meaning (in theory) signals with a period of $17ns$ can be measured. When measuring a single channel, the time-dependent signal is shown. In this setting, the vertical axis displays the voltage, and the time is shown on the horizontal axis. A 2-channel oscilloscope allows two signals to be displayed on a shared horizontal axis, with each having its own vertical axis Y1 and Y2. An example is shown in {numref}`ii4:fig:2-channel`. Such feature allows to compare the time-dependent behaviour of the signals, e.g. the relative phase-shift.
 
 
-```{figure} /figures/II1/II_4_figuur44.eps
+```{figure} /figures/II1/II_4_figuur44.png
 :name: ii4:fig:2-channel
 A 2-channel oscilloscope allows to compare two signal, e.g., determine the phase difference.
 ```
@@ -246,7 +246,7 @@ To display a signal, it is first written to memory, after which it is shown on a
 To study a signal effectively, two settings are important: the vertical sensitivity and the temporal axis. The former refers to the set vertical range in Volts per division ($V/div$), The temporal resolution is measured in $s/div$, where a fewer seconds per division means that higher frequency signals can be seen.
 
 ```{assignment}
-```{figure} /figures/II1/II_4_figuur43.eps
+```{figure} /figures/II1/II_4_figuur43.png
 :name: ii4:fig:blokgolf
 Measurement of a periodic signal.
 ```
@@ -269,7 +269,7 @@ To read a signal effectively, it helps if the scope is not continuously updating
 - Draw how the signal shown in {numref}`ii4:fig:driehoeksgolf` will be displayed when it continues on the left side on the screen if it reaches the end on the right.
 - The vertical sensitivity is set to $0.2V/div$. The scope is set to trigger at $0.35V$. Draw the signal as seen on the scope.
 
-```{figure} /figures/II1/II_4_figuur45.eps
+```{figure} /figures/II1/II_4_figuur45.png
 :name: ii4:fig:driehoeksgolf
 The oscilloscope displaying a saw tooth wave signal.
 ```
