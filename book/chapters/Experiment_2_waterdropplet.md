@@ -43,6 +43,7 @@ For a low Re-number (Re $<$ 1) Stokes' law applies:
 
 $$
 F_D = 3\pi\mu d v
+:name: Fdrag
 $$
 
 On the basis of the above, it follows for Re $<$ 1:
@@ -74,7 +75,7 @@ $$
 Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
 To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
 account that $\beta$ depends on the velocity, through $C_D$. This solution has been obtained
-using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of \SI{12.9}{\meter \per \second}. This exactly equals the value $v_{sat}=\sqrt{(mg/\beta)}$ following from Eq. {eq}`equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about \SI{0.6}{\second}. Thus, the saturation velocity is far from reached.
+using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{(mg/\beta)}$ following from Eq. {eq}`equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur3.eps
 :name: Experiment2_waterdropplet:fig:velocity
@@ -107,13 +108,13 @@ The relative error in the drop velocity and the drop distance of the water dropl
 
 $$
 s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4
-$$ (s(t)IE2-3)
+$$ 
 
-where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the travelled distance and the velocity are zero, then Eq. {eq}`s(t)IE2-3` reduces to
+where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`s(t)IE2-3` reduces to
 
 $$
 s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4
-$$ (sbetaIE2-3)
+$$ 
 
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualisation experiment of a floating water droplet (see the next paragraph).
