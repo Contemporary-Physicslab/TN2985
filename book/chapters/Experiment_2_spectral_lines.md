@@ -57,7 +57,7 @@ The relation with light rays is that the propagation direction of the light in a
 
 #### Huygens principle (Wolfson, ch. 32.5)
 
-*All points on a wavefront work like point sources for spherically shaped 'waves' which propagate with lightspeed in the medium. A short time $\Delta t$ later, a new wavefront is formed by the surface that touches all 'waves' which propagate in the previous direction of propagation.*\
+*All points on a wavefront work like point sources for spherically shaped 'waves' which propagate with lightspeed in the medium. A short time $\Delta t$ later, a new wavefront is formed by the surface that touches all 'waves' which propagate in the previous direction of propagation.*
 
 
 {numref}`fig:Wave_propagation` shows how this works. On the left we see how a spherically shaped wavefront at $t$ develops itself to a new spherically shaped wavefront at $t + \Delta t$. For four points on the wavefront at $t = t$ is shown how the waves develop themselves in a time interval $\Delta t$. The new wavefront at $t + \Delta t$ is the 'tangent' line to these waves.
@@ -257,7 +257,7 @@ $$
     u = \alpha - \phi
     \label{eq:angle_inc_refl}
 \end{split}
-$$
+$$ (eq:angle_inc_refl)
 
 ```{exercise}
 
