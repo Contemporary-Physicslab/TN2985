@@ -293,22 +293,22 @@ $$ (eq:deltalabda)
 We calculate $\Delta u$ from the distance of the spectral lines on the camera and the focal point of f$_2$. The unit of $\Delta u$ is radian.
 
 
-\begin{assignment}
+```{exercise}
 With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurements of $u$ and $\Delta u$. Of course you want to know uncertainty in $\Delta \lambda$. If you use the law of propagation for errors in the common way, you encounter a notation problem. Thus, call the angle of reflection v (was u) and the change in the angle of reflection $\Delta v$ (was $\Delta u$). If we indicate the uncertainties in v and $\Delta v$ with $u(v)$ and $u(\Delta v)$, derive the law of propagation of errors for the uncertainty in $\Delta \lambda$, u($\lambda$).
-\end{assignment}
+```
 
 #### Resolving (separating) power
 Spectral lines have a certain width. It is clear that when the distance between two separate lines decreases, they will overlap and become indistinguishable from each other, at least with the naked eye. The intensity of the light as function of the wavelength is shown in {numref}`fig:Resolving_Power`. 
 
-\begin{figure}[H]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur12.eps
+```{figure} /figures/II8/II_8_figuur12.png
+---
+width: 80%
+name: fig:Resolving_Power
+---
+Caption
 ```
-    \captionsetup{font=small}
-    \caption{Caption}
-    \label{fig:Resolving_Power}
-\end{figure}
+
+
 
 The resolving power of the setup is characterized by the quantity $R$:
 
@@ -329,7 +329,7 @@ in which $m$ is the order of the spectral lines. $N_{tot}$ is the total number o
 
 ## Method
 ### Preparation phase
-**\underline{First and foremost:}**visor trusts that you will use the equipment with care at the practicum. This applies especially to the handling with the diffraction gratings and lenses. Do not be clumsy! Read the following instructions and apply them!
+**First and foremost:**visor trusts that you will use the equipment with care at the practicum. This applies especially to the handling with the diffraction gratings and lenses. Do not be clumsy! Read the following instructions and apply them!
 
 -	**ONLY HOLD THE DIFFRACTION GRATINGS AT THE RECTANGULAR FRAME OR AT THE STEM OF THE FRAME. A fingerprint or a scratch can not be cleaned or repaired. Diffraction gratings are very expensive.**
 -	The spectral lamps become hot when they are turned on. **Only hold the stem of the lamp. Otherwise you can get burned badly.**
@@ -341,20 +341,20 @@ in which $m$ is the order of the spectral lines. $N_{tot}$ is the total number o
 -	Do not look into the lamp directly. This can damage your eyes.
 -	Turn the lamp, camera and computer off when you do not use them.
 
-**\underline{A tip:}**ing up the experiments, you have to make sure that the entirety of the optical system is in line. Make sure that the elements that have to be in line, really do line up. Look at your setup from above and use the lines on the breadboard. Also make sure all elements are at the same height. Look from the side and use the height indicator.
+**A tip:**ing up the experiments, you have to make sure that the entirety of the optical system is in line. Make sure that the elements that have to be in line, really do line up. Look at your setup from above and use the lines on the breadboard. Also make sure all elements are at the same height. Look from the side and use the height indicator.\
 
-\vfill
+
 ### Experimental phase
-1. Build the monochromator setup. Use the Hg lamp and the 600 lines per mm diffraction grating. Start with the screen. Hold enough distance to be able to replace the screen by the camera. Control the collimation and assure yourself that the screen is in the focal point of f$_2$.\\
-1. Rotate the diffraction grating such that $i (=\alpha+\phi) = 0$. (use autocollimation, ask the assistant). Read the angle from the angle scale. This the zero point. Pick a point on the screen and rotate the diffraction grating such that the 0-th order falls exactly on that point. How do you recognise the 0-th order here? Read the angle scale and determine $\alpha$. Do not forget to estimate the uncertainty in the angle. Play around with the width of the slit.\\
-1. Now rotate the diffraction grating systematically and notate the angle for each spectral line that falls on the chosen point on the screen. Do this for as many orders as possible. Make a table with the headings: colour, order, reading, $\phi$, $\lambda$, u($\lambda$) and the result from preparation question 10. How do you get $\phi$?\\
-Use Python to help you fill in the last three columns.\\
+1. Build the monochromator setup. Use the Hg lamp and the 600 lines per mm diffraction grating. Start with the screen. Hold enough distance to be able to replace the screen by the camera. Control the collimation and assure yourself that the screen is in the focal point of f$_2$.\
+1. Rotate the diffraction grating such that $i (=\alpha+\phi) = 0$. (use autocollimation, ask the assistant). Read the angle from the angle scale. This the zero point. Pick a point on the screen and rotate the diffraction grating such that the 0-th order falls exactly on that point. How do you recognise the 0-th order here? Read the angle scale and determine $\alpha$. Do not forget to estimate the uncertainty in the angle. Play around with the width of the slit.\
+1. Now rotate the diffraction grating systematically and notate the angle for each spectral line that falls on the chosen point on the screen. Do this for as many orders as possible. Make a table with the headings: colour, order, reading, $\phi$, $\lambda$, u($\lambda$) and the result from preparation question 10. How do you get $\phi$?\
+Use Python to help you fill in the last three columns.\
 Also note that a set of colours represents one order.
 
-1. Make a plot in which you plot the calculated wavelength on the vertical axis with its respected uncertainty against the order m on the horizontal axis. Plot the literary values as horizontal dotted lines in the same figure.\\
-1. Calculate the weighted average of the wavelength for each measured spectral line and calculate the uncertainty in this average value. Take as weight $w = 1/(u(\lambda))^2$. Use the given formulas from the Appendix for this. Does the result contradict the literary value?\\
-1. Next, study the splitting of the yellow Hg lines. Replace the screen by the camera. Portray an order of the yellow lines on the camera (note: The colour can be different on the screen. Pay close attention.). (Think about the width of the slit and the use of the filter). Save the result for the report. (Use the save icon at the middle top.) Determine the distance between the lines on the screen in pixels. Calculate the difference in the angle of reflection $\Delta u$ from this. Check if your value of u is still current. Calculate the difference in the wavelength $\Delta \lambda$ with eqn. {eq}`eq:deltalabda`. What is the uncertainty $u(\Delta \lambda)$?\\
-1. 	Replace the Hg-lamp with the Na-lamp and use the camera instead of the screen. Measure the angels of the visible spectral lines. What is the angle that corresponds with the 0$^{th}$ order? Specify the orders to the measured angles and calculate for each order the wavelength and its uncertainty. Again try to find splitting for all lines (except the 0$^{th}$ order of course). Do the individual results agree with the literature values? Calculate the weighted average and its uncertainty.\\
+1. Make a plot in which you plot the calculated wavelength on the vertical axis with its respected uncertainty against the order m on the horizontal axis. Plot the literary values as horizontal dotted lines in the same figure.\
+1. Calculate the weighted average of the wavelength for each measured spectral line and calculate the uncertainty in this average value. Take as weight $w = 1/(u(\lambda))^2$. Use the given formulas from the Appendix for this. Does the result contradict the literary value?\
+1. Next, study the splitting of the yellow Hg lines. Replace the screen by the camera. Portray an order of the yellow lines on the camera (note: The colour can be different on the screen. Pay close attention.). (Think about the width of the slit and the use of the filter). Save the result for the report. (Use the save icon at the middle top.) Determine the distance between the lines on the screen in pixels. Calculate the difference in the angle of reflection $\Delta u$ from this. Check if your value of u is still current. Calculate the difference in the wavelength $\Delta \lambda$ with eqn. {eq}`eq:deltalabda`. What is the uncertainty $u(\Delta \lambda)$?\
+1. 	Replace the Hg-lamp with the Na-lamp and use the camera instead of the screen. Measure the angels of the visible spectral lines. What is the angle that corresponds with the 0$^{th}$ order? Specify the orders to the measured angles and calculate for each order the wavelength and its uncertainty. Again try to find splitting for all lines (except the 0$^{th}$ order of course). Do the individual results agree with the literature values? Calculate the weighted average and its uncertainty.\
 
 ### Evaluation phase
 Determine the difference in wavelength of the two Na lines. Try to do this for all the orders. What is the associated uncertainty? At what order do you obtain the best results? Are the results in agreement with the literature values?
@@ -362,7 +362,7 @@ Determine the difference in wavelength of the two Na lines. Try to do this for a
 
 What is the smallest difference in wavelength that you can determine using this set up? What is the resolving power of this set up? What is the expected, theoretical value for the resolving power? What can be done to improve the results?
 
-**\underline{Finally}**ons for the improvement of the experiment and the manual or ideas about what you would like to research with the used instruments, please mail to:  c.f.j.pols@tudelft.nl
+**Finally**ons for the improvement of the experiment and the manual or ideas about what you would like to research with the used instruments, please mail to:  c.f.j.pols@tudelft.nl
 
 ## Appendix
 For the calculation of the weighted average you need to first calculate the weights, this is done in the following way:
