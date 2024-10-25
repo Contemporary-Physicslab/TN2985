@@ -9,17 +9,16 @@ Before you arrive at the practical, you are expected to have properly studied th
 
 ### Theoretical Background
 #### What is a diffraction grating?
-A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`fig:Diffraction_Grating`.
+A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`Figure {number} <Diffraction_Grating>`.
 
-\begin{figure}[!ht]
-    \centering
 
-```{figure} /figures/II8/II_8_figuur1.eps
+```{figure} /figures/II8/II_8_figuur1.PNG
+---
+width: 80%
+name: fig:Diffraction_Grating
+---
+Schematic representation of a diffraction grating. Typical measurements are 5x5 cm. The number of lines per mm is in the range 100-1000.
 ```
-    \captionsetup{font=small}
-    \caption{Schematic representation of a diffraction grating. Typical measurements are 5x5 cm. The number of lines per mm is in the range 100-1000.}
-    \label{fig:Diffraction_Grating}
-\end{figure}
 
 Typical measurements are 5x5 cm and a typical value for the number of lines per mm is in the range 100-1000. A diffraction grating can be either transmissive or or reflective, known, respectively, as a transmission or a reflection grating. 
 
