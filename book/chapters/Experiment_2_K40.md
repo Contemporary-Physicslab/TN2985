@@ -40,7 +40,7 @@ $$
 N(t) = N(0) e^{-\lambda t}
 $$ (N_t)
 
-The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq.(\ref{N_t}) the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
+The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq. {eq}`N_t` the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
 
 $$
 t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
