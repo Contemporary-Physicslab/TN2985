@@ -30,11 +30,9 @@ In the Netherlands, the equivalent dose resulting from natural sources is roughl
 ### Average behaviour
 Suppose we have a number of $N(t)$ nuclei of a radioactive nuclide at time $t$. It is reasonable to assume that the number of nuclei that decays ($\Delta N$) on average in a time span $\Delta t$ is both proportional to $N(t)$ and $\Delta t$:
 
-$$
-\Delta N =-\lambda N(t)\Delta t
-$$ (dN)
+$$ \Delta N =-\lambda N(t)\Delta t $$ (eq:dN)
 
-Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time: 
+Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`eq:dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time: 
 
 $$
 N(t) = N(0) e^{-\lambda t}
