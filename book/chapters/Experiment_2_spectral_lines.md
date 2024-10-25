@@ -9,7 +9,7 @@ Before you arrive at the practical, you are expected to have properly studied th
 
 ### Theoretical Background
 #### What is a diffraction grating?
-A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`Figure {number} <Diffraction_Grating>`.
+A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`fig:Diffraction_grating`.
 
 
 ```{figure} /figures/II8/II_8_figuur1.PNG
@@ -23,7 +23,7 @@ Schematic representation of a diffraction grating. Typical measurements are 5x5 
 Typical measurements are 5x5 cm and a typical value for the number of lines per mm is in the range 100-1000. A diffraction grating can be either transmissive or or reflective, known, respectively, as a transmission or a reflection grating. 
 
 #### What does a diffraction grating do?
-A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`Figure {number} <Transmissive_grating>` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the 0$^{th}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the 1$^{st}$ order diffraction patterns. These patters can repeat itself multiple times (2$^{nd}$ order, 3$^{rd}$ order, ...).
+A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`fig:Transmissive_grating` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the 0$^{th}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the 1$^{st}$ order diffraction patterns. These patters can repeat itself multiple times (2$^{nd}$ order, 3$^{rd}$ order, ...).
 
 
 ```{figure} /figures/II8/II_8_figuur2_EN.PNG
@@ -40,7 +40,7 @@ A transmissive grating in operation. White light with a continuous colour spectr
 The purpose of a diffraction grating is to study the colour spectrum of a light source. As seen in {numref}`fig:Transmissive_grating`, the vertical distance on the screen is a measurement for the wavelength of a certain colour. A diffraction grating also allows one to select a desired colour from white light.
 
 #### Light rays and wavefronts
-This experiment focuses on the wave characteristics of light. The terms interference and diffraction are central to this. The Huygens Principle is often used to explain diffraction phenomena. This principle relates to the extension of wavefronts. A wavefront is a collection of points where the "vibration" is in the same phase. Waves in water are in fact wavefronts. If we throw a stone into the water, then we see wavefronts that extend in a circular fashion. If we look at waves washing up at the beach, we see a series of parallel wavefronts. These characteristic wavefronts are shown schematically in {numref}`Figure {number} <Wave_patterns>`.
+This experiment focuses on the wave characteristics of light. The terms interference and diffraction are central to this. The Huygens Principle is often used to explain diffraction phenomena. This principle relates to the extension of wavefronts. A wavefront is a collection of points where the "vibration" is in the same phase. Waves in water are in fact wavefronts. If we throw a stone into the water, then we see wavefronts that extend in a circular fashion. If we look at waves washing up at the beach, we see a series of parallel wavefronts. These characteristic wavefronts are shown schematically in {numref}`fig:Wave_patterns`.
 
 
 ```{figure} /figures/II8/II_8_figuur3_EN.PNG
