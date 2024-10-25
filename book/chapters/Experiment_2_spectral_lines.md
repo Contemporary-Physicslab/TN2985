@@ -232,7 +232,7 @@ What is beneficial to the accuracy of the determination of the wavelength of a s
 
 The setup that we will use for the determination of the wavelength of the visible spectral lines of the Hg lamp is shown in {numref}`fig:II8_Setup`. This setup is also called the monochromator setup. The only moving part of the setup is the diffraction grating. The grating will be mounted on a turntable with an angle distribution that makes it possible to measure the angle (See {numref}`fig:II8_Setup`).
 
-```{figure} /figures/II8/II_8_figuur11.png
+```{figure} /figures/II8/II_8_figuur11_EN.png
 ---
 width: 80%
 name: fig:II8_Setup
