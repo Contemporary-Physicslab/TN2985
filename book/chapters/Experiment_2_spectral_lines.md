@@ -260,7 +260,9 @@ $$
 $$
 
 ```{exercise}
+
 Show that when you fill in eqn. {eq}`eq:angle_inc_refl` in the grating formula {eq}`eq:reflection_angle_um`, you get the following condition for light with wavelength $\lambda$ that falls on the set point.
+
 ```
 
 $$
@@ -268,7 +270,7 @@ $$
 $$ (eq:II8_Que8)
 
 In which $N$ is the number of lines per length unit, $\lambda$ the wavelength and the order of diffraction $m$. Note that $m$ can be either positive or negative.
-```
+
 
 ```{exercise}
 For the situation drawn in {numref}`fig:II8_Setup`, is $m$ positive or negative? Does this correspond to your answer from question 5?
@@ -362,7 +364,7 @@ Determine the difference in wavelength of the two Na lines. Try to do this for a
 
 What is the smallest difference in wavelength that you can determine using this set up? What is the resolving power of this set up? What is the expected, theoretical value for the resolving power? What can be done to improve the results?
 
-**Finally**ons for the improvement of the experiment and the manual or ideas about what you would like to research with the used instruments, please mail to:  c.f.j.pols@tudelft.nl
+**Finally** Suggestions for the improvement of the experiment and the manual or ideas about what you would like to research with the used instruments, please mail to:  c.f.j.pols@tudelft.nl
 
 ## Appendix
 For the calculation of the weighted average you need to first calculate the weights, this is done in the following way:
