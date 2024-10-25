@@ -270,7 +270,7 @@ A scope displays a signal as shown in {numref}`ii4:fig:blokgolf`. Its settings a
 
 Determine the period, top-to-top amplitude and the pulse length.
 ```
-
+```
 (ii4:subsec:triggeren)=
 ### Triggering
 
@@ -286,7 +286,7 @@ The oscilloscope displaying a saw tooth wave signal.
 ```
 ```
 
-
+```
 (ii4:subsec:meten_en_rekenen)=
 ### Processing
 
