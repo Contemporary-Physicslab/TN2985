@@ -102,7 +102,7 @@ A plane light wave falls on a screen with two holes. These holes work like point
 The next question is: what happens if there are two holes in the screen? This is shown in {numref}`fig:two_point_sources` where a plane wave falls perpendicularly from the left side on a screen with two holes (diameter $\geq$ wavelength). The distance between the holes, $d$, is three times the wavelength for instance. The plane wave causes the holes to emit spherically shaped waves in phase. The light in a point P (See {numref}`fig:two_point_sources`) is a superposition of the light that is emitted by the two sources. Both sources of light interfere with each other. The distance between the upper hole and P that is covered by the light is not the same as the distance between the bottom hole and P covered by the light. The length of the path covered by the light is different, meaning that the phase of the two waves at P is not equal. However, it is possible that the phase difference is exactly the same as a whole number times $2\pi$, as shown in {numref}`fig:two_point_sources`. The phase difference is $2\pi$ and the waves interfere constructively in P. For points just above and below P, the phase difference is different and there is no longer 100\% constructive interference. Thus the light intensity will be lower.\
 
 ```{exercise}
-Light from both sources arrive at point M. What is the path (phase) difference? What does this mean in terms of constructive or destructive interference? Does this depend on the wavelength of the light?\
+Light from both sources arrive at point M. What is the path (phase) difference? What does this mean in terms of constructive or destructive interference? Does this depend on the wavelength of the light?
 ```
 
 It can be deduced from {numref}`fig:two_point_sources`  that the path difference can be approached by $d \sin \theta$. The angle $\theta$ determines the place of P (and vice versa). Constructive interference occurs when:
@@ -113,28 +113,27 @@ $$ (eq:order_of_interference)
 
 with $m$ an integer that we call the order.  
 
-\vfill
-\begin{assignment}
+```{exercise}
 $m$ can also be negative. What does this mean for $\theta$? What is the location of P in this case? 
-\end{assignment}
-\begin{assignment}
+```
+
+```{exercise}
 What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in the case of constructive interference?
-\end{assignment}
+```
 
 #### Interference in "a point far away". Multiple sources.
-In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 \si{\micro m}. In practice we work with distance in the range of 10 � 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
+In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\si{\micro m}$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
 
-\begin{figure}[h]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur7.eps
+```{figure} /figures/II8/II_8_figuur7.png
+---
+width: 80%
+name: fig:three_point_sources
+---
+The upper part of this figure is identical to {numref}`fig:two_point_sources`, the only difference is that the point P is now infinitely far away from the sources. There is constructive interference in point P. The bottom right part of the figure shows that extra holes with spacing $d$ also contribute to  the constructive interference. The slanted striped lines on the right side of the figure indicate the development of plane wavefronts (parallel bundle).
 ```
-    \captionsetup{font=small}
-    \caption{The upper part of this figure is identical to {numref}`fig:two_point_sources`, the only difference is that the point P is now infinitely far away from the sources. There is constructive interference in point P. The bottom right part of the figure shows that extra holes with spacing $d$ also contribute to  the constructive interference. The slanted striped lines on the right side of the figure indicate the development of plane wavefronts (parallel bundle).}
-    \label{fig:three_point_sources}
-\end{figure}
 
 {numref}`fig:three_point_sources` shows that the paths from the sources towards P now run parallel to each other. Because of this, the condition for constructive interference (eqn. {eq}`eq:order_of_interference`) is exact.
+
 
 
 It is not hard to imagine what happens if we add an extra hole. We make sure the third hole is located on the line that goes through the two other holes and that the mutual distance is $d$  (see {numref}`fig:three_point_sources` above). The third source also emits, in phase, a wave that contributes to the amplitude in the far point P. The correlated path runs parallel to the other path. The path difference is $\lambda$ or $2\lambda$. So the contribution of the third source interferes constructively with the other sources.
@@ -146,9 +145,9 @@ We can continue this reasoning for $4, 5, .. , N$ holes that lie on a line with 
 If we look at {numref}`fig:three_point_sources`, it is tempting to drawn lines that go through the points where the drawn waves run in phase (the dotted lines on the right side in {numref}`fig:three_point_sources`). These lines are perpendicular to the direction of propagation and you might be inclined to conceive these lines as wavefronts of a parallel bundle. That thought is fine, but you must be sure that for instance the points on the dotted line between the points a and b (in {numref}`fig:three_point_sources`) vibrate in phase with the vibrations in a and b. Close to the sources this is a difficult matter, but *far away* from the sources this is certainly the case. You can determine this using Huygens' principle. This also follows from the wave equation. For light waves that are possible in a uniform medium, the direction of propagation is always perpendicular to the wavefronts.
 
 
-\begin{assignment}
+```{exercise}
 The direction of the first order diffraction of light with one certain wavelength is drawn in {numref}`fig:three_point_sources`. How do you construct the direction of the second order diffraction? Do this (in {numref}`fig:three_point_sources`).
-\end{assignment}
+```
 
 #### From transmission to reflection grating. Grating equation.
 Up until now, we have discussed the operation of a diffraction grating according to a transmission grating. However, reflection gratings are more commonly used. These have accurate grooves instead of translucent lines. Everything that has been said above about plane waves, point sources, including {eq}`eq:order_of_interference` is also true for reflection gratings.
@@ -157,15 +156,13 @@ Up until now, we have discussed the operation of a diffraction grating according
 At the derivation of eqn. {eq}`eq:order_of_interference` it is assumed that the incoming plane wave falls perpendicular into the diffraction grating. That restriction does not have to be made. The plane wave can also fall at an angle with the normal of the diffraction grating. {numref}`fig:Grating_reflection` demonstrates how the angles of the exiting bundles can be found for a parallel bundle that falls at angle $i$ with the normal of the diffraction grating.
 
 
-\begin{figure}[h!]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur8.eps
+```{figure} /figures/II8/II_8_figuur8.png
+---
+width: 80%
+name: fig:Grating_reflection
+---
+onstruction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle..
 ```
-    \captionsetup{font=small}
-    \caption{Construction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle.}
-    \label{fig:Grating_reflection}
-\end{figure}
 
 In {numref}`fig:Grating_reflection`a, a parallel bundle falls at an angle $i$ with the normal of the diffraction grating. A plane wavefront will first reach grating point 1 and, according to Huygens, that point emits spherically shaped waves. A time $\Delta t$ later the wavefront reaches grating 2. From {numref}`fig:Grating_reflection`a it turns out that $\Delta t=(d\sin i)/c$ ($d$ is the distance between two grating lines and $c$ is the speed of light). In {numref}`fig:Grating_reflection`b we see how far the spherical wave from grating point 1 has propagated. As said, the phase of points on a wavefront is by definition equal, but in this case the vibration in grating point 2 is also in the same phase. We can now draw a line which goes through grating point 2 and touches the spherical wave. This line is cut by the perpendicular line that goes through grating point 1 and the point where the first line touches the spherical wave. These two lines can be seen as the �precursors� a wavefront / direction of propagation pair before the exiting wave (as discussed at {numref}`fig:three_point_sources`). Just like in {numref}`fig:three_point_sources` more grating lines can be added to this consideration.
 
