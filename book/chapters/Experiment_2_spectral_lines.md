@@ -122,7 +122,7 @@ What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in 
 ```
 
 #### Interference in "a point far away". Multiple sources.
-In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu m}$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
+In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu m$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
 
 ```{figure} /figures/II8/II_8_figuur7.png
 ---
@@ -161,7 +161,7 @@ At the derivation of eqn. {eq}`eq:order_of_interference` it is assumed that the 
 width: 80%
 name: fig:Grating_reflection
 ---
-onstruction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle..
+onstruction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle.
 ```
 
 In {numref}`fig:Grating_reflection`a, a parallel bundle falls at an angle $i$ with the normal of the diffraction grating. A plane wavefront will first reach grating point 1 and, according to Huygens, that point emits spherically shaped waves. A time $\Delta t$ later the wavefront reaches grating 2. From {numref}`fig:Grating_reflection`a it turns out that $\Delta t=(d\sin i)/c$ ($d$ is the distance between two grating lines and $c$ is the speed of light). In {numref}`fig:Grating_reflection`b we see how far the spherical wave from grating point 1 has propagated. As said, the phase of points on a wavefront is by definition equal, but in this case the vibration in grating point 2 is also in the same phase. We can now draw a line which goes through grating point 2 and touches the spherical wave. This line is cut by the perpendicular line that goes through grating point 1 and the point where the first line touches the spherical wave. These two lines can be seen as the "precursors" a wavefront / direction of propagation pair before the exiting wave (as discussed at {numref}`fig:three_point_sources`). Just like in {numref}`fig:three_point_sources` more grating lines can be added to this consideration.
@@ -178,27 +178,26 @@ $$ (eq:reflection_angle_um)
 This is the grating equation. It follows from this equation that, if a plane wave with a certain wavelength falls on the diffraction grating under an angle $i$, different plane waves are reflected with the same wavelength under different angles $u_m$. We can determine the wavelength of a certain component by accurately measuring $i$ and $u_m$, and using eqn. {eq}`eq:reflection_angle_um`.
 
 
-\begin{assignment}
+```{exercise}
 $m$ can also be negative. What does this say about the relation between $i$ and $u_m$?
-\end{assignment}
+```
 
-\begin{assignment}
+```{exersise}
 When does eqn. {eq}`eq:order_of_interference` equal eqn. {eq}`eq:reflection_angle_um`?
-\end{assignment}
+```
+
 #### Processing and generating light with a flat wavefront
 
 A direct measurement of the direction of a parallel bundle will not be very accurate. It is far more effective if we first let the bundle fall on a positive lens. The bundle then converges to a point in the focal plane. See {numref}`fig:Course_of_light`.
 
 
-\begin{figure}[h]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur9.eps
+```{figure} /figures/II8/II_8_figuur9.png
+---
+width: 80%
+name: fig:Course_of_light
+---
+The course of the wavefronts at the focusing of a light bundle with a plane wavefront. On the right, the relation between the direction of the bundle and the position of the focal point is shown.
 ```
-    \captionsetup{font=small}
-    \caption{The course of the wavefronts at the focusing of a light bundle with a plane wavefront. On the right, the relation between the direction of the bundle and the position of the focal point is shown.}
-    \label{fig:Course_of_light}
-\end{figure}
 
 When the focal point is placed on a screen, the position of the spot can be used to determine the direction of the bundle. The relation between the direction of the bundle and the position on the screen is shown on the right side in {numref}`fig:Course_of_light`.
 
@@ -208,15 +207,13 @@ At the derivation of eqn. {eq}`eq:reflection_angle_um` we assume that the incide
 
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
 
-\begin{figure}[H]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur10.eps
+```{figure} /figures/II8/II_8_figuur10.png
+---
+width: 80%
+name: fig:Collimation
+---
+By placing the lens at the right position, the source is collimated.
 ```
-    \captionsetup{font=small}
-    \caption{By placing the lens at the right position, the source is collimated.}
-    \label{fig:Collimation}
-\end{figure}
 
 The narrower the slit, the better the light from the lens can be characterised as one plane wave with one sharp direction. A disadvantage is of course that the intensity of the light that falls on the diffraction grating diminishes as the slit is narrowed.
 
@@ -224,10 +221,10 @@ The narrower the slit, the better the light from the lens can be characterised a
 Our setup for the determination of the wavelength of spectral lines with a diffraction grating now consists of: a source (lamp), a slit, a collimating lens, the diffraction grating, an image lens, and a screen. These parts will be setup in such a way that an image of the slit is formed on the screen.
 
 
-\begin{assignment}
+```{exercise}
 What determines whether the size of the slit is reduced or magnified in the image?
 What is beneficial to the accuracy of the determination of the wavelength of a spectral line: a reduction or magnification? Explain.
-\end{assignment}
+```
 
 ### Method
 
@@ -235,15 +232,13 @@ What is beneficial to the accuracy of the determination of the wavelength of a s
 
 The setup that we will use for the determination of the wavelength of the visible spectral lines of the Hg lamp is shown in {numref}`fig:II8_Setup`. This setup is also called the monochromator setup. The only moving part of the setup is the diffraction grating. The grating will be mounted on a turntable with an angle distribution that makes it possible to measure the angle (See {numref}`fig:II8_Setup`).
 
-\begin{figure}[H]
-    \centering
-
-```{figure} /figures/II8/II_8_figuur11_EN.eps
+```{figure} /figures/II8/II_8_figuur11.png
+---
+width: 80%
+name: fig:II8_Setup
+---
+Setup for measuring the wavelength of spectral lines.
 ```
-    \captionsetup{font=small}
-    \caption{Setup for measuring the wavelength of spectral lines.}
-    \label{fig:II8_Setup}
-\end{figure}
 
 Using a slit directly behind the lamp, and a lens F$_1$ produce a collimated (parallel) light bundle. This bundle hits the diffraction grating. We have seen that, because of the diffraction of the light through the grating, depending on the wavelength, parallel bundles are reflected at different angles. By changing the angle of the diffraction grating in respect to the incident light bundle, we can make a certain colour fall on a set point on the screen or the camera with the help of lens F$_2$. From the according angle, we can calculate the wavelength of the light.
 
@@ -251,7 +246,7 @@ Using a slit directly behind the lamp, and a lens F$_1$ produce a collimated (pa
 At one specific angle for the diffraction grating, it seems like the light is conveyed. At this angle it seems like the light is portrayed by a normal mirror (via the lens F$_2$) to the set point on the screen. In fact, the 0$^{th}$ order diffraction pattern is portrayed in the set point. This does not change with the wavelength of the light. This position is shown in Fig. 11 by the dotted line. The angle between the normal on the diffraction grating and the direction of the incident light is $\alpha$ (thus the angle between the incident and reflected wave is 2$\alpha$). Note that $\alpha$ is determined by the positions of the lamp, the lens F$_1$, the lens F$_2$, and the point on the screen.
 
 
-If we want to use a certain setup in practice for, for example, the measurement of a number of spectral lines, then we measure the angle between the normal of the diffraction grating and the �mirror position�. In {numref}`fig:II8_Setup` this angle is $\phi$.
+If we want to use a certain setup in practice for, for example, the measurement of a number of spectral lines, then we measure the angle between the normal of the diffraction grating and the 'mirror position'. In {numref}`fig:II8_Setup` this angle is $\phi$.
 
 #### Elaboration
 If we call the incident angle $i$ and the reflected angle $u$, then the following formulas apply (see {numref}`fig:II8_Setup`)
@@ -264,24 +259,24 @@ $$
 \end{split}
 $$
 
-\begin{assignment}
+```{exercise}
 Show that when you fill in eqn. {eq}`eq:angle_inc_refl` in the grating formula {eq}`eq:reflection_angle_um`, you get the following condition for light with wavelength $\lambda$ that falls on the set point.
+```
 
 $$
 2 \cos \alpha \sin \phi = -mN\lambda
 $$ (eq:II8_Que8)
 
 In which $N$ is the number of lines per length unit, $\lambda$ the wavelength and the order of diffraction $m$. Note that $m$ can be either positive or negative.
-\end{assignment}
+```
 
-\begin{assignment}
+```{exercise}
 For the situation drawn in {numref}`fig:II8_Setup`, is $m$ positive or negative? Does this correspond to your answer from question 5?
+```
 
-
-\end{assignment}
-\begin{assignment}
+```{exercise}
 From measurements of $\alpha$ and $\phi$ we can use eqn. {eq}`eq:II8_Que8` to calculate $\lambda$. If we call the uncertainties in $\alpha$ and $\phi$, u($\alpha$) and u($\phi$) respectively, derive the law of propagation of errors for the uncertainty in $\lambda$, $u(\lambda)$. 
-\end{assignment}
+```
 
 *If the difference between two spectral lines is very small,* they cannot be distinguished by the naked eye, and the diffraction grating cannot be rotated accurately enough.
 
