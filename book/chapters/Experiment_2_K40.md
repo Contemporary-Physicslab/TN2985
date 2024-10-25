@@ -34,32 +34,24 @@ $$ \Delta N =-\lambda N(t)\Delta t $$ (eq:dN)
 
 Here, the proportionality factor $\lambda$ is called the decay constant. Equation {eq}`eq:dN` is in fact a differential equation for $N(t)$. Its solution,the law of *radioactive decay*, is an exponentially decaying function in time: 
 
-$$
-N(t) = N(0) e^{-\lambda t}
-$$ (N_t)
+$$ N(t) = N(0) e^{-\lambda t} $$ (eq:N_t)
 
-The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq. {eq}`N_t` the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
+The inverse of $\lambda$, i.e. $\tau = \frac{1}{\lambda}$, is called the *average lifetime* of the nuclide. This is the time it takes for the number of parent nuclei to decrease to 1/e of its initial value. Additionally, the half-life $t_{1/2}$ is often used. This is the time it takes for half the original nuclei to decay. By substituting in Eq. {eq}`eq:N_t` the value $\frac{1}{2}$*N*(0) for $N(t)$, it easily follows that
 
-$$
-t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2)
-$$ (t1/2)
+$$ t_{1/2} = \frac{\ln(2)}{\lambda} = \tau \ln(2) $$ (eq:t1/2)
 
 The decay constant (and hence the average lifetime and the half-life) is a characteristic of a radioactive nuclide, for example $^{40}K$. 
 The activity of a radioactive source is the number of nuclei that decay per unit of time:
 
-$$
-A(t)=\left|\frac{d N(t)}{d t}\right|=\lambda N(0) e^{-\lambda t}
-$$ (A_t)
+$$ A(t)=\left|\frac{d N(t)}{d t}\right|=\lambda N(0) e^{-\lambda t} $$ (eq:A_t)
 
 The activity also decays exponentially in time, again with constant $\tau = \frac{1}{\lambda}$. The activity has the dimension $t^{-1}$ and thus can be expressed in $s^{-1}$. However, there is a distinct SI-unit for activity of a radioactive source, the becquerel (Bq). In this context, we note that a *count rate should be expressed in the unit in* $s^{-1}$ or a similar unit (*e.g.* $minutes^{-1}$). A count rate only *becomes an activity with unit Bq after correction for a number of effects*, such as background radiation and the efficiency of the setup.
 
 ### Statistics of the decay
-Equation {eq}`N_t` describes the average behaviour of radioactive decay. On a short time scale, however, the decay has a random character. The number of decay processes
+Equation {eq}`eq:N_t` describes the average behaviour of radioactive decay. On a short time scale, however, the decay has a random character. The number of decay processes
 taking place in a time interval $\Delta$*t* varies in time and shows a statistical behaviour around the mean $\mu$. The statistical probability that *k* nuclei of the *N*(t) nuclei present in the sample decay in the time interval $\Delta$*t* is given by the Poisson probability distribution  $P_{\mu}$(*k*) :
 
-$$
-P_{\mu}(k)=\frac{\mu^{k}}{k !} e^{-\mu}
-$$ (Pmu)
+$$ P_{\mu}(k)=\frac{\mu^{k}}{k !} e^{-\mu} $$ (eq:Pmu)
 
 The parameter $\mu$ is the mean number of decay processes in a time interval $\Delta t$. The value of $\mu$ can be calculated from the values of *k* measured for a very large number of in-dependent time intervals $\Delta t$ (of equal size). The function *k*! (pronounce: k faculty) is the factorial function given by $k! = 1\times2\times3\times...\times k$ (with 0!=1).
 
