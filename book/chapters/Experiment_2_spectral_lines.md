@@ -12,7 +12,7 @@ Before you arrive at the practical, you are expected to have properly studied th
 A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`fig:Diffraction_grating`.
 
 
-```{figure} /figures/II8/II_8_figuur1.PNG
+```{figure} /figures/II8/II_8_figuur1.png
 ---
 width: 80%
 name: fig:Diffraction_Grating
@@ -26,7 +26,7 @@ Typical measurements are 5x5 cm and a typical value for the number of lines per 
 A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`fig:Transmissive_grating` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the 0$^{th}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the 1$^{st}$ order diffraction patterns. These patters can repeat itself multiple times (2$^{nd}$ order, 3$^{rd}$ order, ...).
 
 
-```{figure} /figures/II8/II_8_figuur2_EN.PNG
+```{figure} /figures/II8/II_8_figuur2_EN.png
 ---
 width: 80%
 name: fig:Transmissive_grating
@@ -43,7 +43,7 @@ The purpose of a diffraction grating is to study the colour spectrum of a light 
 This experiment focuses on the wave characteristics of light. The terms interference and diffraction are central to this. The Huygens Principle is often used to explain diffraction phenomena. This principle relates to the extension of wavefronts. A wavefront is a collection of points where the "vibration" is in the same phase. Waves in water are in fact wavefronts. If we throw a stone into the water, then we see wavefronts that extend in a circular fashion. If we look at waves washing up at the beach, we see a series of parallel wavefronts. These characteristic wavefronts are shown schematically in {numref}`fig:Wave_patterns`.
 
 
-```{figure} /figures/II8/II_8_figuur3_EN.PNG
+```{figure} /figures/II8/II_8_figuur3_EN.png
 ---
 width: 80%
 name: fig:Wave_patterns
@@ -57,53 +57,54 @@ The relation with light rays is that the propagation direction of the light in a
 
 #### Huygens principle (Wolfson, ch. 32.5)
 
-*All points on a wavefront work like point sources for spherically shaped �waves� which propagate with lightspeed in the medium. A short time $\Delta t$ later, a new wavefront is formed by the surface that touches all �waves� which propagate in the previous direction of propagation.*
+*All points on a wavefront work like point sources for spherically shaped 'waves' which propagate with lightspeed in the medium. A short time $\Delta t$ later, a new wavefront is formed by the surface that touches all 'waves' which propagate in the previous direction of propagation.*\
 
-\vfill
-{numref}`fig:Wave_propagation` shows how this works. On the left we see how a spherically shaped wavefront at $t$ develops itself to a new spherically shaped wavefront at $t + \Delta t$. For four points on the wavefront at $t = t$ is shown how the waves develop themselves in a time interval $\Delta t$. The new wavefront at $t + \Delta t$ is the �tangent� line to these waves.
 
-\begin{figure}[ht]
-    \centering
+{numref}`fig:Wave_propagation` shows how this works. On the left we see how a spherically shaped wavefront at $t$ develops itself to a new spherically shaped wavefront at $t + \Delta t$. For four points on the wavefront at $t = t$ is shown how the waves develop themselves in a time interval $\Delta t$. The new wavefront at $t + \Delta t$ is the 'tangent' line to these waves.
 
-```{figure} /figures/II8/II_8_figuur4_EN.eps
+
+```{figure} /figures/II8/II_8_figuur4_EN.png
+---
+width: 80%
+name: fig:Wave_propagation
+---
+Propagation of a wavefront according to the Huygens principle. Left a spherically shaped wavefront and right a plane wavefront.
 ```
-    \captionsetup{font=small}
-    \caption{Propagation of a wavefront according to the Huygens principle. Left a spherically shaped wavefront and right a plane wavefront.}
-    \label{fig:Wave_propagation}
-\end{figure}
+
+
+
 
 The image on the right in {numref}`fig:Wave_propagation` displays the same way of propagation for a plane wavefront. As said, the Huygens Principle explains the diffraction of light. For the first application, we look at what happens when a plane wave falls on a screen with a hole in it. The diameter of the hole is comparable with or smaller than the wavelength of the light. See {numref}`fig:plane_to_source`.
 
-\begin{figure}[h]
-    \centering
 
-```{figure} /figures/II8/II_8_figuur5.eps
+```{figure} /figures/II8/II_8_figuur5.png
+---
+width: 80%
+name: fig:plane_to_source
+---
+A plane light wave falls on a screen with a hole with a diameter comparable to the wavelength. According to the principle of Huygens, the hole acts like a point source that emits spherically extending waves.
 ```
-    \captionsetup{font=small}
-    \caption{A plane light wave falls on a screen with a hole with a diameter comparable to the wavelength. According to the principle of Huygens, the hole acts like a point source that emits spherically extending waves.}
-    \label{fig:plane_to_source}
-\end{figure}
 
-In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up �ripple tank diffraction� on YouTube. In Fig. 32.33 (c) of Wolfson you can also see how the intensity of the light.
 
-\begin{figure}[ht]
-    \centering
+In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson you can also see how the intensity of the light.
 
-```{figure} /figures/II8/II_8_figuur6.eps
+```{figure} /figures/II8/II_8_figuur6.png
+---
+width: 80%
+name: fig:two_point_sources
+---
+A plane light wave falls on a screen with two holes. These holes work like point sources that emit spherically propagating waves in phase. Both waves interfere constructively in point P in this situation.
 ```
-    \captionsetup{font=small}
-    \caption{A plane light wave falls on a screen with two holes. These holes work like point sources that emit spherically propagating waves in phase. Both waves interfere constructively in point P in this situation.}
-    \label{fig:two_point_sources}
-\end{figure}
+
+
 
 #### Interference
-The next question is: what happens if there are two holes in the screen? This is shown in {numref}`fig:two_point_sources` where a plane wave falls perpendicularly from the left side on a screen with two holes (diameter $\geq$ wavelength). The distance between the holes, $d$, is three times the wavelength for instance. The plane wave causes the holes to emit spherically shaped waves in phase. The light in a point P (See {numref}`fig:two_point_sources`) is a superposition of the light that is emitted by the two sources. Both sources of light interfere with each other. The distance between the upper hole and P that is covered by the light is not the same as the distance between the bottom hole and P covered by the light. The length of the path covered by the light is different, meaning that the phase of the two waves at P is not equal. However, it is possible that the phase difference is exactly the same as a whole number times $2\pi$, as shown in {numref}`fig:two_point_sources`. The phase difference is $2\pi$ and the waves interfere constructively in P. For points just above and below P, the phase difference is different and there is no longer 100\% constructive interference. Thus the light intensity will be lower.\\
+The next question is: what happens if there are two holes in the screen? This is shown in {numref}`fig:two_point_sources` where a plane wave falls perpendicularly from the left side on a screen with two holes (diameter $\geq$ wavelength). The distance between the holes, $d$, is three times the wavelength for instance. The plane wave causes the holes to emit spherically shaped waves in phase. The light in a point P (See {numref}`fig:two_point_sources`) is a superposition of the light that is emitted by the two sources. Both sources of light interfere with each other. The distance between the upper hole and P that is covered by the light is not the same as the distance between the bottom hole and P covered by the light. The length of the path covered by the light is different, meaning that the phase of the two waves at P is not equal. However, it is possible that the phase difference is exactly the same as a whole number times $2\pi$, as shown in {numref}`fig:two_point_sources`. The phase difference is $2\pi$ and the waves interfere constructively in P. For points just above and below P, the phase difference is different and there is no longer 100\% constructive interference. Thus the light intensity will be lower.\
 
-\begin{assignment}
-Light from both sources arrive at point M. What is the path (phase) difference? What does this mean in terms of constructive or destructive interference? Does this depend on the wavelength of the light?
-\end{assignment} 
+```{exercise}
+Light from both sources arrive at point M. What is the path (phase) difference? What does this mean in terms of constructive or destructive interference? Does this depend on the wavelength of the light?\
+```
 
-\vfill
 It can be deduced from {numref}`fig:two_point_sources`  that the path difference can be approached by $d \sin \theta$. The angle $\theta$ determines the place of P (and vice versa). Constructive interference occurs when:
 
 $$
