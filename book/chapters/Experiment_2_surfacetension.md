@@ -11,11 +11,11 @@ Surface tension is a well-known phenomenon. At least, we are all familiar with i
 
 ```{figure} /figures/schaatsrijder.jpg
 ---
-:name: fig:surf_tens_1
+name: surf_tens_1
+width: 50%
 ---
 A water strider makes use of surface tension
 ```
-
 
 ## Method
 ### The ring of Du Noüy
@@ -32,11 +32,14 @@ $$
 here $\rho$ is the density of the liquid, $g$ the acceleration due to gravity. All we ought to do is determine what force is required to pull the ring out of the water...
 
 ```{figure} /figures/opstelling_nouy.jpg
-:name: fig:nouy_opst
-The experimental setup for determining the surface tension using the ring of du No&uuml;y.
+---
+name: nouy_opst
+width: 50%
+---
+The experimental setup for determining the surface tension using the ring of Du Noüy.
 ```
 
-The surface tension is determined using the force tensiometer of Du No&uuml;y, see {numref}`fig:nouy_opst`. This is a so called torsionbalance in which a thin balance arm (8) is attached to the horizontally tensioned torison wire (7). The platina ring is attached at the end of the arm (6). The required force is determined by:
+The surface tension is determined using the force tensiometer of Du Noüy, see {numref}`fig:nouy_opst`. This is a so called torsionbalance in which a thin balance arm (8) is attached to the horizontally tensioned torison wire (7). The platina ring is attached at the end of the arm (6). The required force is determined by:
 1. balancing the arm by adjusting knob 1 so that the thin arm is horizontally level. One uses thereto the occulair, see {numref}`fig:nouy_opst`. 
 1. submerging the ring by adjusting the height of the can using knob 5. 
 1. balance the arm by carefully turning knob 1 and 5
@@ -57,10 +60,12 @@ Here, $\rho$ is the density of the liquid and $g$ is the gravitational constant.
 The capillary rise height $h$ is measured with a microscope (see {numref}`fig:capmethod`. First, focus the scope on the surface of the water in the tray and note the height of the scope. Consequently, focus the scope on the top of the liquid in the capillary and note the height again. The difference between the noted heights is the capillary rise height $h$.
 
 ```{figure} /figures/cappilairmethod.jpg
-:name: fig:capmethod
+---
+name: capmethod
+width: 50%
+---
 The experimental setup to determine the surfacetension using capillary rise
 ```
-
 ## Experimental approach
 
 1. Start with a trial run to get a feel for both measurements.
