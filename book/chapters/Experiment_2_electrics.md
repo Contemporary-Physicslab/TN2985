@@ -47,7 +47,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 Two ways of measuring current and voltage through a diode
 ```
 
-In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2} \xrightarrow{} 10^{-8}A$). Therefore we measure the current indirectly, using a voltage divider.
+In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}A \xrightarrow{} 10^{-8}A$). Therefore we measure the current indirectly, using a voltage divider.
 
 ### Voltage divider
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
@@ -139,7 +139,7 @@ Prepare you python script in which you collect and process your data. Carry out 
 ### Experimental phase
 Determine the exact resistance of the resistors you will use, calculate the uncertainty. \\
 Build the circuit shown in {numref}`fig:II1:volt_div-setup`.
-Start your measurements with a $6.0V$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1-0.7V$ for $U_{diode}$. Take care of an even spread interval.
+Start your measurements with a $6.0V$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1V-0.7V$ for $U_{diode}$. Take care of an even spread interval.
 
 ### Evaluation phase
 Run your script and determine the Boltzmann constant accordingly. You should be at least within 5\% accuracy.
@@ -182,7 +182,7 @@ $$
 I(t) = \frac{V}{R}e^{-t/RC}
 $$ (eq:RCI)
 
-The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to 3.2\% ($63.2\\% = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
+The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to $3.2V$ ($63.2\\% = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
 
 $$
 I(t) = \frac{V}{R}e^{-t/\tau_0}
