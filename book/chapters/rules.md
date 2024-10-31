@@ -92,7 +92,7 @@ As stated earlier, the smooth running of the Introductory Laboratory Course reli
 By notifying us promptly, you may also enable the course office to reallocate your place to another student in a similar situation.
 
 
-If you find yourself unable to attend at the last minute – due to illness, for example – you must inform the course office no later than 8.30am on the day of a missed morning session and no later than 1.30pm on the day of a missed afternoon session. To notify us, call 015 278 5886 or 015 278 2459 or e-mail adminnp-tnw@tudelft.nl.
+If you find yourself unable to attend at the last minute – due to illness, for example – you must inform the course office no later than 8.30am on the day of a missed morning session and no later than 1.30pm on the day of a missed afternoon session. To notify us, call **015 278 5886** or **015 278 2459** or e-mail adminnp-tnw@tudelft.nl.
 
 
 You will need to arrange an alternative time and date as soon as possible. If you fail to do so, you will not be able to continue the course.
