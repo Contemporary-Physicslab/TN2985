@@ -67,4 +67,4 @@ The structure of the lab journal is very similar to that of a scientific report.
 
 
 ## Jupyter Notebook
-We have made online templates in Vocareum available. For this, we made use of Jupyter Notebook. Jupyter Notebook uses various online languages ( Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). When you start the first experiment, you have to invite your partner so you can work together in the same lab journal. When finished, you can submit your lab journal and it will be graded. 
+We have made online templates in Vocareum available. For this, we made use of Jupyter Notebook. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). When you start the first experiment, you have to invite your partner so you can work together in the same lab journal. When finished, you can submit your lab journal and it will be graded. 
