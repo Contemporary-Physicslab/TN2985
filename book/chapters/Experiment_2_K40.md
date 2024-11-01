@@ -60,7 +60,7 @@ The parameter $\mu$ is the mean number of decay processes in a time interval $\D
 Poisson probability distribution for $\mu=3$, plotted together with the histogram to which the distribution has been fitted. The probability distribution is asymmetric. The curve has been plotted as a continuous curve, but in reality the distribution only holds for integer values of k.
 ```
 
-Although Eq. {eq}`Pmu` gives a relatively simple function, it is difficult to remember how $\mu$ and *k* are placed in the expression (Advice: keep on paying attention to this!). From Eq. {eq}`Pmu` it follows that the Poisson probability distribution is determined by only a single parameter $\mu$, the mean of the distribution. Figure 2 shows the plot of a Poisson distribution for $\mu=3$. It can be
+Although Eq. {eq}`eq:Pmu` gives a relatively simple function, it is difficult to remember how $\mu$ and *k* are placed in the expression (Advice: keep on paying attention to this!). From Eq. {eq}`Pmu` it follows that the Poisson probability distribution is determined by only a single parameter $\mu$, the mean of the distribution. Figure 2 shows the plot of a Poisson distribution for $\mu=3$. It can be
 noticed immediately that the Poisson distribution is not symmetric, a property most easily seen for $\mu\leq 5$.
 
 
