@@ -60,77 +60,63 @@ The parameter $\mu$ is the mean number of decay processes in a time interval $\D
 Poisson probability distribution for $\mu=3$, plotted together with the histogram to which the distribution has been fitted. The probability distribution is asymmetric. The curve has been plotted as a continuous curve, but in reality the distribution only holds for integer values of k.
 ```
 
-Although Eq. {eq}`eq:Pmu` gives a relatively simple function, it is difficult to remember how $\mu$ and *k* are placed in the expression (Advice: keep on paying attention to this!). From Eq. {eq}`Pmu` it follows that the Poisson probability distribution is determined by only a single parameter $\mu$, the mean of the distribution. Figure 2 shows the plot of a Poisson distribution for $\mu=3$. It can be
+Although Eq. {eq}`eq:Pmu` gives a relatively simple function, it is difficult to remember how $\mu$ and *k* are placed in the expression (Advice: keep on paying attention to this!). From Eq. {eq}`eq:Pmu` it follows that the Poisson probability distribution is determined by only a single parameter $\mu$, the mean of the distribution. Figure 2 shows the plot of a Poisson distribution for $\mu=3$. It can be
 noticed immediately that the Poisson distribution is not symmetric, a property most easily seen for $\mu\leq 5$.
 
 
-An expression for $\mu$ based on the average behaviour of the radioactive decay can be obtained by multiplying the average decrease of the number of radioactive nuclei per unit of time [i.e. the activity, Eq. {eq}`A(t)`] with the time interval $\Delta t$:
+An expression for $\mu$ based on the average behaviour of the radioactive decay can be obtained by multiplying the average decrease of the number of radioactive nuclei per unit of time [i.e. the activity, Eq. {eq}`eq:A_t`] with the time interval $\Delta t$:
 
-$$
-\mu=\left|\frac{d N(t)}{d t}\right| \Delta t=\lambda N(0) e^{-\lambda t} \Delta t=\lambda N(t) \Delta t=\frac{\ln 2}{t_{1/2}}N \Delta t
-$$ (mu)
+$$ \mu=\left|\frac{d N(t)}{d t}\right| \Delta t=\lambda N(0) e^{-\lambda t} \Delta t=\lambda N(t) \Delta t=\frac{\ln 2 {t_{1/2}}N \Delta t $$ (eq:mu)
 
 Omitting the time dependence of *N* in the last part of this equation indicates that the number of radioactive nuclei only decreases negligibly in the time interval $\Delta t$. (N.b.: usually, the notation for a time interval is $\Delta t$; generally, *t* denotes a point in time.)
 
 
 Typically, in measuring radioactive decay, a counting experiment is performed. In such an experiment the number of decay processes in the time interval $\Delta t$ is counted
 by detection of the decay products. By repeating the counting many times and making a histogram of the count totals in the time intervals $\Delta t$, a distribution is obtained. This distribution will confirm the Poisson distribution.
-Apart from the mean, the standard deviation $\sigma$ is an important characteristic of the Poisson distribution. In particular, $\sigma$  determines the width of the distribution. From the definition of the standard deviation and Eq. {eq}`Pmu`, one can derive:
+Apart from the mean, the standard deviation $\sigma$ is an important characteristic of the Poisson distribution. In particular, $\sigma$  determines the width of the distribution. From the definition of the standard deviation and Eq. {eq}`eq:Pmu`, one can derive:
 
-$$
-\sigma=\sqrt{\mu}
-$$ (sigma)
+$$ \sigma=\sqrt{\mu} $$ (eq:sigma)
 
-Thus, the parameter $\mu$ is not only the mean of the distribution, but also determines its standard deviation. Equation {eq}`sigma` is often generalised to the square root rule for an individual counting experiment (not limited to radioactive decay; for example the number of babies born per month in a hospital): the uncertainty in a counting experiment with a count total of *k* is $\sqrt{k}$. The fractional uncertainty then is
+Thus, the parameter $\mu$ is not only the mean of the distribution, but also determines its standard deviation. Equation {eq}`eq:sigma` is often generalised to the square root rule for an individual counting experiment (not limited to radioactive decay; for example the number of babies born per month in a hospital): the uncertainty in a counting experiment with a count total of *k* is $\sqrt{k}$. The fractional uncertainty then is
 
-$$
-\frac{u(k)}{k}=\frac{\sqrt{k}}{k}=\frac{1}{\sqrt{k}},
-$$ (uk)
+$$ \frac{u(k)}{k}=\frac{\sqrt{k}}{k}=\frac{1}{\sqrt{k}}, $$ (eq:uk)
 
 implying it pays off to score a higher count total, for instance by using a source of higher activity or by measuring during a longer time period.
 
 
-We now address two more topics about the Poisson distribution: the normalisation of the distribution and the calculation of the mean using Eq. {eq}`Pmu`.
+We now address two more topics about the Poisson distribution: the normalisation of the distribution and the calculation of the mean using Eq. {eq}`eq:Pmu`.
 
 
 *Normalisation*: For a probability distribution the sum of all probabilities equals unity. This applies to the Poison distribution as well:
 
-$$
-\sum_{k=0}^{\infty} P_{\mu}(k)=1.
-$$ (poisson)
+$$ \sum_{k=0}^{\infty} P_{\mu}(k)=1. $$ (eq:poisson)
 
-The correctness of Eq. {eq}`poisson` immediately follows from the Taylor series expansion of $e^{\mu}: e^{\mu}=\sum_{k=0}^{\infty} \mu^{k} / k!$
+The correctness of Eq. {eq}`eq:poisson` immediately follows from the Taylor series expansion of $e^{\mu}: e^{\mu}=\sum_{k=0}^{\infty} \mu^{k} / k!$
 
 
 *Calculation of the mean*: the property that $\mu$ is the mean number of decay processes can be proven by summing over all possible value of *k*, each multiplied by the probability of its occurrence:
 
-$$
-\bar{k}=\sum_{k=0}^{\infty} k P_{\mu}(k)=\sum_{k=0}^{\infty} k \frac{\mu^{k}}{k !} e^{-\mu}=\mu e^{-\mu} \sum_{k=1}^{\infty} \frac{\mu^{k-1}}{(k-1) !}=\mu
-$$
+$$ \bar{k}=\sum_{k=0}^{\infty} k P_{\mu}(k)=\sum_{k=0}^{\infty} k \frac{\mu^{k}}{k !} e^{-\mu}=\mu e^{-\mu} \sum_{k=1}^{\infty} \frac{\mu^{k-1}}{(k-1) !}=\mu $$
 
 The Poisson distribution typically holds for a probability experiment with a very large population and a small probability of success. Here, success means that a nucleus
-decays; *k* in Eq. {eq}`Pmu` counts the number of successes. For radioactive decay the population is the very large number of radioactive nuclei (here: $N\sim 10^{18}$), while the probability of success is given by the small number $w=\frac{\Delta t}{\tau}$  (here: $w\sim 10^{-16}$). In the terminology of statistics, each individual counting experiment during a time period $\Delta t$ can be seen as *N* attempts (since there are *N* nuclei). In each counting experiment, the count is made how many of *N* attempts lead to success.
+decays; *k* in Eq. {eq}`eq:Pmu` counts the number of successes. For radioactive decay the population is the very large number of radioactive nuclei (here: $N\sim 10^{18}$), while the probability of success is given by the small number $w=\frac{\Delta t}{\tau}$  (here: $w\sim 10^{-16}$). In the terminology of statistics, each individual counting experiment during a time period $\Delta t$ can be seen as *N* attempts (since there are *N* nuclei). In each counting experiment, the count is made how many of *N* attempts lead to success.
 
 
 In the limit of very large $\mu$, the asymmetric Poisson distribution turns into the symmetric normal distribution, which in general is determined by two independent parameters (the mean and the standard deviation). For rare and random decay processes, however, only the parameter $\mu$ of the original Poisson distribution determines the resulting normal distribution (again with: mean = $\mu$ and standard deviation = $\sqrt{\mu}$ ).
 
 ## Determination of the Half-Life of $^{40}K$
-From the preceding chapter it follows that the half-life of a nuclide can be determined by measuring the activity as a function of time. One could measure the count rate and, if needed, correct it for background radiation. The corrected count rate is proportional to the activity. If the corrected count rate is plotted on a logarithmic scale versus time, then within the measurement uncertainty a straight line results with a slope $-\lambda$, from which $\tau$ can be calculated using Eq. {eq}`t1/2`.
+From the preceding chapter it follows that the half-life of a nuclide can be determined by measuring the activity as a function of time. One could measure the count rate and, if needed, correct it for background radiation. The corrected count rate is proportional to the activity. If the corrected count rate is plotted on a logarithmic scale versus time, then within the measurement uncertainty a straight line results with a slope $-\lambda$, from which $\tau$ can be calculated using Eq. {eq}`eq:t1/2`.
 
 
-However, a sample containing $^{40}K$ is not expected to show a decrease of activity during any realistic measurement time, given the half-life of billions of years. Therefore, our first method to obtain the half-life is based on Eq. {eq}`A_t`, by determining $A(0)$ and $N(0)$. Indeed, according to Eq. {eq}`A_t` we have
+However, a sample containing $^{40}K$ is not expected to show a decrease of activity during any realistic measurement time, given the half-life of billions of years. Therefore, our first method to obtain the half-life is based on Eq. {eq}`eq:A_t`, by determining $A(0)$ and $N(0)$. Indeed, according to Eq. {eq}`eq:A_t` we have
 
-$$
-\lambda=\frac{A(0)}{N(0)}
-$$
+$$ \lambda=\frac{A(0)}{N(0)} $$
 
-And from Eq. {eq}`t1/2` it follows
+And from Eq. {eq}`eq:t1/2` it follows
 
-$$
-t_{1/2}=\frac{N(0)}{A(0)} \ln 2
-$$ (N0/A0)
+$$ t_{1/2}=\frac{N(0)}{A(0)} \ln 2 $$ (eq:N0/A0)
 
-The other way of determining $\tau$ is by experimentally obtaining the histogram of count totals, each total measured during the time interval $\Delta t$. By fitting a Poisson distribution to the histogram the mean $\mu$ is obtained, which via Eq. {eq}`mu` leads to $\tau$.
+The other way of determining $\tau$ is by experimentally obtaining the histogram of count totals, each total measured during the time interval $\Delta t$. By fitting a Poisson distribution to the histogram the mean $\mu$ is obtained, which via Eq. {eq}`eq:mu` leads to $\tau$.
 
 ### Determining the number of $^{40}K$ nuclei in one gram of KCl
 
