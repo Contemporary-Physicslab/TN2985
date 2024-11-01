@@ -89,11 +89,11 @@ The relative error in the drop velocity and the drop distance of the water dropl
 ### Experimental approach
  Integration of Eq. {eq}`vterms` with neglect of the second order correction leads to
 
-$$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-3)
+$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-3)
 
 where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`s(t)IE2-3` reduces to
 
-$$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-4)
+$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-4)
 
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualisation experiment of a floating water droplet (see the next paragraph).
