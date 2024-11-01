@@ -6,9 +6,7 @@ What is the velocity of falling water droplets, how strong is the drag force exe
 ### Introduction
 Newton's second law provides the equation of motion for a falling water droplet in air:
 
-$$
-m\frac{dv}{dt}= mg - F_D - F_B
-$$ (eq:bwgvgl)
+$$ m\frac{dv}{dt}= mg - F_D - F_B $$ (eq:bwgvgl)
 
 Here $m$ is the mass of the droplet, $v$ the velocity of the droplet, $g$ the gravitational
 acceleration, $F_D$ the drag force and $F_B$ the buoyant force. The velocity is defined relative to the stationary air, taking downward as positive. The drag force is the result of friction of the droplet with the air. The buoyant force is described by Archimedes' principle. 
@@ -20,17 +18,13 @@ In the rest of this manual $F_B$ is neglected. It can be expected that $F_D$ dep
 ### Falling droplet and fluid mechanics
 It is generally assumed that the drag force $F_D$ is proportional to the velocity squared of the moving particle, in this case a water droplet:
 
-$$
-F_D = \frac{1}{2}C_D A_{\perp}\rho_{air} v^2
-$$ (eq:Fdrag)
+$$ F_D = \frac{1}{2}C_D A_{\perp}\rho_{air} v^2 $$ (eq:Fdrag)
 
 Here $C_D$ is the drag coefficient, $A_{\perp}$ the cross-sectional area of the droplet perpendicular to the direction of the velocity and $\rho_{air}$ the air density. The value of $C_D$, in turn, can also depend on the velocity. Furthermore, $C_D$ depends on the shape of the droplet.
 
 In the field of transport phenomena, one often uses characteristic numbers (in Dutch: kentallen). These are dimensionless parameters that describe a system in a general way. The Reynolds number, Re, is the most important characteristic number in fluid mechanics. It is not only used to determine whether a flow is laminar or turbulent, but also to realize similarity between two different flows. The Reynolds number is defined as:
 
-$$
-\mathrm{Re} = \frac{\rho v d}{\mu},
-$$ (eq:Re)
+$$ \mathrm{Re} = \frac{\rho v d}{\mu}, $$ (eq:Re)
 
 with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. Figure 1 gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
 
@@ -41,15 +35,11 @@ Drag coefficient $C_D$ as a function of the Re-number, for a sphere (----) and a
 
 For a low Re-number (Re $<$ 1) Stokes' law applies:
 
-$$
-F_D = 3\pi\mu d v
-$$ (eq:F_D)
+$$ F_D = 3\pi\mu d v $$ (eq:F_D)
 
 On the basis of the above, it follows for Re $<$ 1:
 
-$$
-C_D = \frac{24}{\mathrm{Re}}
-$$ (eq:C_D)
+$$ C_D = \frac{24}{\mathrm{Re}} $$ (eq:C_D)
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur2.png
 :name: Experiment2_waterdropplet:fig:flow_pattern
@@ -58,18 +48,14 @@ Flow pattern around a sphere as a function of the Re-number.
 
 With increasing Re-number, vortices arise at the rear of the particle (see {numref}`Experiment2_waterdropplet:fig:flow_pattern`). A wake is created; the boundary layer is "released" from the particle as a result of the inertia of the surrounding medium, that prefers to move straight on. N.b.: This line of reasoning assumes a medium flowing around the particle, but that situation turns out to be equivalent to the situation of the particle moving through the medium, as in the present experiment. For larger Re-numbers, the vortices increase in size and the location where the boundary layer is released moves to the front side of the particle. For even larger Re-numbers ($10^3$ - $2\cdot 10^5$, Newton regime) the wake becomes irregular and turbulent. Vortices are then carried along by the flow and new vortices are generated at the rear of the particle. Eventually, for very large Re-number, the boundary layer becomes turbulent and the location where the boundary layer is released moves back to the rear of the particle. In the transition range from the Stokes to the Newton regime, we can use the Schiller-Naumann relation:
 
-$$
-C_D = \frac{24}{\text{Re}}(1+0.15\text{Re}^{0.687})
-$$ (eq:C_D2)
+$$ C_D = \frac{24}{\text{Re}}(1+0.15\text{Re}^{0.687}) $$ (eq:C_D2)
 
 For objects moving with high velocity through a thin medium ($10^3<\text{Re}<2\times10^5$), {numref}`CdRe` shows that $C_D$ is approximately constant.
 
 ### Solution of the equation of motion
 Using {eq}`Fdrag` and $\beta = C_D A \rho /2$, {eq}`bwgvgl` can be rewritten as follows:
 
-$$
-m \frac{dv}{dt} = mg - \beta v^2
-$$ (eq:equation_of_motion)
+$$ m \frac{dv}{dt} = mg - \beta v^2$$ (eq:equation_of_motion)
 
 Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
 To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
@@ -89,15 +75,13 @@ $$ (eq:vt)
 
 This did not help much yet, as we have expressed $v(t)$ as an integral of the function $v(t)$, and that is just the quantity we are looking for. However, by repeated substitution of the expression for $v(t)$ "in itself" and by assuming that $\beta$ is time-independent, the following approximation for the drop velocity $v(t)$ is found:
 
-$$
-v(t) = v_0 + gt - \frac{1}{3}\frac{\beta}{m}g^2t^3 + \frac{2}{15}\left(\frac{\beta}{m}\right)^2 g^3t^5 + ...
-$$ (eq:vterms)
+$$ v(t) = v_0 + gt - \frac{1}{3}\frac{\beta}{m}g^2t^3 + \frac{2}{15}\left(\frac{\beta}{m}\right)^2 g^3t^5 + ...$$ (eq:vterms)
 
 The four terms in the expression for $v(t)$ are the initial velocity, the free drop term, the first order correction and the second order correction, respectively. From further theory, it follows that for this experiment the first order correction is sufficient, provided
 $t < 0.7$ s. In that case, the second order correction is negligibly small compared to the first order correction. It turns out that the this condition for the drop time is met in the experiment.\
 In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop velocity and the drop distance have been plotted, indicating the error with respect to the exact solution if only the first order term in Eq. {eq}`vterms` is included. In this, for the first order term $C_D=0.4$ has been taken, the constant value for a spherical droplet also used for {numref}`CdRe`. Given the maximum drop time of about 0.6 s, the error is less than 1\% for the drop velocity and less that 0.3\% for the drop distance. In this experiment we neglect these errors. Note that the larger values of $C_D$, occurring for the smaller velocities at the start of the drop trajectory, apparently do not play a significant role.
 
-```{figure} /figures/Experiment_2_waterdropplet/figuur4.eps
+```{figure} /figures/Experiment_2_waterdropplet/figuur4.png
 :name: Experiment2_waterdropplet:fig:relative_error
 The relative error in the drop velocity and the drop distance of the water droplet with respect to the exact result, when only taking into account the effect of the drag force to first order. The diameter of the spherical droplet is 6 mm for both curves.
 ```
@@ -105,21 +89,18 @@ The relative error in the drop velocity and the drop distance of the water dropl
 ### Experimental approach
  Integration of Eq. {eq}`vterms` with neglect of the second order correction leads to
 
-$$
-s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4
-$$ (eq:s(t)IE2-3)
+$$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-3)
 
 where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`s(t)IE2-3` reduces to
 
-$$
-s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4
-$$ (eq:s(t)IE2-4)
+$$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-4)
 
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualisation experiment of a floating water droplet (see the next paragraph).
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur5.png
 :name: Experiment2_waterdropplet:fig:drop_test
+width: 50%
 Schematic of the drop test. The droplet falls a distance $s$.
 ```
 
@@ -144,9 +125,9 @@ Determine the cross section and volume of the droplet. Determine the droplet's a
 Beware: after the experiment, all data on the memory card of the camera will be deleted. Therefore, copy photos to a memory stick or to your laptop. Otherwise, you will not have a photograph for your report.
 
 ## Assignments
-For the formulation of the problem see chapter 1, GOAL, and chapter 2, section 2.1. A separate afternoon has been scheduled for the problem analysis and setting up the measurement plan.\
+For the formulation of the problem see chapter 1, GOAL, and chapter 2, section 2.1. A separate afternoon has been scheduled for the problem analysis and setting up the measurement plan.
 
-Execute the following assignments.\
+Execute the following assignments.
 
 ```{exercise}
 
