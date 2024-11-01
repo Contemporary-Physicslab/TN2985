@@ -77,9 +77,9 @@ To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_wa
 account that $\beta$ depends on the velocity, through $C_D$. This solution has been obtained
 using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{(mg/\beta)}$ following from Eq. {eq}`equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
 
-```{figure} /figures/Experiment_2_waterdropplet/figuur3.eps
+```{figure} /figures/Experiment_2_waterdropplet/figuur3.png
 :name: Experiment2_waterdropplet:fig:velocity
-The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is \SI{6}{\milli \meter}. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`equation_of_motion`.
+The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`equation_of_motion`.
 ```
 
 An approximate solution of Eq. {eq}`equation_of_motion`, satisfying the present goal, can be obtained in the following globally sketched way. Integration of Eq. {eq}`equation_of_motion` gives
@@ -100,7 +100,7 @@ In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop ve
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur4.eps
 :name: Experiment2_waterdropplet:fig:relative_error
-The relative error in the drop velocity and the drop distance of the water droplet with respect to the exact result, when only taking into account the effect of the drag force to first order. The diameter of the spherical droplet is \SI{6}{\milli \meter} for both curves.
+The relative error in the drop velocity and the drop distance of the water droplet with respect to the exact result, when only taking into account the effect of the drag force to first order. The diameter of the spherical droplet is 6 mm for both curves.
 ```
 
 ### Experimental approach
@@ -119,39 +119,46 @@ $$
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualisation experiment of a floating water droplet (see the next paragraph).
 
-```{figure} /figures/Experiment_2_waterdropplet/figuur5.eps
+```{figure} /figures/Experiment_2_waterdropplet/figuur5.png
 :name: Experiment2_waterdropplet:fig:drop_test
 Schematic of the drop test. The droplet falls a distance $s$.
 ```
 
+
 {numref}`Experiment2_waterdropplet:fig:drop_test` gives a sketch of the setup. Using a pipette, you will make a droplet, which is released once it is big enough. With two optical detectors you will measure the time $t$ it takes for the droplet to fall $s$ meter. The drop distance $s$ equals the distance between the two detectors. The first detector is located at $s = 0$, as close as possible to the point where the droplet is released from the pipette. The position of the second detector can be varied. The detectors consist of a laser and a photodiode, together forming a light gate. When a droplet passes a light gate, the laser beam is briefly interrupted, causing a pulse in the signal of the photodiode. A counter connected to the light gates measures the time difference between the two pulses, i.e. the drop time $t$.
 
 ### Visualisation experiment
-When you ask somebody to draw a droplet, it is very likely that the person asked will draw the shape of a tear: thick at the bottom and converging to a tip at the top. A falling water droplet, however, is rather flat than elongated. A falling droplet resembles an �M\&M�. To establish the shape of a droplet that is subject to air drag and to determine its cross-sectional area $A_{\perp}$, and from this the drag coefficient $C_D$, you will take photographs of the droplet. To enable this, you will float the droplet by placing it in an upward air flow in the setup depicted in {numref}`Experiment2_waterdropplet:fig:setup`.
+When you ask somebody to draw a droplet, it is very likely that the person asked will draw the shape of a tear: thick at the bottom and converging to a tip at the top. A falling water droplet, however, is rather flat than elongated. A falling droplet resembles an "M\&M". To establish the shape of a droplet that is subject to air drag and to determine its cross-sectional area $A_{\perp}$, and from this the drag coefficient $C_D$, you will take photographs of the droplet. To enable this, you will float the droplet by placing it in an upward air flow in the setup depicted in {numref}`Experiment2_waterdropplet:fig:setup`.
 
-```{figure} /figures/Experiment_2_waterdropplet/figuur6.eps
-:name: Experiment2_waterdropplet:fig:setup
+
+```{figure} /figures/Experiment_2_waterdropplet/figuur6.png
+---
+name: Experiment2_waterdropplet
+width: 50%
+---
 Setup to float a droplet.
 ```
 
-Position the pipette a few centimeters above the wire mesh, with the blower set to about \SI{20}{\volt}, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimisation with (among other things) the blower voltage and the pipette�s position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.\\
-While floating a droplet, it is difficult to press the camera button and at the same time keep the camera setup stable. Therefore, use the camera�s remote control to take the photographs. Take quite a number of photographs and view them on your laptop or on a computer of the laboratory course.
-Determine the cross section and volume of the droplet. Determine the droplet�s absolute dimensions using an object of known size in the photograph. The floating droplet is heavier that the falling droplet, but we suppose that its shape is the same.
+Position the pipette a few centimeters above the wire mesh, with the blower set to about \SI{20}{\volt}, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimisation with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.\
+While floating a droplet, it is difficult to press the camera button and at the same time keep the camera setup stable. Therefore, use the camera's remote control to take the photographs. Take quite a number of photographs and view them on your laptop or on a computer of the laboratory course.
+Determine the cross section and volume of the droplet. Determine the droplet's absolute dimensions using an object of known size in the photograph. The floating droplet is heavier that the falling droplet, but we suppose that its shape is the same.
 Beware: after the experiment, all data on the memory card of the camera will be deleted. Therefore, copy photos to a memory stick or to your laptop. Otherwise, you will not have a photograph for your report.
 
 ## Assignments
-For the formulation of the problem see chapter 1, GOAL, and chapter 2, section 2.1. A separate afternoon has been scheduled for the problem analysis and setting up the measurement plan.\\
+For the formulation of the problem see chapter 1, GOAL, and chapter 2, section 2.1. A separate afternoon has been scheduled for the problem analysis and setting up the measurement plan.\
 
-Execute the following assignments.\\
-\begin{assignment}
+Execute the following assignments.\
+
+```{exercise}
+
 1. Find literature values for $g$, $\rho$ and $\mu$.
 1. Prove with a calculation that the buoyant force can indeed be neglected.
 1. Derive Eq. (5).
-1. The upper detector is positioned such that the droplet will be detected immediately after release, meaning this detector does not require any adjustment. Position the lower detector as low as possible. Subsequently, you can vertically align the setup with a plump line. Perform the alignment and �lock� this by carefully raising the plateau of the lab jack, so as to make it touch the bottom of the tube with gentle but sufficient force. For proper alignment, a large fraction of the droplets will be
+1. The upper detector is positioned such that the droplet will be detected immediately after release, meaning this detector does not require any adjustment. Position the lower detector as low as possible. Subsequently, you can vertically align the setup with a plump line. Perform the alignment and "lock" this by carefully raising the plateau of the lab jack, so as to make it touch the bottom of the tube with gentle but sufficient force. For proper alignment, a large fraction of the droplets will be
 detected and will result in the correct drop time on the display of measuring device.
 1. Determine the uncertainty in $s$ and $t$.
 1. Find a way to measure the mass of a droplet. Practise generating droplets and judge your skill from the width of the mass distribution of generated droplets
-(histogram). How does the measured standard deviation of the droplet mass compare to the uncertainty of a reading with the Mettler Toledo balance (\SI{0.1}{\milli \gram})? What is your final estimate for the uncertainty of the mass of the droplets used in the drop tests and how did you obtain it?
+(histogram). How does the measured standard deviation of the droplet mass compare to the uncertainty of a reading with the Mettler Toledo balance (0.1 mg)? What is your final estimate for the uncertainty of the mass of the droplets used in the drop tests and how did you obtain it?
 1. Find out how the camera and remote control work. 
 1. Find out what information can be obtained from the photograph of the droplet, and how you can determine a scaling factor to correct for the difference between the falling and floating droplet. The scaling factor $\alpha$ is defined by relating the volume the falling droplet to that of the floating droplet: $V_{fall}=\alpha^3 V_{float}$. This translates to $m_{fall}=\alpha^3 \rho_w  \frac{1}{6} \pi D^2 h$. Herein $m_{fall}$ is the mass of the falling droplet and $\rho_w$ the density of water. $D$ and $h$ are the long and short axis of the ellipse visible in the photograph of the droplet, respectively.
 1. Why is the floating droplet heavier than the falling one, and why are their shapes identical?
@@ -159,7 +166,7 @@ detected and will result in the correct drop time on the display of measuring de
 1. Express the drag coefficient $C_D$ in quantities you have measured or obtained otherwise, and derive the equation for the uncertainty of $C_D$.
 1. Make an estimate of the (range of the) literature value of $C_D$. Use {numref}`CdRe` for this.
 
-\end{assignment}
+```
 
 Set up a measurement plan and discuss this with the teaching assistant (TA). After approval by the TA, execute the plan on the scheduled afternoon.
 

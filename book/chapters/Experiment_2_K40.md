@@ -263,19 +263,18 @@ If needed, you can adapt the axes: range, labels, font size.
 Before performing the measurements, you have to set up a measurement plan. Discuss the plan with the assistant, whom you can also ask about issues that remained unclear. If needed, perform a test measurement. After approval by the assistant, you will execute the measurement plan on the afternoon scheduled. 
 
 
-\begin{thebibliography}{9}
-\bibitem{USDHEW} 
-*Radiological Health Handbook*. 
+
+[1] *Radiological Health Handbook*. 
 U.S. Department of Health Education and Welfare, 1970.
 
-\bibitem{hughes} 
-I.G. Hughes and T.P.A. Hase, 
+
+[2] I.G. Hughes and T.P.A. Hase, 
 *Measurements and their Uncertainties*.
 Oxford University Press, 2010.
 
-\bibitem{james} 
-A.M. James and M.P. Lord,
+
+[3] A.M. James and M.P. Lord,
 *MAcMillan's Chemical and Physical Data,*
 MacMillan Press, 1992
-\end{thebibliography}
+
 
