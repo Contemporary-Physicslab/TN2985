@@ -15,12 +15,12 @@ DMMs are versatile measuring instruments. These instruments are used to measure 
 The difference in price is often determined by its functionality, resolution and sensitivity. The resolution of a digital instrument is the ratio between the smallest counts and the largest counts that can be displayed. This is determined by the number of counts that can be displayed. A simple DMM often has $3\frac{1}{2}$ digits, which means that the DMM can display three  whole digits (0-9) and  an additional (first) digit which has the value 0 or $\pm 1$. As such, this DMM can display the number 0-1999, a total of 2000 counts. The resolution of this DMM is thus $\frac{1}{2000}$ or 0.05\%.
 
 
-The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mu V$ implies that signals smaller than $1\mu V$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15V$ signal using a $3\frac{1}{2}$ DMM, the best range is $20V$. This means a sensitivity of $10mV$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01mV$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200mV$ is $0.1\mu V$.
+The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mathrm{\mu V}$ implies that signals smaller than $1\mathrm{\mu V}$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15\mathrm{V}$ signal using a $3\frac{1}{2}$ DMM, the best range is 20V. This means a sensitivity of $10\mathrm{mV}$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01\mathrm{mV}$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200mV$ is $0.1\mathrm{\mu V}$.
 
 
 However, measuring $0.2\mu V$ does not mean this is the exact value you measure. This does depend on the accuracy, and the accuracy is not determined by the last digit of the DMM alone. The accuracy is often defined as ''..\% reading + ..\%range + .. counts''.
 ```{admonition} Example
-Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234V$. For the Dynatek D9100 with a $2V$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6mV$ + 1 digit ($1mV$) gives an accuracy of $7mV$. The reading should be written as: $1.234 \pm 0.007 V$. 
+Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$. For the Dynatek D9100 with a $2\mathrm{V}$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6mV$ + 1 digit ($1\mathrm{mV}$) gives an accuracy of $7\mathrm{mV}$. The reading should be written as: $1.234 \pm 0.007 \mathrm{V}$. 
 ```
 
 ```{exercise}
@@ -92,9 +92,9 @@ Explain how you will obtain the current running through the diode using circuit 
 ```{exercise}
 
 Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ resistor. 
-1. Calculate the maximum current through the $330\Omega$ resistor if the maximum dissipation in the resistors is $1W$.
+1. Calculate the maximum current through the $330\Omega$ resistor if the maximum dissipation in the resistors is $1\mathrm{W}$.
 1. What is the maximum source voltage which can be applied such that the maximum permissible dissipation is not exceeded?
-1. Calculate the voltage over the $330\Omega$ resistor if the source voltage is $20V$.
+1. Calculate the voltage over the $330\Omega$ resistor if the source voltage is $20\mathrm{V}$.
 
 ```
 
@@ -117,7 +117,7 @@ $$
 I_D(U_D)=I_0(e^{-\frac{qU}{nk_BT}}-1)
 $$
 
-where $q$ is the charge of an electron, $-1.602\cdot10^{-19}C$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
+where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
 
 ```{figure} /figures/II1/II_totaal_figuur12.png
 :name: fig:UIcharacteristic
@@ -139,7 +139,7 @@ Prepare you python script in which you collect and process your data. Carry out 
 ### Experimental phase
 Determine the exact resistance of the resistors you will use, calculate the uncertainty. \\
 Build the circuit shown in {numref}`fig:II1:volt_div-setup`.
-Start your measurements with a $6.0V$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1V-0.7V$ for $U_{diode}$. Take care of an even spread interval.
+Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1\mathrm{V}-0.7\mathrm{V}$ for $U_{diode}$. Take care of an even spread interval.
 
 ### Evaluation phase
 Run your script and determine the Boltzmann constant accordingly. You should be at least within 5\% accuracy.
@@ -194,7 +194,7 @@ The RC-circuit to charge a capacitor
 ```
 
 ```{exercise}
-1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\muF$.
+1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\mathrm{\muF}$.
 1. Calculate the time required to charge a capacitor to 90\% of the applied voltage.
 
 ```
