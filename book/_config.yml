@@ -28,11 +28,11 @@ sphinx:
     html_last_updated_fmt: '%B %-d, %Y'
   extra_extensions:
     - sphinx.ext.imgconverter
-    #- sphinx_exercise
+    - sphinx_exercise
     - jupyterbook_patches
     - download_link_replacer
     - sphinx.ext.extlinks
-    - sphinx-tudelft-theme
+    - sphinx_tudelft_theme
 
 bibtex_bibfiles: 
   - references.bib
