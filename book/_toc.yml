@@ -7,7 +7,7 @@ parts:
     chapters:
     - file: chapters/rules.md
     - file: chapters/labjournal.md
-   # - file: chapters/measurements.ipynb
+    - file: chapters/measurements.ipynb
   - caption: Experiments
     chapters:
     - file: chapters/Experiment_1_pendulum.md

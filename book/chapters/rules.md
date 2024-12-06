@@ -117,15 +117,11 @@ The worst case scenario is that a full point is deducted from that specific expe
 ## Handing in your work
 The course includes a number of assignments, in the form of lab concise papers of the experiments you have conducted, that need to be handed in. As stated, you are allowed to work in pairs but have to switch partner for the second experiment.
 
-
 Your paper must be handed in using Brightspace, where it is grade using a rubric. This will be scanned for plagiarism using TurnItIn. You ought to submit your digital lab notebook using Vocareum.
-
 
 The deadlines for submitting both versions (and, if required, improved rewrites) are set by the course administrators. In exceptional circumstances, you may be granted an extension of up to one week; to obtain one, you must apply at least one day before the original deadline and in person or by e-mail (not by telephone), with valid reasons.
 
-
 If your second lab paper is not good enough, you will be asked to submit an improved rewrite by a new deadline. In this case, you must also provide the original version again. Without that, your revised paper will not be assessed.
-
 
 If you fail to hand in and upload a paper on time, it will be marked 1 out of 10. Once you have missed the deadline, there is no point in submitting the paper at all as it will not be assessed anyway. 
 
@@ -133,7 +129,7 @@ If you fail to hand in and upload a paper on time, it will be marked 1 out of 10
 To check that you have not copied somebody else’s work, or parts of it, your paper is scanned for plagiarism. If one or more passages are found to be identical to another paper, that is treated as fraud and the Board of Examiners is informed. The board has the power to impose very severe penalties, not least excluding you from the course.
 
 ## Software
-You need to install [Arduino](https://www.arduino.cc). Furthermore, you will use LaTeX. A simple way to use LaTeX is using [Overleaf](https://www.overleaf.com).
+You need to install <a href = "https://www.arduino.cc" target="_blank">Arduino</a>. Furthermore, you will use LaTeX. A simple way to use LaTeX is using [Overleaf](https://www.overleaf.com).
 
 ## Contact
 For advice, or to make complaints, please contact:\
