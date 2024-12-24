@@ -22,7 +22,7 @@ Schematic representation of a diffraction grating. Typical measurements are 5x5 
 Typical measurements are 5x5 cm and a typical value for the number of lines per mm is in the range 100-1000. A diffraction grating can be either transmissive or or reflective, known, respectively, as a transmission or a reflection grating. 
 
 #### What does a diffraction grating do?
-A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`fig:Transmissive_grating` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the $\text{0^{th}}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the $\text{1^{st}}$ order diffraction patterns. These patters can repeat itself multiple times ($\text{2^{nd}}$ order, $\text{3^{rd}}$ order, ...).
+A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`fig:Transmissive_grating` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the $0^{th}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the $1^{st}$ order diffraction patterns. These patters can repeat itself multiple times ($2^{nd}$ order, $3^{rd}$ order, ...).
 
 
 ```{figure} /figures/II8/II_8_figuur2_EN.png
@@ -31,9 +31,6 @@ A diffraction grating is an optical instrument which diffracts light. The larger
 
 A transmissive grating in operation. White light with a continuous colour spectrum from blue to red is split into multiple colours and orders.
 ```
-
-
-
 
 The purpose of a diffraction grating is to study the colour spectrum of a light source. As seen in {numref}`fig:Transmissive_grating`, the vertical distance on the screen is a measurement for the wavelength of a certain colour. A diffraction grating also allows one to select a desired colour from white light.
 
@@ -48,14 +45,11 @@ This experiment focuses on the wave characteristics of light. The terms interfer
 Two characteristic wave patterns. Left: the extension of circular (spherical) shaped wavefronts. Right: plane (flat) waves moving to the right (= parallel light bundle).
 ```
 
-
-
 The relation with light rays is that the propagation direction of the light in a certain point is displayed by a light ray. If a wave propagates in an isotropic medium, then the direction of it is perpendicular to the wavefront. See {numref}`fig:Wave_patterns`.
 
 #### Huygens principle (Wolfson, ch. 32.5)
 
 *All points on a wavefront work like point sources for spherically shaped 'waves' which propagate with lightspeed in the medium. A short time $\Delta t$ later, a new wavefront is formed by the surface that touches all 'waves' which propagate in the previous direction of propagation.*
-
 
 {numref}`fig:Wave_propagation` shows how this works. On the left we see how a spherically shaped wavefront at $t$ develops itself to a new spherically shaped wavefront at $t + \Delta t$. For four points on the wavefront at $t = t$ is shown how the waves develop themselves in a time interval $\Delta t$. The new wavefront at $t + \Delta t$ is the 'tangent' line to these waves.
 
@@ -67,16 +61,12 @@ The relation with light rays is that the propagation direction of the light in a
 Propagation of a wavefront according to the Huygens principle. Left a spherically shaped wavefront and right a plane wavefront.
 ```
 
-
-
-
 The image on the right in {numref}`fig:Wave_propagation` displays the same way of propagation for a plane wavefront. As said, the Huygens Principle explains the diffraction of light. For the first application, we look at what happens when a plane wave falls on a screen with a hole in it. The diameter of the hole is comparable with or smaller than the wavelength of the light. See {numref}`fig:plane_to_source`.
 
 
 ```{figure} /figures/II8/II_8_figuur5.png
-
-:width 80%
-:name fig:plane_to_source
+:width: 80%
+:name: fig:plane_to_source
 
 A plane light wave falls on a screen with a hole with a diameter comparable to the wavelength. According to the principle of Huygens, the hole acts like a point source that emits spherically extending waves.
 ```
