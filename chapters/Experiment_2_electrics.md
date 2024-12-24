@@ -25,6 +25,7 @@ Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$.
 ```
 
 ```{exercise}
+:class: dropdown
 
 1. The accuracy of a DMM in the range of $10V$ is defined as: 0.0015\% of the reading and 0.0004\% of the range. The reading on the DMM is $5.00000V$. What is the accuracy of the measurement?
 1. What is the sensitivity of a measurement using a $4\frac{1}{2}$ digit DMM with a $200mV$ range?
@@ -34,6 +35,8 @@ Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$.
 A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has an  infinite internal resistance and an ammeter no resistance. In many cases these assumptions are valid. However, in cases where the circuit resistance is approximately 0 or $\infty$, we can not neglect the features of the meters. Using these meters inevitably changes the features of the circuits itself, see {numref}`fig:II:circuits`. 
 
 ```{exercise}
+:class: dropdown
+
 
 {numref}`fig:II:circuits` shows two circuits in which the current through and voltage over a diode is measured. 
 
@@ -89,12 +92,16 @@ The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```
 
 ```{exercise}
+:class: dropdown
+
 
 Explain how you will obtain the current running through the diode using circuit {numref}`fig:II1:volt_div-setup`.
 
 ```
 
 ```{exercise}
+:class: dropdown
+
 
 Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ resistor. 
 1. Calculate the maximum current through the $330\Omega$ resistor if the maximum dissipation in the resistors is $1\mathrm{W}$.
@@ -104,6 +111,8 @@ Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ re
 ```
 
 ```{exercise}
+:class: dropdown
+
 
 A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about $1M\Omega$ in the dark and a resistance of about $1k\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
 1. What value should the Ohmic resistor ideally have? [hint: Physicist often use extreme cases to calculate what happens (0,$\infty$,R$_{LDR}$)].
@@ -203,6 +212,8 @@ The RC-circuit to charge a capacitor
 ```
 
 ```{exercise}
+:class: dropdown
+
 1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\mathrm{\muF}$.
 1. Calculate the time required to charge a capacitor to 90\% of the applied voltage.
 
@@ -268,6 +279,8 @@ To display a signal, it is first written to memory, after which it is shown on a
 To study a signal effectively, two settings are important: the vertical sensitivity and the temporal axis. The former refers to the set vertical range in Volts per division ($V/div$), The temporal resolution is measured in $s/div$, where a fewer seconds per division means that higher frequency signals can be seen.
 
 ```{exercise}
+:class: dropdown
+
 ```{figure} /figures/II1/II_4_figuur43.png
 :name: ii4:fig:blokgolf
 :width: 70%
@@ -290,6 +303,8 @@ Determine the period, top-to-top amplitude and the pulse length.
 To read a signal effectively, it helps if the scope is not continuously updating the screen real-time. Triggering is a tool designed for this purpose. When a trigger level is set, the oscilloscope only starts to display a signal when it reaches that setpoint. The triggerlevel can be approached from the top or bottom, and must be configured by the slope+ or slope- setting.
 
 ```{exercise}
+:class: dropdown
+
 - Draw how the signal shown in {numref}`ii4:fig:driehoeksgolf` will be displayed when it continues on the left side on the screen if it reaches the end on the right.
 - The vertical sensitivity is set to $0.2V/div$. The scope is set to trigger at $0.35V$. Draw the signal as seen on the scope.
 
