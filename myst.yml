@@ -1,0 +1,26 @@
+version: 1
+project:
+  title: Introduction to Experimentation in Physics (TN2985)
+  authors:
+    - name: Freek Pols
+  bibliography:
+    - references.bib
+  toc:
+    - file: intro.md
+    - title: General
+      children:
+        - file: chapters\rules.md
+        - file: chapters\labjournal.md
+        - file: chapters\measurements.ipynb
+    - title: Experiments
+      children:
+        - file: chapters\Experiment_1_pendulum.md
+        - file: chapters\Experiment_2_electrics.md
+        - file: chapters\Experiment_2_K40.md
+        - file: chapters\Experiment_2_spectral_lines.md
+        - file: chapters\Experiment_2_waterdropplet.md
+site:
+  options:
+    logo: figures/TUDelft_logo_rgb.png
+    favicon: figures/favicon.ico
+  template: book-theme

@@ -1,10 +1,9 @@
 # Experiment 1: Determining *g*
 
-```{figure} /figures/Setup_exp_1.eps
----
-name: fig:exp:g
-width: 50%
----
+```{figure} figures/Setup_exp_1.png
+:name: fig:exp:g
+:width: 70%
+
 The setup of both experiments
 ```
 
