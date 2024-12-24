@@ -75,9 +75,8 @@ A plane light wave falls on a screen with a hole with a diameter comparable to t
 In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson you can also see how the intensity of the light.
 
 ```{figure} /figures/II8/II_8_figuur6.png
-
-:width 80%
-:name fig:two_point_sources
+:width: 80%
+:name: fig:two_point_sources
 
 A plane light wave falls on a screen with two holes. These holes work like point sources that emit spherically propagating waves in phase. Both waves interfere constructively in point P in this situation.
 ```
@@ -111,9 +110,8 @@ What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in 
 In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu m$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
 
 ```{figure} /figures/II8/II_8_figuur7.png
-
-:width 80%
-:name fig:three_point_sources
+:width: 80%
+:name: fig:three_point_sources
 
 The upper part of this figure is identical to {numref}`fig:two_point_sources`, the only difference is that the point P is now infinitely far away from the sources. There is constructive interference in point P. The bottom right part of the figure shows that extra holes with spacing $d$ also contribute to  the constructive interference. The slanted striped lines on the right side of the figure indicate the development of plane wavefronts (parallel bundle).
 ```
@@ -143,8 +141,8 @@ At the derivation of eqn. {eq}`eq:order_of_interference` it is assumed that the 
 
 
 ```{figure} /figures/II8/II_8_figuur8.png
-:width 80%
-:name fig:Grating_reflection
+:width: 80%
+:name: fig:Grating_reflection
 
 onstruction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle.
 ```
@@ -177,8 +175,8 @@ A direct measurement of the direction of a parallel bundle will not be very accu
 
 
 ```{figure} /figures/II8/II_8_figuur9.png
-:width 80%
-:name fig:Course_of_light
+:width: 80%
+:name: fig:Course_of_light
 
 The course of the wavefronts at the focusing of a light bundle with a plane wavefront. On the right, the relation between the direction of the bundle and the position of the focal point is shown.
 ```
@@ -192,8 +190,8 @@ At the derivation of eqn. {eq}`eq:reflection_angle_um` we assume that the incide
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
 
 ```{figure} /figures/II8/II_8_figuur10.png
-:width 80%
-:name fig:Collimation
+:width: 80%
+:name: fig:Collimation
 
 By placing the lens at the right position, the source is collimated.
 ```
@@ -216,8 +214,8 @@ What is beneficial to the accuracy of the determination of the wavelength of a s
 The setup that we will use for the determination of the wavelength of the visible spectral lines of the Hg lamp is shown in {numref}`fig:II8_Setup`. This setup is also called the monochromator setup. The only moving part of the setup is the diffraction grating. The grating will be mounted on a turntable with an angle distribution that makes it possible to measure the angle (See {numref}`fig:II8_Setup`).
 
 ```{figure} /figures/II8/II_8_figuur11_EN.png
-:width 80%
-:name fig:II8_Setup
+:width: 80%
+:name: fig:II8_Setup
 
 Setup for measuring the wavelength of spectral lines.
 ```
@@ -285,11 +283,10 @@ With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurement
 Spectral lines have a certain width. It is clear that when the distance between two separate lines decreases, they will overlap and become indistinguishable from each other, at least with the naked eye. The intensity of the light as function of the wavelength is shown in {numref}`fig:Resolving_Power`. 
 
 ```{figure} /figures/II8/II_8_figuur12.png
+:width: 80%
+:name: fig:Resolving_Power
 
-:width 80%
-:name fig:Resolving_Power
-
-Caption
+Resolving power
 ```
 
 
