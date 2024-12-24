@@ -11,7 +11,7 @@ project:
   toc:
     - file: index.md
     - file: intro.md
-    children:
+      children:
         - file: chapters/rules.md
         - file: chapters/labjournal.md
     - file: chapters/measurements.ipynb
