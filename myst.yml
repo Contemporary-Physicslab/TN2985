@@ -11,13 +11,12 @@ project:
   toc:
     - file: index.md
     - file: intro.md
-    - file: General.md
-      children:
+    children:
         - file: chapters/rules.md
         - file: chapters/labjournal.md
-        - file: chapters/measurements.ipynb
+    - file: chapters/measurements.ipynb
     - file: chapters/Experiment_1_pendulum.md
-    - title: Experiments
+    - title: Second experiment
       children:
         - file: chapters/Experiment_2_electrics.md
         - file: chapters/Experiment_2_K40.md

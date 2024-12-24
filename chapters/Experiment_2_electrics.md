@@ -45,6 +45,8 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 
 ```{figure} /figures/II1/II_totaal_Figuur1.png
 :name: fig:II:circuits
+:width: 70%
+
 Two ways of measuring current and voltage through a diode
 ```
 
@@ -81,6 +83,8 @@ An advantages of this circuit is that we do not measure current directly. As the
 
 ```{figure} /figures/II1/II_1_volt_div.png
 :name: fig:II1:volt_div-setup
+:width: 70%
+
 The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```
 
@@ -122,6 +126,8 @@ where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an 
 
 ```{figure} /figures/II1/II_totaal_figuur12.png
 :name: fig:UIcharacteristic
+:width: 70%
+
 The $(U,I)$-characteristic of the diode as determined by two first year physics students (2019). The slope is used to determine the Boltzmann constant.
 ```
 
@@ -191,6 +197,8 @@ $$ (eq:RCIt)
 
 ```{figure} /figures/II1/RC_circuit.png
 :name: fig:RC_circuit
+:width: 70%
+
 The RC-circuit to charge a capacitor
 ```
 
@@ -247,6 +255,8 @@ The Agilent DSO3062A (used in this experiment) has a bandwidth of $60MHz$, meani
 
 ```{figure} /figures/II1/II_4_figuur44.png
 :name: ii4:fig:2-channel
+:width: 70%
+
 A 2-channel oscilloscope allows to compare two signal, e.g., determine the phase difference.
 ```
 
@@ -260,6 +270,8 @@ To study a signal effectively, two settings are important: the vertical sensitiv
 ```{exercise}
 ```{figure} /figures/II1/II_4_figuur43.png
 :name: ii4:fig:blokgolf
+:width: 70%
+
 Measurement of a periodic signal.
 ```
 
@@ -283,6 +295,8 @@ To read a signal effectively, it helps if the scope is not continuously updating
 
 ```{figure} /figures/II1/II_4_figuur45.png
 :name: ii4:fig:driehoeksgolf
+:width: 70%
+
 The oscilloscope displaying a saw tooth wave signal.
 ```
 ```
