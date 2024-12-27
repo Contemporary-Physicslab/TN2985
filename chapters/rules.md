@@ -2,12 +2,12 @@
 This introductory laboratory course provides you with your first experience in conducting physics experiments. This includes taking measurements, processing them, and recording the results in a short paper.
 
 ## Course content & Final grade
-The course consist of an introduction to **measurement and uncertainty** combined with an introduction to **Python** and **two experiments**. For each experiment, you will each write a paper. You are allowed to work together, however, your partner for the second experiment should be different from the person you worked with during the first experiment. This is due to the fact that an important aspect of the minor is that you will meet new people with different (educational) backgrounds. We want to stimulate this by forming new teams.
+The course consist of an introduction to **measurement and uncertainty** combined with an introduction to **Python** and **two experiments**. For each experiment, you will write a paper. You are allowed to work together, however, your partner for the second experiment should be different from the person you worked with during the first experiment. This is due to the fact that an important aspect of the minor is that you will meet new people with different (educational) backgrounds. We want to stimulate this by forming new teams.
 
 The final grade for the course is calculated by:
 
 $$
-    Grade = 0.2 \cdot M\&U + 0.4 \cdot IE_1 + 0.4 \cdot IE_2
+    \text{Grade} = 0.2 \cdot \text{M\&U} + 0.4 \cdot \text{IE$_1$} + 0.4 \cdot \text{IE$_2$}
 $$ (eq:grade)
 
 If your grade for IE2 is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
