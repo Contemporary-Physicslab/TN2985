@@ -10,19 +10,19 @@ $$
     \text{Grade} = 0.2 \cdot \text{M\&U} + 0.4 \cdot \text{IE$_1$} + 0.4 \cdot \text{IE$_2$}
 $$ (eq:grade)
 
-If your grade for IE2 is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
+If your grade for IE$_2$ is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
 
 | What | How | Teamwork | Percentage |
 | ---- | --- | -------- | ---------- |
 | M\&U | online test | individual | 20\% |
-| IE1 | paper | student pair | 40\% |
-| IE2 | paper | student pair | 40\% | 
+| IE$_1$ | paper | student pair | 40\% |
+| IE$_2$ | paper | student pair | 40\% | 
 
 ### Measurement and uncertainty
 Measurement and uncertainty is a chapter in this manual which you will have to read. There will be a number of exercises, some of which will involve the use of Python. These exercises will prepare you for the test. There is an afternoon scheduled where a TA is available for help if you have questions about measurement and uncertainty and the use of Python. However, you are allowed to work at home and consult the TA using MS Teams.
 
 
-Your knowledge of measurement and uncertainty will be assessed in an online test using Jupyter Notebooks. You are allowed to bring this manual, premade scripts, notes etc. In other words, it is an open book exam. You are not allowed to consult others during the online test.
+Your knowledge of measurement and uncertainty will be assessed in an online test using Jupyter Notebooks. You are allowed to bring this manual, premade scripts, notes etc. ,in other words, it is an open book exam. You are not allowed to consult others during the online test.
 
 ### IE$_1$
 The first experiment is the same for everyone and involves determining the gravitational acceleration $g$ within 0.5\%. You and your lab-partner ought to determine the fourth significant number of the gravitational acceleration. This experiment will help you get acquainted with experiments in physics. During two pre-scheduled afternoons you will work on a scientific paper using the RevTex-template. You are allowed to work at home, but it is mandatory to at least show a draft version. This will help you to adjust major mistakes. Such a paper is different in many elements from reports in other engineering subjects. The paper will be assessed.
@@ -34,27 +34,27 @@ The second experiment will be done pairwise. There are five experiments in total
 Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on labjournal.
 
 
-**IE-2$_a$: Determining the half-life of K-40**
+**IE$_{2a}$: Determining the half-life of K-40**
 
 Two different methods are used to determine the half-life of K-40. The literature value is used to determine which method yields the best value. However, one should consider the trade offs as well!
 
 
-**IE-2$_b$: Spectral lines of Sodium or Mercury**
+**IE$_{2b}$: Spectral lines of Sodium or Mercury**
 
 Spectral lines can be determined to identify atoms and molecules of distant stars. In this experiment you will determine the spectral lines of Sodium or Mercury using spectroscopy.
 
 
-**IE-2$_c$: Boltzmann constant and electronic instruments**
+**IE$_{2c}$: Boltzmann constant and electronic instruments**
 
-This experiment consist of two parts. You will determine the characteristics of a low pass filter and subsequently determine the Boltzmann constant (or visa versa). In the first part of the experiment you will use an oscilloscope and in the second part a digital multi meter. The experiments focus on using accurate instruments often used in physics labs (not allowed for students with a background in electronics).
+This experiment consist of two parts. You will determine the characteristics of a low pass filter and subsequently determine the Boltzmann constant (or vice versa). In the first part of the experiment you will use an oscilloscope and in the second part a digital multi meter. The experiments focus on using accurate instruments often used in physics labs (not allowed for students with a background in electronics).
 
 
-**IE-2$_d$: Waterdroplet** 
+**IE$_{2d}$: Waterdroplet** 
 
 In this experiment you will investigate two aspects of a waterdroplet: the size and shape of waterdroplet and the drag coefficient. 
 
 
-**IE-2$_e$: Surface tension**
+**IE$_{2e}$: Surface tension**
 
 In this experiment you will investigate the surface tension of water. You are free to either compare two different methods or investigate how a factor of interest (for instance temperature or sugar concentration) changes the surface tension.
 
@@ -63,7 +63,7 @@ In this experiment you will investigate the surface tension of water. You are fr
 When you enroll in the Introductory Laboratory Course you will receive a personal timetable. This timetable shows, amongst other things, the date of the lab safety test, the time and place of the experiments and the deadlines. If you fail the online safety test, you will not be allowed to take part in the rest of the course. 
 
 
-The practical sessions in the IE block cover the following topics: Python, IE-1, writing a lab report, and IE-2. 
+The practical sessions in the IE block cover the following topics: Python, IE$_1$, writing a lab report, and IE$_2$. 
 
 | Nr. | Week | Topic | Deadline | Time required | Mandatory |
 | --- | ---- | ----- | -------- | ------------- | --------- |
@@ -74,8 +74,8 @@ The practical sessions in the IE block cover the following topics: Python, IE-1,
 | 5 | 2.2 | Experiment 1 | - | 4+2 (preparation) | V |
 | 6 | 2.3 | Report writing | Hand in draft for feedback | 4 | X |
 | 7 | 3.1 | Report writing | Hand in report | 4+2 (finishing report) | V |
-| 8 | 3.2 | IE2 | - | 4+2 (assignments) | V |
-| 9 | 3.3 | IE2 | - | 4 | V |
+| 8 | 3.2 | IE$_2$ | - | 4+2 (assignments) | V |
+| 9 | 3.3 | IE$_2$ | - | 4 | V |
 | 10 | 4.1 | x | - | - | X |
 | 11 | 4.2 | Report writing | - | 4 | X |
 | 12 | 4.3 | Report writing | 27 sept hand in report | 4 + 2 (finishing report) | X |

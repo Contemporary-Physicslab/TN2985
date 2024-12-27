@@ -37,7 +37,7 @@ The structure of the lab journal is very similar to that of a scientific report.
 * Independent variable: The variable you change.
 * Dependent variable: The variable that you want to measure.
 * Controlled variable: Variables that might influence the outcomes of the experiment and thus have to be kept constant (as possible).
-* Instruments & settings:The instruments used in the experiment, and their settings. These settings may change throughout the experiment. Note the accompanied accuracy of the instruments for those particular settings in this section.
+* Instruments & settings: The instruments used in the experiment, and their settings. These settings may change throughout the experiment. Note the accompanied accuracy of the instruments for those particular settings in this section.
 * Procedure: Describe the steps that have to be carried out, or have been carried out, to do the experiment. 
 * Set up: An image, drawing or reference to the experimental setup.
 * Comments: Any comments about things that require specific attention.
