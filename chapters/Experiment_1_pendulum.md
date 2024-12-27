@@ -12,12 +12,12 @@ In this experiment you will determine the gravitational acceleration on earth, $
 
 ## Learning goal
 The physics involved is pretty easy, but devising a proper method, analysing the data, calculating the uncertainties, presenting you data in a convincing matter, writing a proper paper, probably is not. With this experiment you will learn how to: 
-1. devise a proper method 
-2. process, analyse and present your data
-3. write a concise, scientific paper on your findings
+1. Devise a proper method.
+2. Process, analyse and present your data.
+3. Write a concise, scientific paper on your findings.
 
 ## Introduction
-The gravitational force causes you to fall (accelerate) back to earth when you jump. The value of the gravitational acceleration $g$ is well known. Near the surface in the Netherlands it has a value of 9.812 $m/s^2$. How can we determine this value with simple methods but high precision ourselves?
+The gravitational force causes you to fall (accelerate) back to earth when you jump. The value of the gravitational acceleration $g$ is well known. Near the surface in the Netherlands it has a value of 9.812 m/s$^2$. How can we determine this value with simple methods but high precision ourselves?
 
 ## Theory
 ### The pendulum

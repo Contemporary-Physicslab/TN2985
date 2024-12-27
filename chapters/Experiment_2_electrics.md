@@ -12,10 +12,10 @@ The goal of the experiment is to gain experience with Digital Multi Meters (DMMs
 DMMs are versatile measuring instruments. These instruments are used to measure voltage, current, resistance, frequencies, periods, capacities, induction, temperature, features of diodes etc. Advanced DMMs have the option to be controlled using a computer.
 
 
-The difference in price is often determined by its functionality, resolution and sensitivity. The resolution of a digital instrument is the ratio between the smallest counts and the largest counts that can be displayed. This is determined by the number of counts that can be displayed. A simple DMM often has $3\frac{1}{2}$ digits, which means that the DMM can display three  whole digits (0-9) and  an additional (first) digit which has the value 0 or $\pm 1$. As such, this DMM can display the number 0-1999, a total of 2000 counts. The resolution of this DMM is thus $\frac{1}{2000}$ or 0.05\%.
+The difference in price is often determined by its functionality, resolution and sensitivity. The resolution of a digital instrument is the ratio between the smallest counts and the largest counts that can be displayed. This is determined by the number of counts that can be displayed. A simple DMM often has $3\frac{1}{2}$ digits, which means that the DMM can display three  whole digits (0-9) and  an additional (first) digit which has the value 0 or $\pm$ 1. As such, this DMM can display the number 0-1999, a total of 2000 counts. The resolution of this DMM is thus $\frac{1}{2000}$ or 0.05\%.
 
 
-The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mathrm{\mu V}$ implies that signals smaller than $1\mathrm{\mu V}$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15\mathrm{V}$ signal using a $3\frac{1}{2}$ DMM, the best range is 20V. This means a sensitivity of $10\mathrm{mV}$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01\mathrm{mV}$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200mV$ is $0.1\mathrm{\mu V}$.
+The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mathrm{\mu V}$ implies that signals smaller than $1\mathrm{\mu V}$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15\mathrm{V}$ signal using a $3\frac{1}{2}$ DMM, the best range is $\mathrm{20V}$. This means a sensitivity of $10\mathrm{mV}$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01\mathrm{mV}$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200mV$ is $0.1\mathrm{\mu V}$.
 
 
 However, measuring $0.2\mu V$ does not mean this is the exact value you measure. This does depend on the accuracy, and the accuracy is not determined by the last digit of the DMM alone. The accuracy is often defined as ''..\% reading + ..\%range + .. counts''.
@@ -53,7 +53,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 Two ways of measuring current and voltage through a diode
 ```
 
-In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}A \xrightarrow{} 10^{-8}A$). Therefore we measure the current indirectly, using a voltage divider.
+In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}$A $\xrightarrow{} 10^{-8}$A). Therefore we measure the current indirectly, using a voltage divider.
 
 ### Voltage divider
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
@@ -86,7 +86,7 @@ An advantages of this circuit is that we do not measure current directly. As the
 
 ```{figure} /figures/II1/II_1_volt_div.png
 :name: fig:II1:volt_div-setup
-:width: 70%
+:width: 50%
 
 The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```
@@ -114,9 +114,9 @@ Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ re
 :class: dropdown
 
 
-A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about $1M\Omega$ in the dark and a resistance of about $1k\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
+A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about 1M$\Omega$ in the dark and a resistance of about 1k$\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
 1. What value should the Ohmic resistor ideally have? [hint: Physicist often use extreme cases to calculate what happens (0,$\infty$,R$_{LDR}$)].
-1. In our experiment the diode has a resistance of more than $1M\Omega$. Why is it not wise to choose $R_1>1M\Omega$?
+1. In our experiment the diode has a resistance of more than 1M$\Omega$. Why is it not wise to choose $R_1>$1M$\Omega$?
 
 
 ```
@@ -128,7 +128,7 @@ A diode is a semiconductor. In a semiconductor the energy of the electrons are d
 The Boltzmann distribution of the energy of the electrons, and the presence of a barrier is given by a theoretical formula that relates the applied voltage over and the current through a diode. This is an exponential function given by:
 
 $$
-I_D(U_D)=I_0(e^{-\frac{qU}{nk_BT}}-1)
+I_D(U_D)=I_0\left(e^{-\frac{qU}{nk_BT}}-1\right)
 $$
 
 where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
@@ -153,15 +153,17 @@ Prepare you python script in which you collect and process your data. Carry out 
 1. Setup a single cell for calculating the Boltzmann constant and its uncertainty.
 
 ### Experimental phase
-Determine the exact resistance of the resistors you will use, calculate the uncertainty. \\
+Determine the exact resistance of the resistors you will use, calculate the uncertainty.
 Build the circuit shown in {numref}`fig:II1:volt_div-setup`.
-Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1\mathrm{V}-0.7\mathrm{V}$ for $U_{diode}$. Take care of an even spread interval.
+Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1\mathrm{V}-0.6\mathrm{V}$ for $U_{diode}$. Take care of an even spread interval.
 
 ### Evaluation phase
 Run your script and determine the Boltzmann constant accordingly. You should be at least within 5\% accuracy.
 
 **Part 2: RC-circuits**
-The  goal  of  the  experiment  is  to  gain  experience  with  Oscilloscopes with  an  experiment in which you do measurements on a RC-circuit. You first determine the value of a capacitor and subsequently build and measure a low pass filter.
+
+
+The  goal  of  the  experiment  is  to  gain  experience  with  oscilloscopes with  an  experiment in which you do measurements on a RC-circuit. You first determine the value of a capacitor and subsequently build and measure a low pass filter.
 ## Background
 
 ### Capacitors and RC-circuits
@@ -198,7 +200,7 @@ $$
 I(t) = \frac{V}{R}e^{-t/RC}
 $$ (eq:RCI)
 
-The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to $3.2V$ ($63.2\\% = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
+The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to $3.2V$ ($63.2\\%$ $ = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
 
 $$
 I(t) = \frac{V}{R}e^{-t/\tau_0}
