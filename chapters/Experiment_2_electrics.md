@@ -200,7 +200,7 @@ $$
 I(t) = \frac{V}{R}e^{-t/RC}
 $$ (eq:RCI)
 
-The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to $3.2V$ ($63.2\\%$ $ = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
+The product of $R\cdot C$ is often called the RC-time, $\tau_0$. The RC-time is the time required to charge the capacitor from $0V$ to $3.2V$ ($63.2\%  = 1-e^{-1}$) of the voltage applied by the source. Equation {eq}`eq:RCI` becomes then:
 
 $$
 I(t) = \frac{V}{R}e^{-t/\tau_0}
@@ -230,7 +230,7 @@ If the frequency of the alternating voltage is very high, the capacitor can be r
 According to the theory, the voltage gain over the capacitor can be calculated by: 
 
 $$
-|\frac{V_C}{V_{in}}|=\frac{1}{\sqrt{1+(\omega RC)^2}}
+\left|\frac{V_C}{V_{in}}\right|=\frac{1}{\sqrt{1+(\omega RC)^2}}
 $$
 
 There will be a phase shift between the applied voltage and the current which is dependent on the applied frequency. According to theory, the phase shift $\phi$ is calculated by:
@@ -257,20 +257,20 @@ You can find oscilloscopes in most physics lab rooms. It is an all round measure
 As most signals in nature are analogue, these are converted to a digital signal using an Analogue-Digital-Converter (ADC). The resolution of the digital signal depends on the number of bits ($N$) in the voltage range $U_{mm}$. This range is divided in $2^N$ equal intervals.
 
 
-A usual ADC in a digital oscilloscope has $N=8$ bits (the SoundBlaster ranges from $N=12$ to 14 usually, the DAC in your MP3-player can have up to $N=18$ bits). The resolution determines the level up to which details can be distinguished. The resolution is limited by the criteria of fast ADC-conversion: for measuring signals of $10MHz$, the conversion needs to last no more than $10ns$ (in principle). In practice, combining speed and resolution is difficult. The latter means such equipment is quite expensive.
+A usual ADC in a digital oscilloscope has $N=8$ bits (the SoundBlaster ranges from $N=12$ to $14$ bits usually, the DAC in your MP3-player can have up to $N=18$ bits). The resolution determines the level up to which details can be distinguished. The resolution is limited by the criteria of fast ADC-conversion: for measuring signals of $10$MHz, the conversion needs to last no more than $10$ns (in principle). In practice, combining speed and resolution is difficult. The latter means such equipment is quite expensive.
 
 
 During this experiment, our digital oscilloscopes have $N=8$ bit resolution, such that the screen is divided in $2^8=256$ intervals vertically.
 
 
-The Agilent DSO3062A (used in this experiment) has a bandwidth of $60MHz$, meaning (in theory) signals with a period of $17ns$ can be measured. When measuring a single channel, the time-dependent signal is shown. In this setting, the vertical axis displays the voltage, and the time is shown on the horizontal axis. A 2-channel oscilloscope allows two signals to be displayed on a shared horizontal axis, with each having its own vertical axis Y1 and Y2. An example is shown in {numref}`ii4:fig:2-channel`. Such feature allows to compare the time-dependent behaviour of the signals, e.g. the relative phase-shift.
+The Agilent DSO3062A (used in this experiment) has a bandwidth of $60$MHz, meaning (in theory) signals with a period of $17$ns can be measured. When measuring a single channel, the time-dependent signal is shown. In this setting, the vertical axis displays the voltage, and the time is shown on the horizontal axis. A 2-channel oscilloscope allows two signals to be displayed on a shared horizontal axis, with each having its own vertical axis Y1 and Y2. An example is shown in {numref}`ii4:fig:2-channel`. Such feature allows to compare the time-dependent behaviour of the signals, e.g. the relative phase-shift.
 
 
 ```{figure} /figures/II1/II_4_figuur44.png
 :name: ii4:fig:2-channel
 :width: 70%
 
-A 2-channel oscilloscope allows to compare two signal, e.g., determine the phase difference.
+A 2-channel oscilloscope allows to compare two signal, e.g. determine the phase difference.
 ```
 
 To display a signal, it is first written to memory, after which it is shown on a display, which is often a Liquid Crystal Display (LCD). Several signals can be saved and subsequently compared and processed: subtract, multiply, integrate, average, etc. The data can also be saved to a PC for further processing.
@@ -297,8 +297,8 @@ A scope displays a signal as shown in {numref}`ii4:fig:blokgolf`. Its settings a
 - Coupling: DC
 
 Determine the period, top-to-top amplitude and the pulse length.
-```
-```
+
+
 (ii4:subsec:triggeren)=
 ### Triggering
 
@@ -318,14 +318,13 @@ The oscilloscope displaying a saw tooth wave signal.
 ```
 ```
 
-```
 (ii4:subsec:meten_en_rekenen)=
 ### Processing
 
-An advantage of a digital scope is that the signal can be processed right away. Various options can be selected with the MEASURE button. The most important are TIME, which has the option FREQUENCY and VOLTAGE, which has the option UTT which refers to Top-Top Voltage.
+An advantage of a digital scope is that the signal can be processed right away. Various options can be selected with the `MEASURE` button. The most important are `TIME`, which has the option `FREQUENCY` and `VOLTAGE`, which has the option `UTT` which refers to Top-Top Voltage.
 
 
-Measuring frequencies is easy to do in the time domain. The frequency can be calculated by determining the time difference between two identical (both value and slope) points on the curve. This difference is the period $T$ of the signal, its inverse $f = 1/T$ is the frequency.
+Measuring frequencies is easy to do in the time domain. The frequency can be calculated by determining the time difference between two identical (both value and slope) points on the curve. This difference is the period $T$ of the signal, its inverse $f = \frac{1}{T}$ is the frequency.
 
 
 Determination of the phase difference is similar. We need a two-channel scope. First, determine the period of the signal. Do the same for the relative shift between the signals. The ratio of the two yield the phase shift, in units of period. Multiplying by 360 results in the phase shift in degrees.
@@ -334,26 +333,26 @@ Determination of the phase difference is similar. We need a two-channel scope. F
 ## Method
 
 ### Determining the RC-time
-1. Pick any combination of R and C so that the cut-off frequency is somewhere between 100 and $1000Hz$.
-1. Build the RC-circuit, connect the oscilloscope in such a way that the GND of both the oscilloscope and  frequency generator are connected.
-1. Apply a square wave with a frequency of $\approx 1/(10\tau)$. Connect the main out with **Hi**. Make sure that the offset is $0V$.
-1. Trigger the signal. Use mode/coupling. Choose a positive slope. What happens if you alter the trigger level?
-1. Draw the signal that is displayed. 
+1. Pick any combination of R and C so that the cut-off frequency is somewhere between $100$ and $1000$Hz.
+2. Build the RC-circuit, connect the oscilloscope in such a way that the GND of both the oscilloscope and  frequency generator are connected.
+3. Apply a square wave with a frequency of $\approx 1/(10\tau)$. Connect the main out with **Hi**. Make sure that the offset is $0$V.
+4. Trigger the signal. Use mode/coupling. Choose a positive slope. What happens if you alter the trigger level?
+5. Draw the signal that is displayed. 
 
 We can determine the RC-time in various ways. We start by doing this by hand to get more familiar with the oscilloscope.
 
 1. Adjust the time division so you only see one wave.
-1. Hit 'SINGLE'. This provides a single measurement (instead of a continuous signal).
-1. Calculate the RC-time using its definition (63.2\% of the maximum applied voltage). It only has to be a rough estimate. 
-1. A more accurate value is obtained when we first determine the minimum and maximum voltage. Subsequently, we calculate $U_C = 63,2\\%\ \Delta U$. To do so, press:  Measure / Voltage / $V_{pp}$; $V_{max}$; $V_{min}$. In the lower left corner you will find the Vpp value (peak-peak), Vmax (maximum value), Vmin (minimum value).
-2. 1. Use these values to calculate $U_C = 63,2\\%\ \Delta U$.
-1. Press cursor and subsequently Track. The tracking point can be moved. You can also use a second Tracker. Set both trackers in the right position so you can determine the RC-time.
-1. There is another way to measure RC-time. You can use the rise-time. This is the time required for the signal to go from 10\% to 90\% of the maximum voltage. The RC-time is roughly $\tau=t_r/2.2$
-1. Press Measure / Time / Rise time. Use the oscilloscope to determine the rise time.
-1. Compare the three values you have found for the Rise time. Which one is most reliable? Do these values deviate from the calculated RC-time?
+2. Hit `SINGLE`. This provides a single measurement (instead of a continuous signal).
+3. Calculate the RC-time using its definition (63.2\% of the maximum applied voltage). It only has to be a rough estimate. 
+4. A more accurate value is obtained when we first determine the minimum and maximum voltage. To do so, press:  `MEASURE` / `VOLTAGE` / `$V_{pp}$`; `$V_{max}$`; `$V_{min}$`. In the lower left corner you will find the $V_{pp}$ value (peak-peak), $V_{max}$ (maximum value), $V_{min}$ (minimum value).
+5. Use these values to calculate $U_C = 63,2\% \Delta U$.
+6. Press `CURSOR` and subsequently `TRACK`. The tracking point can be moved. You can also use a second Tracker. Set both trackers in the right position so you can determine the RC-time.
+7. There is another way to measure RC-time. You can use the rise-time. This is the time required for the signal to go from 10\% to 90\% of the maximum voltage. The RC-time is roughly $\tau=t_r/2.2$
+8. Press `MEASURE` / `TIME` / `RISE TIME`. Use the oscilloscope to determine the rise time.
+9. Compare the three values you have found for the Rise time. Which one is most reliable? Do these values deviate from the calculated RC-time?
 
 ### Characteristics of a low-pass filter
-Now you know the cut-off frequency, you can determine the characteristics of a low-pass filter. Measure from two decades below cut-off frequency up to two decades above cut-off frequency the Vpp and phase shift. **Be sure to use a SINE wave now!** Per decade, obtain at least three measurements. In the decade of the cut-off frequency ($100-1000Hz$) obtain at least five measurements. Note: you thus have at least 17 measurements!
+Now you know the cut-off frequency, you can determine the characteristics of a low-pass filter. Measure from two decades below cut-off frequency up to two decades above cut-off frequency the Vpp and phase shift. **Be sure to use a SINE wave now!** Per decade, obtain at least three measurements. In the decade of the cut-off frequency ($100-1000$Hz) obtain at least five measurements. Note: you thus have at least 17 measurements!
 
 
 Plot your measurements using a logscale for the frequency. You can use the commando `plt.xscale(‘log’)`. Use this graph to determine, again, the cut-off frequency. Compare it with the calculated, theoretical value.
@@ -363,10 +362,10 @@ A Low-Pass Filter can be used to filter noise superposed over a signal. To exper
 
 - Download and open the file containing the wave with noise: $sineWaveWithNoise.xls$. This file contains macros to connect with the signal generator, therefore you must enable content in Excel if you're asked to in a banner.
 - The top of the Excel file has a few marked cells in which values can be altered, such as the amplitude ($V_{PP}$) and frequency $f$. If you wish, you can also edit the noise frequency. The graph below shows both the main signal (which we want to measure) and the noise.
-- Press the `Utility` button, then `I/O` and finally `Show USB Id`. Copy this address into cell D3 in your Excel sheet.
-- Test if everything works with a voltage of $2 V_{PP}$ and a frequency of $1 Hz$. Press `Send to Function Generator` and check on the oscilloscope if the signal from the graph is generated.
+- Press the `UTILITY` button, then `I/O` and finally `SHOW USB ID`. Copy this address into cell D3 in your Excel sheet.
+- Test if everything works with a voltage of $2$ V$_{PP}$ and a frequency of $1$ Hz. Press `SEND TO FUNCTION GENERATOR` and check on the oscilloscope if the signal from the graph is generated.
 
-The signal send to the function generator is constructed by adding a base signal with the given frequency to a sine wave with the noise frequency (initially set to 100 times the base frequency, resulting in the blue curve shown in the Excel graph. This curve should match with channel 1 on your oscilloscope.
+The signal send to the function generator is constructed by adding a base signal with the given frequency to a sine wave with the noise frequency (initially set to 100 times the base frequency), resulting in the blue curve shown in the Excel graph. This curve should match with channel 1 on your oscilloscope.
 
 1. For which frequencies do you expect the filter to work optimal, i.e. the highest signal-to-noise ratio (S/N)? What are your expectations for lower and higher frequencies?
 1. Set the frequency in Excel to the one found in the previous question, and study channel 2 of the oscilloscope. Add a picture (either a photo or a drawing) to your lab journal.
