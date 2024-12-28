@@ -1,4 +1,4 @@
-# Experiment 2B: Determination of the half-life of $^{40}K$
+# Determination of the half-life of $^{40}K$
 ## Goal
 In the first part of this experiment you will determine the half-life of the naturally occurring radioactive atomic species $^{40}K$, an isotope of the element potassium. You will do this by establishing of the activity and the number of radioactive nuclei of $^{40}K$ samples. In the second part you will establish a histogram of the number of measured decay processes and you will fit a Poisson probability function to the histogram. The fit will also yield a value of the half-life of $^{40}K$, which should be compared with the value resulting from the first part. The question is which method yields the best result and whether there is a trade-off.
 

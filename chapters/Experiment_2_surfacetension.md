@@ -1,4 +1,4 @@
-# Experiment 2E: Characteristics of surface tension
+# Characteristics of surface tension
 
 ## Goal
 The goal of this experiment is to determine the surface tension of water and compare two methods of doing so, or determine the surface tension of water as function of its temperature or as function of a variable that you are interested in (for instance, concentration of sugar). 

@@ -1,4 +1,4 @@
-# Experiment 2C: Spectral lines of Hg and Na
+# Spectral lines of Hg and Na
 
 ## Goal
 

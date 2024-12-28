@@ -1,4 +1,4 @@
-# Experiment 2D: Falling waterdroplet
+# Falling waterdroplet
 ## Goal
 What is the velocity of falling water droplets, how strong is the drag force exerted on these droplets by the surrounding air and what is their shape? These questions are addressed in this assignment. The primary goal of the experiment is to determine the drag coefficient, which is a measure for the drag force experienced by a falling water droplet in air.
 

@@ -1,4 +1,4 @@
-# Experiment 2A: Electronics and Boltzmann
+# Electronics and Boltzmann
 
 ## Goal
 This experiment consists of two parts. The goal of these experiments are to get acquainted with electronics and electronic instruments. These instruments are often used in more advanced physics labs.
