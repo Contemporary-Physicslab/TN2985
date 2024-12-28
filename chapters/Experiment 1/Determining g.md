@@ -1,4 +1,4 @@
-# Experiment 1: Determining *g*
+# Determining *g*
 
 ```{figure} figures/Setup_exp_1.png
 :name: fig:exp:g
