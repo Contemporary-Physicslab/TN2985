@@ -10,6 +10,15 @@ env:
   # You may need to change this to `BASE_URL: ''`
   BASE_URL: /${{ github.event.repository.name }}
 
+# git submodules
+- name: Checkout to branch 
+  uses: actions/checkout@v4 
+  with: 
+    ref: ${{ matrix.branch }} 
+    token: ${{ env.GH_TOKEN }} 
+    submodules: 'true'
+
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
