@@ -14,27 +14,49 @@ This course is about writing reports of your experiments during the Introductory
 ## Structure and content of a report
 We provide a LaTeX template. If you adhere to this template, all necessary content, described below, is covered.
 
-**{Title + title page:** \\ Complete and concise. Contains no pagination errors. Provides an overall picture of the report. Front, core and back matter are numbered correctly.
+**Title + title page:** 
 
-**{Summary/abstract:**  \\ Correctly and concisely summarises the report in the order topic, problem, method, results, discussion, conclusion in not more than 250 words. Can be read independently by someone with little time. No references.
+Complete and concise. Contains no pagination errors. Provides an overall picture of the report. Front, core and back matter are numbered correctly.
 
-**{Introduction:** \\ Provides background information. Includes a definition of the problem, a key question and the reason for the experiment. Explains the importance of the outcome. Briefly introduces the experimental principles and method used. Briefly describes the structure of the report. Can include a boxed text.
+**Summary/abstract:**  
 
-**{Theoretical framework:** \\ A brief theoretical framework is presented which is necessary to understand the experiment. It should be clear how the research question can be answered using this theoretical framework.  All symbols are explained.
+Correctly and concisely summarises the report in the order topic, problem, method, results, discussion, conclusion in not more than 250 words. Can be read independently by someone with little time. No references.
 
-**{Experimental method:** \\ Describes the experimental method and setup used, preferably with a clear sketch. Only a limited number of essential formulas are included, with correct references. A working formula derived from these can clarify the experiment and introduce a brief error analysis; any longer error analyses are provided in an appendix.
+**Introduction:** 
 
-**{Results (can be combined with Discussion; tables and graphs are assessed separately):** \\ Contains the results of the measurements explained under “Experimental method”, in the form of tables and graphs. These are introduced in the text. The reader is informed of the outcome. In a short report, a discussion of the results can follow immediately (see “Discussion”). The number of significant figures is correct for the error found. Good distinction between main text and any appendices; the main text can be read without referring to the appendices. Appendices are numbered and the main text contains references to them.
+Provides background information. Includes a definition of the problem, a key question and the reason for the experiment. Explains the importance of the outcome. Briefly introduces the experimental principles and method used. Briefly describes the structure of the report. Can include a boxed text.
 
-**{Discussion (can be combined with Results):**  \\ The results actually obtained are compared correctly with those expected or obtained in previous experiments. Discusses or suggests the likely causes of any anomalies. Describes the implications of the results in a way that shows that the student understands the topic.
+**Theoretical framework:** 
 
-**{Conclusion (and recommendations, if relevant):**  \\ Answers the key questions. Conclusions follow naturally from the contents of the previous sections and are presented concisely but fully. Any recommendations follow on logically from the conclusions. Can be read as a text in its own right. Contains no references.
+A brief theoretical framework is presented which is necessary to understand the experiment. It should be clear how the research question can be answered using this theoretical framework.  All symbols are explained.
 
-**{Literature/References:** \\ Entries comply with the format requirements. Contains only titles referred to in the text, and contains all of them.
+**Experimental method:** 
 
-**{Figures (graphs):** \\ Figures are numbered, are referred to in the text and do not have a title. Comprehensible in black and white. Include an informative caption (underneath). Axes are labelled with value symbols, units and possibly some text. Symbols and lines are explained in the caption, and preferable not in a legend. Error flags are either included or their absence is discussed. Scale marks (“ticks”) are legible. Only multiples of 1, 2 or 5 are used, with axes preferably including an “0” point. Figures are not “print screen” cut and paste.
+Describes the experimental method and setup used, preferably with a clear sketch. Only a limited number of essential formulas are included, with correct references. A working formula derived from these can clarify the experiment and introduce a brief error analysis; any longer error analyses are provided in an appendix.
 
-**{Tables:** \\ Tables are numbered, are referred to in the text and have an informative caption (above). Rows and columns are clearly “headed” with symbols and units. None contain constant values. (The number of significant figures is assessed under “Results”.) Tables with no more than 5 measurements should be within the text. Tables with more than 5 measurements should be given in the Appendix. 
+**Results (can be combined with Discussion; tables and graphs are assessed separately):** 
+
+Contains the results of the measurements explained under “Experimental method”, in the form of tables and graphs. These are introduced in the text. The reader is informed of the outcome. In a short report, a discussion of the results can follow immediately (see “Discussion”). The number of significant figures is correct for the error found. Good distinction between main text and any appendices; the main text can be read without referring to the appendices. Appendices are numbered and the main text contains references to them.
+
+**Discussion (can be combined with Results):** 
+
+The results actually obtained are compared correctly with those expected or obtained in previous experiments. Discusses or suggests the likely causes of any anomalies. Describes the implications of the results in a way that shows that the student understands the topic.
+
+**Conclusion (and recommendations, if relevant):**  
+
+Answers the key questions. Conclusions follow naturally from the contents of the previous sections and are presented concisely but fully. Any recommendations follow on logically from the conclusions. Can be read as a text in its own right. Contains no references.
+
+**Literature/References:** 
+
+Entries comply with the format requirements. Contains only titles referred to in the text, and contains all of them.
+
+**Figures (graphs):** 
+
+Figures are numbered, are referred to in the text and do not have a title. Comprehensible in black and white. Include an informative caption (underneath). Axes are labelled with value symbols, units and possibly some text. Symbols and lines are explained in the caption, and preferable not in a legend. Error flags are either included or their absence is discussed. Scale marks (“ticks”) are legible. Only multiples of 1, 2 or 5 are used, with axes preferably including an “0” point. Figures are not “print screen” cut and paste.
+
+**Tables:** 
+
+Tables are numbered, are referred to in the text and have an informative caption (above). Rows and columns are clearly “headed” with symbols and units. None contain constant values. (The number of significant figures is assessed under “Results”.) Tables with no more than 5 measurements should be within the text. Tables with more than 5 measurements should be given in the Appendix. 
 
 ## Structure of writing
 Writing a report is difficult. Many students struggle with it. We can not teach you how to write a report within a three-week course. However, we can provide some tips.
@@ -56,7 +78,7 @@ There are other resources as well, we provide some:
 [Reporting results](https://epdf.pub/reporting-results-a-practical-guide-for-engineers-and-scientists1bba7b6226e526348fa5b7e6019092c938071.html) van Van Aken \& Hosford provide a concise book with unwritten rules of presenting results. The book also provides a clear overview of measurement and uncertainty.
 
 **A guide:** 
-[A guide to effective writing](https://d1rkab7tlqy5f1.cloudfront.net/IO/Actueel/Boekencollectie/FACT - a guide to effective academic communication.pdf) offers guidelines for various texts. Although the focus is on Industrial Design, the essence of writing a clear and concise report is the same.
+[A guide to effective writing]('https://d1rkab7tlqy5f1.cloudfront.net/IO/Actueel/Boekencollectie/FACT - a guide to effective academic communication.pdf') offers guidelines for various texts. Although the focus is on Industrial Design, the essence of writing a clear and concise report is the same.
 
 **Nature:** 
 [Nature Physics](https://www.nature.com/nphys/for-authors/preparing-your-submission) offers, as many other journals, a list of requirements addressing text, length, figures, tables, lay-out etc. You can click on *submit article* and see the author's guidelines.
