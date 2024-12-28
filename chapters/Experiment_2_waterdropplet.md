@@ -13,7 +13,7 @@ acceleration, $F_D$ the drag force and $F_B$ the buoyant force. The velocity is 
 
 In the rest of this manual $F_B$ is neglected. It can be expected that $F_D$ depends on the velocity of the droplet. In this experiment you will determine $F_D$ for a range of occurring velocities. To this end, you will perform two experiments: 
 1. with a drop test, you will determine the position-time relation of the falling droplet
-1. with a visualisation experiment you will take photographs of a floating droplet to determine its shape.
+1. with a visualization experiment you will take photographs of a floating droplet to determine its shape.
 
 ### Falling droplet and fluid mechanics
 It is generally assumed that the drag force $F_D$ is proportional to the velocity squared of the moving particle, in this case a water droplet:
@@ -60,10 +60,10 @@ Using {eq}`Fdrag` and $\beta = C_D A \rho /2$, {eq}`bwgvgl` can be rewritten as 
 
 $$ m \frac{dv}{dt} = mg - \beta v^2$$ (eq:equation_of_motion)
 
-Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
-To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
+Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`eq:equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
+To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`eq:equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
 account that $\beta$ depends on the velocity, through $C_D$. This solution has been obtained
-using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{(mg/\beta)}$ following from Eq. {eq}`equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
+using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{(mg/\beta)}$ following from Eq. {eq}`eq:equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur3.png
 :name: Experiment2_waterdropplet:fig:velocity
@@ -72,7 +72,7 @@ using numerical methods. In the Figure it can be seen that the droplet after app
 The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`equation_of_motion`.
 ```
 
-An approximate solution of Eq. {eq}`equation_of_motion`, satisfying the present goal, can be obtained in the following globally sketched way. Integration of Eq. {eq}`equation_of_motion` gives
+An approximate solution of Eq. {eq}`eq:equation_of_motion`, satisfying the present goal, can be obtained in the following globally sketched way. Integration of Eq. {eq}`eq:equation_of_motion` gives
 
 $$
 v(t) = gt - \frac{1}{m}\int_{0}^{t} \beta (v(t'))v(t')^2 \mathrm{d}t.
@@ -85,7 +85,7 @@ $$ v(t) = v_0 + gt - \frac{1}{3}\frac{\beta}{m}g^2t^3 + \frac{2}{15}\left(\frac{
 The four terms in the expression for $v(t)$ are the initial velocity, the free drop term, the first order correction and the second order correction, respectively. From further theory, it follows that for this experiment the first order correction is sufficient, provided
 $t < 0.7$ s. In that case, the second order correction is negligibly small compared to the first order correction. It turns out that the this condition for the drop time is met in the experiment.
 
-In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop velocity and the drop distance have been plotted, indicating the error with respect to the exact solution if only the first order term in Eq. {eq}`vterms` is included. In this, for the first order term $C_D=0.4$ has been taken, the constant value for a spherical droplet also used for {numref}`CdRe`. Given the maximum drop time of about 0.6 s, the error is less than 1\% for the drop velocity and less that 0.3\% for the drop distance. In this experiment we neglect these errors. Note that the larger values of $C_D$, occurring for the smaller velocities at the start of the drop trajectory, apparently do not play a significant role.
+In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop velocity and the drop distance have been plotted, indicating the error with respect to the exact solution if only the first order term in Eq. {eq}`eq:vterms` is included. In this, for the first order term $C_D=0.4$ has been taken, the constant value for a spherical droplet also used for {numref}`CdRe`. Given the maximum drop time of about 0.6 s, the error is less than 1\% for the drop velocity and less that 0.3\% for the drop distance. In this experiment we neglect these errors. Note that the larger values of $C_D$, occurring for the smaller velocities at the start of the drop trajectory, apparently do not play a significant role.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur4.png
 :name: Experiment2_waterdropplet:fig:relative_error
@@ -95,16 +95,16 @@ The relative error in the drop velocity and the drop distance of the water dropl
 ```
 
 ### Experimental approach
- Integration of Eq. {eq}`vterms` with neglect of the second order correction leads to
+ Integration of Eq. {eq}`eq:vterms` with neglect of the second order correction leads to
 
 $ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-3)
 
-where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`s(t)IE2-3` reduces to
+where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`eq:s(t)IE2-3` reduces to
 
 $ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-4)
 
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
-$-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualisation experiment of a floating water droplet (see the next paragraph).
+$-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualization experiment of a floating water droplet (see the next paragraph).
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur5.png
 :name: Experiment2_waterdropplet:fig:drop_test
@@ -127,7 +127,7 @@ When you ask somebody to draw a droplet, it is very likely that the person asked
 Setup to float a droplet.
 ```
 
-Position the pipette a few centimeters above the wire mesh, with the blower set to about \SI{20}{\volt}, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimisation with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.\
+Position the pipette a few centimeters above the wire mesh, with the blower set to about \SI{20}{\volt}, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimization with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.\
 While floating a droplet, it is difficult to press the camera button and at the same time keep the camera setup stable. Therefore, use the camera's remote control to take the photographs. Take quite a number of photographs and view them on your laptop or on a computer of the laboratory course.
 Determine the cross section and volume of the droplet. Determine the droplet's absolute dimensions using an object of known size in the photograph. The floating droplet is heavier that the falling droplet, but we suppose that its shape is the same.
 Beware: after the experiment, all data on the memory card of the camera will be deleted. Therefore, copy photos to a memory stick or to your laptop. Otherwise, you will not have a photograph for your report.
@@ -145,7 +145,7 @@ Execute the following assignments.
 1. The upper detector is positioned such that the droplet will be detected immediately after release, meaning this detector does not require any adjustment. Position the lower detector as low as possible. Subsequently, you can vertically align the setup with a plump line. Perform the alignment and "lock" this by carefully raising the plateau of the lab jack, so as to make it touch the bottom of the tube with gentle but sufficient force. For proper alignment, a large fraction of the droplets will be
 detected and will result in the correct drop time on the display of measuring device.
 1. Determine the uncertainty in $s$ and $t$.
-1. Find a way to measure the mass of a droplet. Practise generating droplets and judge your skill from the width of the mass distribution of generated droplets
+1. Find a way to measure the mass of a droplet. Practice generating droplets and judge your skill from the width of the mass distribution of generated droplets
 (histogram). How does the measured standard deviation of the droplet mass compare to the uncertainty of a reading with the Mettler Toledo balance (0.1 mg)? What is your final estimate for the uncertainty of the mass of the droplets used in the drop tests and how did you obtain it?
 1. Find out how the camera and remote control work. 
 1. Find out what information can be obtained from the photograph of the droplet, and how you can determine a scaling factor to correct for the difference between the falling and floating droplet. The scaling factor $\alpha$ is defined by relating the volume the falling droplet to that of the floating droplet: $V_{fall}=\alpha^3 V_{float}$. This translates to $m_{fall}=\alpha^3 \rho_w  \frac{1}{6} \pi D^2 h$. Herein $m_{fall}$ is the mass of the falling droplet and $\rho_w$ the density of water. $D$ and $h$ are the long and short axis of the ellipse visible in the photograph of the droplet, respectively.
@@ -168,10 +168,10 @@ Use Python for the data processing. Ask the TA for help, if necessary.
 Write a report on the experiment, according to the guidelines of the Physics Laboratory Course. The deadline for handing in the report and the lab journal is known at the administration of the Physics Laboratory, room A001.
 
 ## Addendum taking a picture
-To take a good picture of the droplet, light is required. It must be really bright as the droplet is still moving and you get only a good picture if the shutter speed is really high. To obtain a useful picture without wasting much time, we should make the decisions rather than the camera. The camera is therefore set to *manual* with a shutter speed of 1/320 s, a diaframga of f9, and an ISO value of 400. The flashlight is turned off.
+To take a good picture of the droplet, light is required. It must be really bright as the droplet is still moving and you get only a good picture if the shutter speed is really high. To obtain a useful picture without wasting much time, we should make the decisions rather than the camera. The camera is therefore set to *manual* with a shutter speed of 1/320 s, a diafragma of f9, and an ISO value of 400. The flashlight is turned off.
 
 
-Setting the camera to manual also requires a manual focus. Choose the largest focaldistance possible (55mm) and focus on the tip of the needle of the pipet. Move the camera as close as possible towards the setup. Focussing should still be possible. 
+Setting the camera to manual also requires a manual focus. Choose the largest focal distance possible (55mm) and focus on the tip of the needle of the pipet. Move the camera as close as possible towards the setup. Focussing should still be possible. 
 
 
 By taking the picture from a small angle, you will have a light spot from one of the lamps in the background. This gives an excellent contrast to determine the circumference of the drop. Keeping the shutter release button pressed while letting the pipette drip gently gives the best chance of a usable image. Note that the drop may come towards or float away from the camera. If so, the pipette needle is in focus sharp. However, the water droplet will be out of focus. This will contribute to the measurement uncertainty. 
