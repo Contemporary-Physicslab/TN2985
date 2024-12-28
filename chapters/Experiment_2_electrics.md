@@ -37,13 +37,11 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 ```{exercise}
 :class: dropdown
 
-
 {numref}`fig:II:circuits` shows two circuits in which the current through and voltage over a diode is measured. 
 
 1. Which circuit do you use when the resistance of the diode is very small? Explain why.
 1. Which circuit do you use when the resistance of the diode is very large? Explain why.
 1. How does the resistor $R_1$ prevent blowing up the fuse of the Ammeter?
-
 ```
 
 ```{figure} /figures/II1/II_totaal_Figuur1.png
@@ -59,7 +57,7 @@ In this experiment we will determine the $(U,I)$-characteristics of a silicon di
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
 
 ```{note}
-        Series
+        Series circuit
 
 $$
 I_{t} = I_{1} = I_{2} = \frac{U_{t}}{R_{t}} = \frac{U_{1}+U_{2}}{R_{1}+R_{2}}
@@ -69,7 +67,7 @@ $$
 U_{1} = \frac{R_{1}}{R_{1}+R_{2}} U_{t}
 $$
 
-        Parallel
+        Parallel circuit
 
 $$
 I_{t} = I_{1} + I_{2} = \frac{U_{1}}{R_{1}} + \frac{U_{2}}{R_{2}}
@@ -94,31 +92,26 @@ The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```{exercise}
 :class: dropdown
 
-
 Explain how you will obtain the current running through the diode using circuit {numref}`fig:II1:volt_div-setup`.
-
 ```
 
 ```{exercise}
 :class: dropdown
 
-
 Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ resistor. 
+
 1. Calculate the maximum current through the $330\Omega$ resistor if the maximum dissipation in the resistors is $1\mathrm{W}$.
 1. What is the maximum source voltage which can be applied such that the maximum permissible dissipation is not exceeded?
 1. Calculate the voltage over the $330\Omega$ resistor if the source voltage is $20\mathrm{V}$.
-
 ```
 
 ```{exercise}
 :class: dropdown
 
-
 A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about 1M$\Omega$ in the dark and a resistance of about 1k$\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
+
 1. What value should the Ohmic resistor ideally have? [hint: Physicist often use extreme cases to calculate what happens (0,$\infty$,R$_{LDR}$)].
 1. In our experiment the diode has a resistance of more than 1M$\Omega$. Why is it not wise to choose $R_1>$1M$\Omega$?
-
-
 ```
 
 ### Semiconductor diode
@@ -304,7 +297,7 @@ Determine the period, top-to-top amplitude and the pulse length.
 
 To read a signal effectively, it helps if the scope is not continuously updating the screen real-time. Triggering is a tool designed for this purpose. When a trigger level is set, the oscilloscope only starts to display a signal when it reaches that setpoint. The triggerlevel can be approached from the top or bottom, and must be configured by the slope+ or slope- setting.
 
-```{exercise}
+````{exercise}
 :class: dropdown
 
 - Draw how the signal shown in {numref}`ii4:fig:driehoeksgolf` will be displayed when it continues on the left side on the screen if it reaches the end on the right.
@@ -316,7 +309,7 @@ To read a signal effectively, it helps if the scope is not continuously updating
 
 The oscilloscope displaying a saw tooth wave signal.
 ```
-```
+````
 
 (ii4:subsec:meten_en_rekenen)=
 ### Processing
