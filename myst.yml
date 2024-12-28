@@ -35,10 +35,11 @@ project:
         - file: chapters/Experiment 1/Labjournal.ipynb
     - title: Second experiment
       children:
-        - file: chapters/Experiment_2_electrics.md
-        - file: chapters/Experiment_2_K40.md
-        - file: chapters/Experiment_2_spectral_lines.md
-        - file: chapters/Experiment_2_waterdropplet.md
+        - file: chapters/Experiment 2/Electrics.md
+        - file: chapters/Experiment 2/K40.md
+        - file: chapters/Experiment 2/Spectral_lines.md
+        - file: chapters/Experiment 2/waterdropplet.md
+    - file: testpage.md
 
 site:
   options:
