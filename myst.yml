@@ -14,20 +14,20 @@ project:
       children:
         - file: chapters/rules.md
         - file: chapters/labjournal.md
-    - file: chapters/data analysis.md    
+    - title: Data analysis with Python
       children:
         - file: chapters/MU/External/FYPLC/book/README.md
           children:
-          - file: chapters/MU/External/FYPLC/book/Course files/Software.md
-          - file: chapters/MU/External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics.ipynb
-          - file: chapters/MU/External/FYPLC/book/Course files/Good Programming Practices/Good coding practices.ipynb
-          - file: chapters/MU/External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions.ipynb
-          - file: chapters/MU/External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control.ipynb
-          - file: chapters/MU/External/FYPLC/book/Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
-          - file: chapters/MU/External/FYPLC/book/Course files/Notebook 5/Notebook 5 Data in Python.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Software.md
+            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Good Programming Practices/Good coding practices.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
+            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 5/Notebook 5 Data in Python.ipynb
         - file: chapters/measurements.ipynb
-        - file: chapters/MU/Practice exercises.ipynb
-        - file: chapters/MU/Practice answers.ipynb
+        - file: chapters/MU/Exercises.ipynb
+        - file: chapters/MU/Answers.ipynb
     - file: chapters/Experiment_1_pendulum.md
     - title: Second experiment
       children:
@@ -37,7 +37,7 @@ project:
         - file: chapters/Experiment_2_waterdropplet.md
 site:
   options:
-    logo: figures/TUDelft_logo_rgb.png
+    logo: figures/logo.png
     favicon: figures/favicon.ico
     hide_authors: true
   template: book-theme
