@@ -26,7 +26,7 @@ In the field of transport phenomena, one often uses characteristic numbers (in D
 
 $$ \mathrm{Re} = \frac{\rho v d}{\mu}, $$ (eq:Re)
 
-with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. Figure {numref}`CdRe` gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
+with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. {numref}`CdRe` gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur1.png
 :name: CdRe
@@ -56,7 +56,7 @@ $$ C_D = \frac{24}{\text{Re}}(1+0.15\text{Re}^{0.687}) $$ (eq:C_D2)
 For objects moving with high velocity through a thin medium ($10^3<\text{Re}<2\times10^5$), {numref}`CdRe` shows that $C_D$ is approximately constant.
 
 ### Solution of the equation of motion
-Using {eq}`Fdrag` and $\beta = C_D A \rho /2$, {eq}`bwgvgl` can be rewritten as follows:
+Using {eq}`eq:Fdrag` and $\beta = C_D A \rho /2$, {eq}`eq:bwgvgl` can be rewritten as follows:
 
 $$ m \frac{dv}{dt} = mg - \beta v^2$$ (eq:equation_of_motion)
 
@@ -69,7 +69,7 @@ using numerical methods. In the Figure it can be seen that the droplet after app
 :name: Experiment2_waterdropplet:fig:velocity
 :width: 70%
 
-The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`equation_of_motion`.
+The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`eq:equation_of_motion`.
 ```
 
 An approximate solution of Eq. {eq}`eq:equation_of_motion`, satisfying the present goal, can be obtained in the following globally sketched way. Integration of Eq. {eq}`eq:equation_of_motion` gives
@@ -97,18 +97,18 @@ The relative error in the drop velocity and the drop distance of the water dropl
 ### Experimental approach
  Integration of Eq. {eq}`eq:vterms` with neglect of the second order correction leads to
 
-$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-3)
+$$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-3)
 
 where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`eq:s(t)IE2-3` reduces to
 
-$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $ (eq:s(t)IE2-4)
+$$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $$ (eq:s(t)IE2-4)
 
 In words, this says that the drop distance in air at any time is reduced with respect to the drop distance of a free fall by an amount proportional to the drop time to the fourth power. The proportionality constant includes the parameter $\beta$, which in turn is proportional to $C_D$. This result immediately suggests the experimental approach: for various drop distances $s_i$ measure the corresponding drop times $t_i$ $(i=1,2,3,...,n)$ and put the measured data points in a plot with the quantity $\Delta=s(t)-gt^2/2$ on the vertical axis and $t^4$ on the horizontal axis. A linear fit to the data points then has the slope
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualization experiment of a floating water droplet (see the next paragraph).
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur5.png
 :name: Experiment2_waterdropplet:fig:drop_test
-:width: 50%
+:width: 30%
 
 Schematic of the drop test. The droplet falls a distance $s$.
 ```
@@ -116,7 +116,7 @@ Schematic of the drop test. The droplet falls a distance $s$.
 
 {numref}`Experiment2_waterdropplet:fig:drop_test` gives a sketch of the setup. Using a pipette, you will make a droplet, which is released once it is big enough. With two optical detectors you will measure the time $t$ it takes for the droplet to fall $s$ meter. The drop distance $s$ equals the distance between the two detectors. The first detector is located at $s = 0$, as close as possible to the point where the droplet is released from the pipette. The position of the second detector can be varied. The detectors consist of a laser and a photodiode, together forming a light gate. When a droplet passes a light gate, the laser beam is briefly interrupted, causing a pulse in the signal of the photodiode. A counter connected to the light gates measures the time difference between the two pulses, i.e. the drop time $t$.
 
-### Visualisation experiment
+### Visualization experiment
 When you ask somebody to draw a droplet, it is very likely that the person asked will draw the shape of a tear: thick at the bottom and converging to a tip at the top. A falling water droplet, however, is rather flat than elongated. A falling droplet resembles an "M\&M". To establish the shape of a droplet that is subject to air drag and to determine its cross-sectional area $A_{\perp}$, and from this the drag coefficient $C_D$, you will take photographs of the droplet. To enable this, you will float the droplet by placing it in an upward air flow in the setup depicted in {numref}`Experiment2_waterdropplet:fig:setup`.
 
 
@@ -127,15 +127,17 @@ When you ask somebody to draw a droplet, it is very likely that the person asked
 Setup to float a droplet.
 ```
 
-Position the pipette a few centimeters above the wire mesh, with the blower set to about \SI{20}{\volt}, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimization with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.\
+Position the pipette a few centimeters above the wire mesh, with the blower set to about 20 Volt, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimization with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.
+
 While floating a droplet, it is difficult to press the camera button and at the same time keep the camera setup stable. Therefore, use the camera's remote control to take the photographs. Take quite a number of photographs and view them on your laptop or on a computer of the laboratory course.
+
 Determine the cross section and volume of the droplet. Determine the droplet's absolute dimensions using an object of known size in the photograph. The floating droplet is heavier that the falling droplet, but we suppose that its shape is the same.
 Beware: after the experiment, all data on the memory card of the camera will be deleted. Therefore, copy photos to a memory stick or to your laptop. Otherwise, you will not have a photograph for your report.
 
 ## Assignments
 For the formulation of the problem see chapter 1, GOAL, and chapter 2, section 2.1. A separate afternoon has been scheduled for the problem analysis and setting up the measurement plan.
 
-Execute the following assignments.
+Do the following assignments.
 
 ```{exercise}
 
