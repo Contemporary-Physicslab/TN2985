@@ -28,6 +28,7 @@ project:
         - file: chapters/measurements.ipynb
         - file: chapters/MU/Exercises.ipynb
         - file: chapters/MU/Answers.ipynb
+    - file: chapters/Report.md
     - title: First experiment    
       children:
         - file: chapters/Experiment 1/Determining g.md        
