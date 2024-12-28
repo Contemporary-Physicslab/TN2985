@@ -28,13 +28,17 @@ project:
         - file: chapters/measurements.ipynb
         - file: chapters/MU/Exercises.ipynb
         - file: chapters/MU/Answers.ipynb
-    - file: chapters/Experiment_1_pendulum.md
+    - title: First experiment    
+      children:
+        - file: chapters/Experiment 1/Determining g.md        
+        - file: chapters/Experiment 1/Labjournal.ipynb
     - title: Second experiment
       children:
         - file: chapters/Experiment_2_electrics.md
         - file: chapters/Experiment_2_K40.md
         - file: chapters/Experiment_2_spectral_lines.md
         - file: chapters/Experiment_2_waterdropplet.md
+
 site:
   options:
     logo: figures/logo.png
