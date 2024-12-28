@@ -1,0 +1,3 @@
+[submodule "chapters/MU/External/FYPLC"]
+	path = chapters/MU/External/FYPLC
+	url = https://github.com/Contemporary-Physicslab/FYPLC.git
