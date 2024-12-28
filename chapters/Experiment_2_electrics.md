@@ -209,7 +209,7 @@ The RC-circuit to charge a capacitor
 ```{exercise}
 :class: dropdown
 
-1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\mathrm{\muF}$.
+1. Calculate the RC-time when a $120k\Omega$ resistor is used in combination with a $47\mathrm{\mu F}$.
 1. Calculate the time required to charge a capacitor to 90\% of the applied voltage.
 
 ```

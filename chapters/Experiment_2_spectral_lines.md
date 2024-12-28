@@ -165,7 +165,7 @@ This is the grating equation. It follows from this equation that, if a plane wav
 $m$ can also be negative. What does this say about the relation between $i$ and $u_m$?
 ```
 
-```{exersise}
+```{exercise}
 When does eqn. {eq}`eq:order_of_interference` equal eqn. {eq}`eq:reflection_angle_um`?
 ```
 
