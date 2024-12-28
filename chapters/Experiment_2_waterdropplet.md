@@ -26,10 +26,11 @@ In the field of transport phenomena, one often uses characteristic numbers (in D
 
 $$ \mathrm{Re} = \frac{\rho v d}{\mu}, $$ (eq:Re)
 
-with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. Figure 1 gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
+with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. Figure {numref}`CdRe` gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur1.png
 :name: CdRe
+
 Drag coefficient $C_D$ as a function of the Re-number, for a sphere (----) and a disk (- - -).
 ```
 
@@ -43,6 +44,8 @@ $$ C_D = \frac{24}{\mathrm{Re}} $$ (eq:C_D)
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur2.png
 :name: Experiment2_waterdropplet:fig:flow_pattern
+:width: 80%
+
 Flow pattern around a sphere as a function of the Re-number.
 ```
 
@@ -64,6 +67,8 @@ using numerical methods. In the Figure it can be seen that the droplet after app
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur3.png
 :name: Experiment2_waterdropplet:fig:velocity
+:width: 70%
+
 The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`equation_of_motion`.
 ```
 
@@ -78,11 +83,14 @@ This did not help much yet, as we have expressed $v(t)$ as an integral of the fu
 $$ v(t) = v_0 + gt - \frac{1}{3}\frac{\beta}{m}g^2t^3 + \frac{2}{15}\left(\frac{\beta}{m}\right)^2 g^3t^5 + ...$$ (eq:vterms)
 
 The four terms in the expression for $v(t)$ are the initial velocity, the free drop term, the first order correction and the second order correction, respectively. From further theory, it follows that for this experiment the first order correction is sufficient, provided
-$t < 0.7$ s. In that case, the second order correction is negligibly small compared to the first order correction. It turns out that the this condition for the drop time is met in the experiment.\
+$t < 0.7$ s. In that case, the second order correction is negligibly small compared to the first order correction. It turns out that the this condition for the drop time is met in the experiment.
+
 In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop velocity and the drop distance have been plotted, indicating the error with respect to the exact solution if only the first order term in Eq. {eq}`vterms` is included. In this, for the first order term $C_D=0.4$ has been taken, the constant value for a spherical droplet also used for {numref}`CdRe`. Given the maximum drop time of about 0.6 s, the error is less than 1\% for the drop velocity and less that 0.3\% for the drop distance. In this experiment we neglect these errors. Note that the larger values of $C_D$, occurring for the smaller velocities at the start of the drop trajectory, apparently do not play a significant role.
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur4.png
 :name: Experiment2_waterdropplet:fig:relative_error
+:width: 70%
+
 The relative error in the drop velocity and the drop distance of the water droplet with respect to the exact result, when only taking into account the effect of the drag force to first order. The diameter of the spherical droplet is 6 mm for both curves.
 ```
 
@@ -100,7 +108,8 @@ $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can 
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur5.png
 :name: Experiment2_waterdropplet:fig:drop_test
-width: 50%
+:width: 50%
+
 Schematic of the drop test. The droplet falls a distance $s$.
 ```
 
@@ -112,10 +121,9 @@ When you ask somebody to draw a droplet, it is very likely that the person asked
 
 
 ```{figure} /figures/Experiment_2_waterdropplet/figuur6.png
----
-name: Experiment2_waterdropplet:fig:setup
-width: 50%
----
+:name: Experiment2_waterdropplet:fig:setup
+:width: 50%
+
 Setup to float a droplet.
 ```
 
