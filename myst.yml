@@ -16,7 +16,7 @@ project:
         - file: chapters/labjournal.md
     - title: Data analysis with Python
       children:
-        - file: chapters/MU/External/FYPLC/book/README.md
+        - file: chapters/MU/External/FYPLC/book/README_MINOR.md
           children:
             - file: chapters/MU/External/FYPLC/book/Course files/Software.md
             - file: chapters/MU/External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics.ipynb
@@ -38,7 +38,7 @@ project:
         - file: chapters/Experiment 2/Electrics.md
         - file: chapters/Experiment 2/K40.md
         - file: chapters/Experiment 2/Spectral_lines.md
-        - file: chapters/Experiment 2/waterdropplet.md
+        - file: chapters/Experiment 2/Waterdropplet.md
     - file: testpage.md
 
 site:
