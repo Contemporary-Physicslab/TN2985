@@ -15,20 +15,20 @@ DMMs are versatile measuring instruments. These instruments are used to measure 
 The difference in price is often determined by its functionality, resolution and sensitivity. The resolution of a digital instrument is the ratio between the smallest counts and the largest counts that can be displayed. This is determined by the number of counts that can be displayed. A simple DMM often has $3\frac{1}{2}$ digits, which means that the DMM can display three  whole digits (0-9) and  an additional (first) digit which has the value 0 or $\pm$ 1. As such, this DMM can display the number 0-1999, a total of 2000 counts. The resolution of this DMM is thus $\frac{1}{2000}$ or 0.05\%.
 
 
-The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mathrm{\mu V}$ implies that signals smaller than $1\mathrm{\mu V}$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15\mathrm{V}$ signal using a $3\frac{1}{2}$ DMM, the best range is $\mathrm{20V}$. This means a sensitivity of $10\mathrm{mV}$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01\mathrm{mV}$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200mV$ is $0.1\mathrm{\mu V}$.
+The sensitivity is the smallest change that still can be noted. A sensitivity of $1\mathrm{\mu V}$ implies that signals smaller than $1\mathrm{\mu V}$ can not be detected. The sensitivity does depend on the amplitude of the signal we want to measure. Suppose we want to measure a $15\mathrm{V}$ signal using a $3\frac{1}{2}$ DMM, the best range is $\mathrm{20V}$. This means a sensitivity of $10\mathrm{mV}$. Using a $5\frac{1}{2}$ DMM, we can get a sensitivity of $0.01\mathrm{mV}$. The ultimate sensitivity of a DMM depends on the resolution and the smallest range. Example: the sensitivity of a $6\frac{1}{2}$ digit DMM with the smallest range of $200\mathrm{mV}$ is $0.1\mathrm{\mu V}$.
 
 
-However, measuring $0.2\mu V$ does not mean this is the exact value you measure. This does depend on the accuracy, and the accuracy is not determined by the last digit of the DMM alone. The accuracy is often defined as ''..\% reading + ..\%range + .. counts''.
+However, measuring $0.2\mathrm{\mu V}$ does not mean this is the exact value you measure. This does depend on the accuracy, and the accuracy is not determined by the last digit of the DMM alone. The accuracy is often defined as ''..\% reading + ..\%range + .. counts''.
 
 ```{admonition} Example
-Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$. For the Dynatek D9100 with a $2\mathrm{V}$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6mV$ + 1 digit ($1\mathrm{mV}$) gives an accuracy of $7\mathrm{mV}$. The reading should be written as: $1.234 \pm 0.007 \mathrm{V}$. 
+Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$. For the Dynatek D9100 with a $2\mathrm{V}$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6\mathrm{mV}$ + 1 digit ($1\mathrm{mV}$) gives an accuracy of $7\mathrm{mV}$. The reading should be written as: $1.234 \pm 0.007 \mathrm{V}$. 
 ```
 
 ```{exercise}
 :class: dropdown
 
-1. The accuracy of a DMM in the range of $10V$ is defined as: 0.0015\% of the reading and 0.0004\% of the range. The reading on the DMM is $5.00000V$. What is the accuracy of the measurement?
-1. What is the sensitivity of a measurement using a $4\frac{1}{2}$ digit DMM with a $200mV$ range?
+1. The accuracy of a DMM in the range of $10\mathrm{V}$ is defined as: 0.0015\% of the reading and 0.0004\% of the range. The reading on the DMM is $5.00000\mathrm{V}$. What is the accuracy of the measurement?
+1. What is the sensitivity of a measurement using a $4\frac{1}{2}$ digit DMM with a $200\mathrm{mV}$ range?
 
 ```
 ### Ideal instruments
@@ -51,7 +51,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 Two ways of measuring current and voltage through a diode
 ```
 
-In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}$A $\xrightarrow{} 10^{-8}$A). Therefore we measure the current indirectly, using a voltage divider.
+In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}A \xrightarrow{} 10^{-8}$A). Therefore we measure the current indirectly, using a voltage divider.
 
 ### Voltage divider
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
@@ -108,10 +108,10 @@ Suppose we have a voltage divider consisting a $330\Omega$ and a $1000\Omega$ re
 ```{exercise}
 :class: dropdown
 
-A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about 1M$\Omega$ in the dark and a resistance of about 1k$\Omega$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
+A voltage divider is used as a sensor for an automatic night lamp. It circuit consist of an Ohmic resistor and a light dependent resistor (LDR) in series. The LDR has a resistance of about $1\mathrm{M\Omega}$ in the dark and a resistance of about $1\mathrm{k\Omega}$ in the light. The sensor works best when a small change in the resistance of the LDR changes the voltage of the Ohmic resistor as much as possible. 
 
 1. What value should the Ohmic resistor ideally have? [hint: Physicist often use extreme cases to calculate what happens (0,$\infty$,R$_{LDR}$)].
-1. In our experiment the diode has a resistance of more than 1M$\Omega$. Why is it not wise to choose $R_1>$1M$\Omega$?
+1. In our experiment the diode has a resistance of more than 1$\mathrm{M\Omega}$. Why is it not wise to choose $R_1>\mathrm{1M$\Omega$}?
 ```
 
 ### Semiconductor diode
