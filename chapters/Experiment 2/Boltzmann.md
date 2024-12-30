@@ -159,21 +159,18 @@ Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease t
 ### Evaluation phase
 Run your script and determine the Boltzmann constant accordingly. You should be at least within 5\% accuracy.
 
-##Part 2
-As function of temperature
+## Part 2 As function of temperature
 
 
 https://contemporary-physicslab.github.io/NP-new-style/main/Deel5/BoltzmannT.html
 
-# Boltzmann is Cold
-
-In one of the prescribed experiments, you investigated the ($V,I$) characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, you can determine the effect of temperature on the characteristic of a diode and an Ohmic resistor.
+In one of the prescribed experiments, you investigated the $(U,I)$ characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, you can determine the effect of temperature on the characteristic of a diode and an Ohmic resistor.
 
 ## Introduction
 
 Both the classical free-electron model and the quantum mechanical free-electron model lead to Ohmic behavior for the conduction of metals and semiconductors. In this experiment, the resistance is measured as a function of temperature for a metal (which satisfies the criteria of a free electron gas) and two semiconductors. By the end of the project, you are expected to interpret the measurement results according to the microscopic conduction model, where the concepts of electron mass, electron density, electron charge, and relaxation (or collision) time are addressed, along with the influence of temperature on these quantities. The conduction models must be verified or falsified through interpretation.
 
-In the microscopic picture of electrical conduction, Ohm's law results in a relationship (equation 38.12, page 1235 ref {cite}`Tippler`) between the specific resistance ($\rho$) and the effective electron mass ($m_e$), charge carrier density ($n$), elementary charge ($e$), and the time between two successive collisions ($\tau$):
+In the microscopic picture of electrical conduction, Ohm's law results in a relationship (equation 38.12, page 1235 ref `Tippler`) between the specific resistance ($\rho$) and the effective electron mass ($m_e$), charge carrier density ($n$), elementary charge ($e$), and the time between two successive collisions ($\tau$):
 
 $$\rho=\frac{m_e}{ne^2\tau}$$ (eq:elek_gel)
 
