@@ -12,7 +12,7 @@ Before you arrive at the practical, you are expected to have properly studied th
 A diffraction grating is a plate with a very large number of parallel lines on it, which are spaced an equal distance from each other. A schematic representation is shown in {numref}`fig:Diffraction_grating`.
 
 
-```{figure} /figures/II8/II_8_figuur1.png
+```{figure} /figures/Spectral/figuur1.png
 :width: 80%
 :name: fig:Diffraction_Grating
 
@@ -25,7 +25,7 @@ Typical measurements are 5x5 cm and a typical value for the number of lines per 
 A diffraction grating is an optical instrument which diffracts light. The larger the wavelength, the larger the diffraction. {numref}`fig:Transmissive_grating` shows what happens when 'white' light with a continuous colour spectrum between blue and red falls on a *transmission grating*. A part of the light goes straight ahead and remains white. This is the $0^{th}$ order diffraction pattern. Under and above of this order we see spectacular ribbons of which show a colour range from red to blue". These are the $1^{st}$ order diffraction patterns. These patters can repeat itself multiple times ($2^{nd}$ order, $3^{rd}$ order, ...).
 
 
-```{figure} /figures/II8/II_8_figuur2_EN.png
+```{figure} /figures/Spectral/figuur2_EN.png
 :width: 80%
 :name: fig:Transmissive_grating
 
@@ -38,7 +38,7 @@ The purpose of a diffraction grating is to study the colour spectrum of a light 
 This experiment focuses on the wave characteristics of light. The terms interference and diffraction are central to this. The Huygens Principle is often used to explain diffraction phenomena. This principle relates to the extension of wavefronts. A wavefront is a collection of points where the "vibration" is in the same phase. Waves in water are in fact wavefronts. If we throw a stone into the water, then we see wavefronts that extend in a circular fashion. If we look at waves washing up at the beach, we see a series of parallel wavefronts. These characteristic wavefronts are shown schematically in {numref}`fig:Wave_patterns`.
 
 
-```{figure} /figures/II8/II_8_figuur3_EN.png
+```{figure} /figures/Spectral/figuur3_EN.png
 :width: 80%
 :name: fig:Wave_patterns
 
@@ -54,7 +54,7 @@ The relation with light rays is that the propagation direction of the light in a
 {numref}`fig:Wave_propagation` shows how this works. On the left we see how a spherically shaped wavefront at $t$ develops itself to a new spherically shaped wavefront at $t + \Delta t$. For four points on the wavefront at $t = t$ is shown how the waves develop themselves in a time interval $\Delta t$. The new wavefront at $t + \Delta t$ is the 'tangent' line to these waves.
 
 
-```{figure} /figures/II8/II_8_figuur4_EN.png
+```{figure} /figures/Spectral/figuur4_EN.png
 :width: 80%
 :name: fig:Wave_propagation
 
@@ -64,7 +64,7 @@ Propagation of a wavefront according to the Huygens principle. Left a sphericall
 The image on the right in {numref}`fig:Wave_propagation` displays the same way of propagation for a plane wavefront. As said, the Huygens Principle explains the diffraction of light. For the first application, we look at what happens when a plane wave falls on a screen with a hole in it. The diameter of the hole is comparable with or smaller than the wavelength of the light. See {numref}`fig:plane_to_source`.
 
 
-```{figure} /figures/II8/II_8_figuur5.png
+```{figure} /figures/Spectral/figuur5.png
 :width: 80%
 :name: fig:plane_to_source
 
@@ -74,7 +74,7 @@ A plane light wave falls on a screen with a hole with a diameter comparable to t
 
 In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson you can also see how the intensity of the light.
 
-```{figure} /figures/II8/II_8_figuur6.png
+```{figure} /figures/Spectral/figuur6.png
 :width: 80%
 :name: fig:two_point_sources
 
@@ -109,7 +109,7 @@ What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in 
 #### Interference in "a point far away". Multiple sources.
 In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu m$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
 
-```{figure} /figures/II8/II_8_figuur7.png
+```{figure} /figures/Spectral/figuur7.png
 :width: 80%
 :name: fig:three_point_sources
 
@@ -140,7 +140,7 @@ Up until now, we have discussed the operation of a diffraction grating according
 At the derivation of eqn. {eq}`eq:order_of_interference` it is assumed that the incoming plane wave falls perpendicular into the diffraction grating. That restriction does not have to be made. The plane wave can also fall at an angle with the normal of the diffraction grating. {numref}`fig:Grating_reflection` demonstrates how the angles of the exiting bundles can be found for a parallel bundle that falls at angle $i$ with the normal of the diffraction grating.
 
 
-```{figure} /figures/II8/II_8_figuur8.png
+```{figure} /figures/Spectral/figuur8.png
 :width: 80%
 :name: fig:Grating_reflection
 
@@ -174,7 +174,7 @@ When does eqn. {eq}`eq:order_of_interference` equal eqn. {eq}`eq:reflection_angl
 A direct measurement of the direction of a parallel bundle will not be very accurate. It is far more effective if we first let the bundle fall on a positive lens. The bundle then converges to a point in the focal plane. See {numref}`fig:Course_of_light`.
 
 
-```{figure} /figures/II8/II_8_figuur9.png
+```{figure} /figures/Spectral/figuur9.png
 :width: 80%
 :name: fig:Course_of_light
 
@@ -189,7 +189,7 @@ At the derivation of eqn. {eq}`eq:reflection_angle_um` we assume that the incide
 
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
 
-```{figure} /figures/II8/II_8_figuur10.png
+```{figure} /figures/Spectral/figuur10.png
 :width: 80%
 :name: fig:Collimation
 
@@ -213,7 +213,7 @@ What is beneficial to the accuracy of the determination of the wavelength of a s
 
 The setup that we will use for the determination of the wavelength of the visible spectral lines of the Hg lamp is shown in {numref}`fig:II8_Setup`. This setup is also called the monochromator setup. The only moving part of the setup is the diffraction grating. The grating will be mounted on a turntable with an angle distribution that makes it possible to measure the angle (See {numref}`fig:II8_Setup`).
 
-```{figure} /figures/II8/II_8_figuur11_EN.png
+```{figure} /figures/Spectral/figuur11_EN.png
 :width: 80%
 :name: fig:II8_Setup
 
@@ -282,7 +282,7 @@ With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurement
 #### Resolving (separating) power
 Spectral lines have a certain width. It is clear that when the distance between two separate lines decreases, they will overlap and become indistinguishable from each other, at least with the naked eye. The intensity of the light as function of the wavelength is shown in {numref}`fig:Resolving_Power`. 
 
-```{figure} /figures/II8/II_8_figuur12.png
+```{figure} /figures/Spectral/figuur12.png
 :width: 80%
 :name: fig:Resolving_Power
 
