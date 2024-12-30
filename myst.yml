@@ -6,6 +6,12 @@ project:
   bibliography:
     - references.bib
   license: CC-BY-SA-4.0
+  exports:
+    - format: pdf
+      template: plain_latex_book # myst templates list --tex
+      output: Exports/TN2985.pdf  
+
+
   jupyter:
     lite: true
   toc:
