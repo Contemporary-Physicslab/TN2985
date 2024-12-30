@@ -4,14 +4,14 @@
 :name: fig:exp:g
 :width: 70%
 
-The setup of both experiments
+The same setup can be used for both experiments
 ```
 
 ## Experimental goal
 In this experiment you will determine the gravitational acceleration on earth, $g$. Find the fourth significant figure and determine $g$ within 0.1\% accuracy of the value established by scientists. The determined values should be compared to the literature value.
 
 ## Learning goal
-The physics involved is pretty easy, but devising a proper method, analysing the data, calculating the uncertainties, presenting you data in a convincing matter, writing a proper paper, probably is not. With this experiment you will learn how to: 
+The physics involved is pretty easy, but devising a proper method, analyzing the data, calculating the uncertainties, presenting you data in a convincing matter, writing a proper paper, probably is not. With this experiment you will learn how to: 
 1. Devise a proper method.
 2. Process, analyse and present your data.
 3. Write a concise, scientific paper on your findings.

@@ -75,15 +75,20 @@ The best resource is probably the TA. However, the available time is limited. Pr
 There are other resources as well, we provide some:
 
 **Reporting Results:**
-[Reporting results](https://epdf.pub/reporting-results-a-practical-guide-for-engineers-and-scientists1bba7b6226e526348fa5b7e6019092c938071.html) van Van Aken \& Hosford provide a concise book with unwritten rules of presenting results. The book also provides a clear overview of measurement and uncertainty.
+
+[Reporting results](https://epdf.pub/reporting-results-a-practical-guide-for-engineers-and-scientists1bba7b6226e526348fa5b7e6019092c938071.html) van Van Aken & Hosford provide a concise book with unwritten rules of presenting results. The book also provides a clear overview of measurement and uncertainty.
 
 **A guide:** 
-[A guide to effective writing]('https://d1rkab7tlqy5f1.cloudfront.net/IO/Actueel/Boekencollectie/FACT - a guide to effective academic communication.pdf') offers guidelines for various texts. Although the focus is on Industrial Design, the essence of writing a clear and concise report is the same.
+
+[A guide to effective writing](https://filelist.tudelft.nl/IO/Actueel/Boekencollectie/FACT%2520-%2520a%2520guide%2520to%2520effective%2520academic%2520communication.pdf&ved=2ahUKEwjjkaqXxM-KAxVpyAIHHTPjDV4QFnoECBQQAQ&usg=AOvVaw1Yi-Uj2zsCL4hhJXOH40wA) offers guidelines for various texts. Although the focus is on Industrial Design, the essence of writing a clear and concise report is the same.
+
 
 **Nature:** 
+
 [Nature Physics](https://www.nature.com/nphys/for-authors/preparing-your-submission) offers, as many other journals, a list of requirements addressing text, length, figures, tables, lay-out etc. You can click on *submit article* and see the author's guidelines.
 
 **Physics review:**
+
 [Physics review](https://cdn.journals.aps.org/files/styleguide-pr.pdf) provides as well a list of requirements and guidelines.
 
 ## Example
