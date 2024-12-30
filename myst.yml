@@ -41,6 +41,7 @@ project:
         - file: chapters/Experiment 2/K40.md
         - file: chapters/Experiment 2/Spectral_lines.md
         - file: chapters/Experiment 2/Waterdropplet.md
+        - file: chapters/Experiment 2/Millikan.md
     - file: testpage.md
 
 site:
