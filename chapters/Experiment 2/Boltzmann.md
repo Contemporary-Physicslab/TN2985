@@ -7,6 +7,12 @@ This experiment consists of two parts. The goal of these experiments are to get 
 
 The goal of the experiment is to gain experience with Digital Multi Meters (DMMs) with an experiment in which you determine the Boltzmann constant. We use a frequently used setup, the ''voltage divider''. 
 
+```{iframe} https://www.youtube.com/embed/AF8d72mA41M?si=-2jLw0ajdfY6VGUG
+:width: 70%
+
+This video is a great introduction to this experiment.
+```
+
 ## Background
 ### Measurements using DMMs
 DMMs are versatile measuring instruments. These instruments are used to measure voltage, current, resistance, frequencies, periods, capacities, induction, temperature, features of diodes etc. Advanced DMMs have the option to be controlled using a computer.
