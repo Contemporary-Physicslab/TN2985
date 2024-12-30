@@ -44,7 +44,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 1. How does the resistor $R_1$ prevent blowing up the fuse of the Ammeter?
 ```
 
-```{figure} /figures/II1/II_totaal_Figuur1.png
+```{figure} /figures/Boltzmann/Figuur1.png
 :name: fig:II:circuits
 :width: 70%
 
@@ -54,7 +54,7 @@ Two ways of measuring current and voltage through a diode
 In this experiment we will determine the $(U,I)$-characteristics of a silicon diode. However, during the experiment the current through the diode easily changes with 6 decades  ($10^{-2}\mathrm{A} \xrightarrow{} 10^{-8}\mathrm{A}$). Therefore we measure the current indirectly, using a voltage divider.
 
 ### Voltage divider
-In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:II1:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
+In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:Boltzmann:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
 
 ```{note}
         Series circuit
@@ -82,8 +82,8 @@ $$
 ```
 An advantages of this circuit is that we do not measure current directly. As the current changes a few decades, we approximate the original circuit (without instruments). 
 
-```{figure} /figures/II1/II_1_volt_div.png
-:name: fig:II1:volt_div-setup
+```{figure} /figures/Boltzmann/volt_div.png
+:name: fig:Boltzmann:volt_div-setup
 :width: 50%
 
 The experimental setup to determine the $(U,I)$-characteristic of the diode
@@ -92,7 +92,7 @@ The experimental setup to determine the $(U,I)$-characteristic of the diode
 ```{exercise}
 :class: dropdown
 
-Explain how you will obtain the current running through the diode using circuit {numref}`fig:II1:volt_div-setup`.
+Explain how you will obtain the current running through the diode using circuit {numref}`fig:Boltzmann:volt_div-setup`.
 ```
 
 ```{exercise}
@@ -126,7 +126,7 @@ $$
 
 where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
 
-```{figure} /figures/II1/II_totaal_figuur12.png
+```{figure} /figures/Boltzmann/figuur12.png
 :name: fig:UIcharacteristic
 :width: 70%
 
@@ -147,7 +147,7 @@ Prepare you python script in which you collect and process your data. Carry out 
 
 ### Experimental phase
 Determine the exact resistance of the resistors you will use, calculate the uncertainty.
-Build the circuit shown in {numref}`fig:II1:volt_div-setup`.
+Build the circuit shown in {numref}`fig:Boltzmann:volt_div-setup`.
 Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease the source voltage using the plot. Make sure you have at least 15 measurements in the range $0.1\mathrm{V}-0.6\mathrm{V}$ for $U_{diode}$. Take care of an even spread interval.
 
 ### Evaluation phase
