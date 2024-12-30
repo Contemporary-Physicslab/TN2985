@@ -21,9 +21,9 @@ The goal of the course "Introduction to Experimentation" is to give you a first 
 * collect, analyse and present empirical data for the purpose of scientific research
 * write a concise report on a physics experiment
 
-Rather than using extensive lectures, we provide all necessary information in this manual and make use of short movie clips in each of the chapters (click the movie symbol). This allows more freedom and do not require you to participate in aspects in lectures where the content is already familiar to you. However, if you require more help or additional information, do not hesitate to contact the teacher or any of the TA's.
+Rather than using extensive lectures, we provide all necessary information in this manual and make use of short movie clips in each of the chapters (click the movie symbol). This allows more freedom and does not require you to participate in aspects in lectures where the content is already familiar to you. 
 
-This course has been redesigned recently. If you have ideas for improvement, let us know! If you have additional questions or comments, the coordinator of the course, Freek Pols, is available every Friday morning from 9:00h to 12:00h in room A005.
+If you have ideas for improvement, let us know! You can make use of the Issue button at the top right corner. 
 
 I hope you will enjoy the physical experiments we have designed for you.
 

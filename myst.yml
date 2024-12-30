@@ -28,6 +28,7 @@ project:
         - file: chapters/measurements.ipynb
         - file: chapters/MU/Exercises.ipynb
         - file: chapters/MU/Answers.ipynb
+        - file: chapters/MU/exam.ipynb
     - file: chapters/Report.md
     - title: First experiment    
       children:
@@ -47,3 +48,6 @@ site:
     favicon: figures/favicon.ico
     hide_authors: true
   template: book-theme
+  actions:
+    - title: report issue
+      url: https://github.com/Contemporary-Physicslab/TN2985/issues
