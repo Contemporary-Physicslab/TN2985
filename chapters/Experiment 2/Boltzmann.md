@@ -159,7 +159,7 @@ Start your measurements with a $6.0\mathrm{V}$ source voltage. Slowly decrease t
 ### Evaluation phase
 Run your script and determine the Boltzmann constant accordingly. You should be at least within 5\% accuracy.
 
-**Part 2**
+##Part 2
 As function of temperature
 
 
