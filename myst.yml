@@ -12,8 +12,8 @@ project:
       output: Exports/TN2985.pdf  
 
 
-  jupyter:
-    lite: true
+  jupyter: true
+   # lite: true
   toc:
     - file: index.md
     - file: intro.md
