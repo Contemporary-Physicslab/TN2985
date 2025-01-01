@@ -196,7 +196,7 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
 ### Cryostat
 
-Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of 77K at an atmospheric pressure of 1010hPa.
+Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of $77\mathrm{K}$ at an atmospheric pressure of $1010\mathrm{hPa}$.
 
 ```{figure} Figures/BoltzmannT/Cryo_1.jpg
 ---
@@ -246,7 +246,7 @@ Here, $I_0$ is the dark current, which is determined by the probability that ele
 
 $$A e^{-\frac{E_g}{k_B T}}$$ (eq:I0)
 
-From {eq}'eq:lekstroom' and {eq}'eq:I0', it follows that:
+From {eq}`eq:lekstroom` and {eq}`eq:I0`, it follows that:
 
 $$qU = E_g - k_B T \ln \left( \frac{A}{I} \right)$$ (eq:iconst)
 
@@ -258,7 +258,7 @@ For a constant current $I$, the voltage across a diode in the forward direction 
 Sketch the voltage behavior as a function of temperature and indicate how the bandgap can be determined from this.
 ```
 
-```{Tip}
+```{tip}
 :class: dropdown
 In the original experiment, the resistance of the choke coil and diodes in the cryostat had to be measured in the temperature range from $100\mathrm{K}$ to $300\mathrm{K}$ with steps of $5\mathrm{K}$, and heated at a rate of 2 degrees per minute.
 ```
