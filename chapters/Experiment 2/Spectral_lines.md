@@ -87,6 +87,7 @@ A plane light wave falls on a screen with two holes. These holes work like point
 The next question is: what happens if there are two holes in the screen? This is shown in {numref}`fig:two_point_sources` where a plane wave falls perpendicularly from the left side on a screen with two holes (diameter $\geq$ wavelength). The distance between the holes, $d$, is three times the wavelength for instance. The plane wave causes the holes to emit spherically shaped waves in phase. The light in a point P (See {numref}`fig:two_point_sources`) is a superposition of the light that is emitted by the two sources. Both sources of light interfere with each other. The distance between the upper hole and P that is covered by the light is not the same as the distance between the bottom hole and P covered by the light. The length of the path covered by the light is different, meaning that the phase of the two waves at P is not equal. However, it is possible that the phase difference is exactly the same as a whole number times $2\pi$, as shown in {numref}`fig:two_point_sources`. The phase difference is $2\pi$ and the waves interfere constructively in P. For points just above and below P, the phase difference is different and there is no longer 100\% constructive interference. Thus the light intensity will be lower.
 
 ```{exercise}
+:class: dropdown
 Light from both sources arrive at point M. What is the path (phase) difference? What does this mean in terms of constructive or destructive interference? Does this depend on the wavelength of the light?
 ```
 
@@ -99,15 +100,17 @@ $$ (eq:order_of_interference)
 with $m$ an integer that we call the order.  
 
 ```{exercise}
+:class: dropdown
 $m$ can also be negative. What does this mean for $\theta$? What is the location of P in this case? 
 ```
 
 ```{exercise}
+:class: dropdown
 What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in the case of constructive interference?
 ```
 
 #### Interference in "a point far away". Multiple sources.
-In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu m$. In practice we work with distance in the range of 10 - 100 cm. So, we are interested in what happens in *points* that are *far away* from the sources.
+In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu \mathrm{m}$. In practice we work with distance in the range of $10 - 100 \mathrm{cm}$. So, we are interested in what happens in *points* that are *far away* from the sources.
 
 ```{figure} /figures/Spectral/figuur7.png
 :width: 80%
@@ -130,6 +133,8 @@ If we look at {numref}`fig:three_point_sources`, it is tempting to drawn lines t
 
 
 ```{exercise}
+:class: dropdown
+
 The direction of the first order diffraction of light with one certain wavelength is drawn in {numref}`fig:three_point_sources`. How do you construct the direction of the second order diffraction? Do this (in {numref}`fig:three_point_sources`).
 ```
 
