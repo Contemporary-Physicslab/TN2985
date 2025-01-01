@@ -178,7 +178,7 @@ In a metal, the electron density does not strongly depend on temperature $T$, bu
 
 Classical conduction theory predicts a temperature dependence proportional to the square root of the temperature ($\rho \sim \sqrt{T}$).
 
-The kinetic energy $E_{kin}$ of the electron is given by three degrees of freedom (i.e., movements in the x, y, and z directions), each contributing $\frac{1}{2}k_BT$ to the total energy (equipartition theorem, p 544 {cite}`Tippler`):
+The kinetic energy $E_{kin}$ of the electron is given by three degrees of freedom (i.e., movements in the x, y, and z directions), each contributing $\frac{1}{2}k_BT$ to the total energy (equipartition theorem, p 544 `Tippler`):
 
 $$E_{kin}=\frac{1}{2}mv^2=\frac{3}{2}k_BT$$ (eq:Evrijheidsgraden)
 
@@ -186,9 +186,9 @@ where $v$ is the velocity of the electron, and $k_B$ is the Boltzmann constant.
 
 In the quantum mechanical model, lattice vibrations primarily limit the collision time. Because the number of quantized lattice vibrations increases linearly with temperature at low temperatures, the collision time and therefore the specific resistance also increase linearly with temperature.
 
-For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (vgl 38.45, p 1257 {cite}`Tippler`):
+For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (vgl 38.45, p 1257 `Tippler`):
 
-$$P(E)=(e^{\frac{E_g}{k_BT}}+1)^{-1}$$ (eq:FermiDirac)
+$$P(E)=\left(e^{\frac{E_g}{k_BT}}+1\right)^{-1}$$ (eq:FermiDirac)
 
 where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
@@ -196,7 +196,7 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
 ### Cryostat
 
-Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of 77 K at an atmospheric pressure of 1010 hPa.
+Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of 77K at an atmospheric pressure of 1010hPa.
 
 ```{figure} Figures/BoltzmannT/Cryo_1.jpg
 ---
@@ -204,44 +204,62 @@ width: 50%
 name: fig_cryo
 ---
 The cryostat with electronics.
+```
 
 Between the space for the liquid nitrogen and the outer wall, there is an insulation compartment that is under vacuum, so that no heat is transferred to the liquid nitrogen through convection. Additionally, there is an absorption pump in this space that starts pumping once the compartment for the coolant is filled. The surfaces in this insulation space that face outward are also provided with a layer of super insulation that has a high reflective ability for thermal radiation.
 
-One or more samples can be attached to the sample rod in an IC socket. A heating tape wrapped around the sample holder acts as a small oven to set the temperature from the boiling point of liquid nitrogen to 350 K. A thermocouple sensor weld is also attached to the sample rod, which records the temperature of the sample holder.
+One or more samples can be attached to the sample rod in an IC socket. A heating tape wrapped around the sample holder acts as a small oven to set the temperature from the boiling point of liquid nitrogen to $350\mathrm{K}$. A thermocouple sensor weld is also attached to the sample rod, which records the temperature of the sample holder.
 
 ### Thermocouple
-The temperature is measured using a thermocouple and a readout unit. This unit measures the thermoelectric voltage of the measuring junction (a metal/metal contact) and displays the temperature in degrees Celsius on the screen. The voltage of the reference junction is automatically compensated. The reference table for a copper/constantan (type T) thermocouple is stored in the memory of this unit. With a type T thermocouple, the temperature can be reliably measured in the range from -250\degree C to +400\degree C.
+The temperature is measured using a thermocouple and a readout unit. This unit measures the thermoelectric voltage of the measuring junction (a metal/metal contact) and displays the temperature in degrees Celsius on the screen. The voltage of the reference junction is automatically compensated. The reference table for a copper/constantan (type T) thermocouple is stored in the memory of this unit. With a type T thermocouple, the temperature can be reliably measured in the range from $-250 \mathrm{\degree C}$ to $+400\mathrm{\degree C}$.
 
 ### Power Supply and DMM
 A power supply is available to drive the heating tape. The inventory of this experiment includes three digital multimeters to measure the resistance of the choke coil and the operating points of the diode.
 
 ## Tasks
-{Exercise} The classical free electron model
-How does this model cause the temperature dependence in conduction? Derive the temperature dependence from equations (1) and (2). Sketch the expected behavior of the specific resistance of a metal as a function of temperature according to this model.
+```{exercise}
+:class: dropdown 
 
-{Exercise} The quantum mechanical free electron model
+The classical free electron model
+How does this model cause the temperature dependence in conduction? Derive the temperature dependence from equations {eq}'eq:Evrijheidsgraden' and {eq}'eq:FermiDirac'. Sketch the expected behavior of the specific resistance of a metal as a function of temperature according to this model.
+```
+
+```{exercise}
+:class: dropdown
+
+The quantum mechanical free electron model
 How is the temperature dependence expressed in this model? Sketch the expected behavior of the specific resistance as a function of temperature for a metal.
+```
 
-{Exercise} Fermi-Dirac distribution in semiconductors
+```{exercise}
+:class: dropdown
+
+Fermi-Dirac distribution in semiconductors
 Using {eq}`eq:elek_gel` and {eq}`eq:FermiDirac`, show that the number of charge carriers increases with increasing temperature, thereby reducing the resistance in a semiconductor.
+```
 
-DC current in a diode is determined by the probability that the electrons can make the potential step from n → p. The current \( I \) in a diode is therefore given by:
+DC current in a diode is determined by the probability that the electrons can make the potential step from n $\rightarrow$ p. The current $I$ in a diode is therefore given by:
 
-$$I = I_0 \left( e^{\frac{qU}{k_B T}} - 1 \right)$$ \quad (eq:lekstroom)
+$$I = I_0 \left( e^{\frac{qU}{k_B T}} - 1 \right)$$ (eq:lekstroom)
 
-Here, \( I_0 \) is the dark current, which is determined by the probability that electrons are thermally excited from the valence band to the conduction band:
+Here, $I_0$ is the dark current, which is determined by the probability that electrons are thermally excited from the valence band to the conduction band:
 
-$$A e^{-\frac{E_g}{k_B T}}$$ \quad (eq:I0)
+$$A e^{-\frac{E_g}{k_B T}}$$ (eq:I0)
 
-From {eq}eq:lekstroom and {eq}eq:I0, it follows that:
+From {eq}'eq:lekstroom' and {eq}'eq:I0', it follows that:
 
-$$qU = E_g - k_B T \ln \left( \frac{A}{I} \right)$$ \quad (eq:iconst)
+$$qU = E_g - k_B T \ln \left( \frac{A}{I} \right)$$ (eq:iconst)
 
-For a constant current \( I \), the voltage across a diode in the forward direction is linear with temperature.
+For a constant current $I$, the voltage across a diode in the forward direction is linear with temperature.
 
-{Exercise}
+```{exercise}
+:class: dropdown
+
 Sketch the voltage behavior as a function of temperature and indicate how the bandgap can be determined from this.
+```
 
-{Tip}
-In the original experiment, the resistance of the choke coil and diodes in the cryostat had to be measured in the temperature range from 100 K to 300 K with steps of 5 K, and heated at a rate of 2 degrees per minute.
+```{Tip}
+:class: dropdown
+In the original experiment, the resistance of the choke coil and diodes in the cryostat had to be measured in the temperature range from $100\mathrm{K}$ to $300\mathrm{K}$ with steps of $5\mathrm{K}$, and heated at a rate of 2 degrees per minute.
+```
 
