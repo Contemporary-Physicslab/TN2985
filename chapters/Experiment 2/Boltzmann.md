@@ -221,7 +221,7 @@ A power supply is available to drive the heating tape. The inventory of this exp
 :class: dropdown 
 
 The classical free electron model
-How does this model cause the temperature dependence in conduction? Derive the temperature dependence from equations {eq}'eq:Evrijheidsgraden' and {eq}'eq:FermiDirac'. Sketch the expected behavior of the specific resistance of a metal as a function of temperature according to this model.
+How does this model cause the temperature dependence in conduction? Derive the temperature dependence from equations {eq}`eq:Evrijheidsgraden` and {eq}`eq:FermiDirac`. Sketch the expected behavior of the specific resistance of a metal as a function of temperature according to this model.
 ```
 
 ```{exercise}
