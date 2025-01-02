@@ -164,7 +164,7 @@ Run your script and determine the Boltzmann constant accordingly. You should be 
 
 https://contemporary-physicslab.github.io/NP-new-style/main/Deel5/BoltzmannT.html
 
-In one of the prescribed experiments, you investigated the $(U,I)$ characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, you can determine the effect of temperature on the characteristic of a diode and an Ohmic resistor.
+In the experiment described above it is possible  investigated the $(U,I)$ characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, you can determine the effect of temperature on the characteristic of a diode and an Ohmic resistor.
 
 ## Introduction
 
