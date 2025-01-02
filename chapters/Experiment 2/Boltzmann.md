@@ -174,7 +174,7 @@ In the microscopic picture of electrical conduction, Ohm's law results in a rela
 
 $$\rho=\frac{m_e}{ne^2\tau}$$ (eq:elek_gel)
 
-In a metal, the electron density does not strongly depend on temperature $T$, but the time between two successive collisions is crucial for conduction.
+In a metal, the electron density does not strongly depend on temperature $T$, but the time between two successive collisions ($\tau$) is crucial for conduction.
 
 Classical conduction theory predicts a temperature dependence proportional to the square root of the temperature ($\rho \sim \sqrt{T}$).
 
