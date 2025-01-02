@@ -186,7 +186,7 @@ where $v$ is the velocity of the electron, and $k_B$ is the Boltzmann constant.
 
 In the quantum mechanical model, lattice vibrations primarily limit the collision time. Because the number of quantized lattice vibrations increases linearly with temperature at low temperatures, the collision time and therefore the specific resistance also increase linearly with temperature.
 
-For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (vgl 38.45, p 1257 `Tippler`):
+For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (vgl 38.45, p 1257 [`Tippler`]):
 
 $$P(E)=\left(e^{\frac{E_g}{k_BT}}+1\right)^{-1}$$ (eq:FermiDirac)
 
