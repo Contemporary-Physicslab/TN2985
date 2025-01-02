@@ -167,10 +167,12 @@ This is the grating equation. It follows from this equation that, if a plane wav
 
 
 ```{exercise}
+:class: dropdown
 $m$ can also be negative. What does this say about the relation between $i$ and $u_m$?
 ```
 
 ```{exercise}
+:class: dropdown
 When does eqn. {eq}`eq:order_of_interference` equal eqn. {eq}`eq:reflection_angle_um`?
 ```
 
@@ -208,6 +210,7 @@ Our setup for the determination of the wavelength of spectral lines with a diffr
 
 
 ```{exercise}
+:class: dropdown
 What determines whether the size of the slit is reduced or magnified in the image?
 What is beneficial to the accuracy of the determination of the wavelength of a spectral line: a reduction or magnification? Explain.
 ```
