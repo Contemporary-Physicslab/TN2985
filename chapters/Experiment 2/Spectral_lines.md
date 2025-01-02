@@ -231,7 +231,7 @@ Setup for measuring the wavelength of spectral lines.
 Using a slit directly behind the lamp, and a lens F$_1$ produce a collimated (parallel) light bundle. This bundle hits the diffraction grating. We have seen that, because of the diffraction of the light through the grating, depending on the wavelength, parallel bundles are reflected at different angles. By changing the angle of the diffraction grating in respect to the incident light bundle, we can make a certain colour fall on a set point on the screen or the camera with the help of lens F$_2$. From the according angle, we can calculate the wavelength of the light.
 
 
-At one specific angle for the diffraction grating, it seems like the light is conveyed. At this angle it seems like the light is portrayed by a normal mirror (via the lens F$_2$) to the set point on the screen. In fact, the 0$^{th}$ order diffraction pattern is portrayed in the set point. This does not change with the wavelength of the light. This position is shown in Fig. 11 by the dotted line. The angle between the normal on the diffraction grating and the direction of the incident light is $\alpha$ (thus the angle between the incident and reflected wave is 2$\alpha$). Note that $\alpha$ is determined by the positions of the lamp, the lens F$_1$, the lens F$_2$, and the point on the screen.
+At one specific angle for the diffraction grating, it seems like the light is conveyed. At this angle it seems like the light is portrayed by a normal mirror (via the lens F$_2$) to the set point on the screen. In fact, the 0$^{th}$ order diffraction pattern is portrayed in the set point. This does not change with the wavelength of the light. This position is shown in {numref}`fig:II8_Setup` by the dotted line. The angle between the normal on the diffraction grating and the direction of the incident light is $\alpha$ (thus the angle between the incident and reflected wave is 2$\alpha$). Note that $\alpha$ is determined by the positions of the lamp, the lens F$_1$, the lens F$_2$, and the point on the screen.
 
 
 If we want to use a certain setup in practice for, for example, the measurement of a number of spectral lines, then we measure the angle between the normal of the diffraction grating and the 'mirror position'. In {numref}`fig:II8_Setup` this angle is $\phi$.
@@ -248,6 +248,7 @@ $$
 $$ (eq:angle_inc_refl)
 
 ```{exercise}
+:class: dropdown
 
 Show that when you fill in eqn. {eq}`eq:angle_inc_refl` in the grating formula {eq}`eq:reflection_angle_um`, you get the following condition for light with wavelength $\lambda$ that falls on the set point.
 
@@ -261,10 +262,14 @@ In which $N$ is the number of lines per length unit, $\lambda$ the wavelength an
 
 
 ```{exercise}
+:class: dropdown
+
 For the situation drawn in {numref}`fig:II8_Setup`, is $m$ positive or negative? Does this correspond to your answer from question 5?
 ```
 
 ```{exercise}
+:class: dropdown
+
 From measurements of $\alpha$ and $\phi$ we can use eqn. {eq}`eq:II8_Que8` to calculate $\lambda$. If we call the uncertainties in $\alpha$ and $\phi$, u($\alpha$) and u($\phi$) respectively, derive the law of propagation of errors for the uncertainty in $\lambda$, $u(\lambda)$. 
 ```
 
@@ -284,7 +289,9 @@ We calculate $\Delta u$ from the distance of the spectral lines on the camera an
 
 
 ```{exercise}
-With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurements of $u$ and $\Delta u$. Of course you want to know uncertainty in $\Delta \lambda$. If you use the law of propagation for errors in the common way, you encounter a notation problem. Thus, call the angle of reflection v (was u) and the change in the angle of reflection $\Delta v$ (was $\Delta u$). If we indicate the uncertainties in v and $\Delta v$ with $u(v)$ and $u(\Delta v)$, derive the law of propagation of errors for the uncertainty in $\Delta \lambda$, u($\lambda$).
+:class: dropdown
+
+With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurements of $u$ and $\Delta u$. Of course you want to know uncertainty in $\Delta \lambda$. If you use the law of propagation for errors in the common way, you encounter a notation problem. Thus, call the angle of reflection v (was u) and the change in the angle of reflection $\Delta v$ (was $\Delta u$). If we indicate the uncertainties in v and $\Delta v$ with $u(v)$ and $u(\Delta v)$, derive the law of propagation of errors for the uncertainty in $\Delta \lambda$, $u(\lambda$).
 ```
 
 #### Resolving (separating) power
