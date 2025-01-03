@@ -37,6 +37,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
+          # Begin wew to install sphinx theme
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sphinx sphinx-tudelft-theme
+          # End new
       - name: Install MyST Markdown
         run: npm install -g mystmd
       - name: Build HTML Assets
