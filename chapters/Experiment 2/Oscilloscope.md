@@ -106,7 +106,7 @@ The Agilent DSO3062A (used in this experiment) has a bandwidth of $60\mathrm{MHz
 
 ```{figure} /figures/RC/figuur44.png
 :name: ii4:fig:2-channel
-:width: 70%
+:width: 120%
 
 A 2-channel oscilloscope allows to compare two signal, e.g. determine the phase difference.
 ```
