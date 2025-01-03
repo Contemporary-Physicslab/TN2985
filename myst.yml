@@ -59,3 +59,9 @@ site:
   actions:
     - title: report issue
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
+
+sphinx:
+  config:
+    extensions:
+      - sphinx_tudelft_theme
+    html_theme: sphinx_tudelft_theme
