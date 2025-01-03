@@ -172,7 +172,7 @@ In the experiment described above it is possible  investigated the $(U,I)$ chara
 
 Both the classical free-electron model and the quantum mechanical free-electron model lead to Ohmic behavior for the conduction of metals and semiconductors. In this experiment, the resistance is measured as a function of temperature for a metal (which satisfies the criteria of a free electron gas) and two semiconductors. By the end of the project, you are expected to interpret the measurement results according to the microscopic conduction model, where the concepts of electron mass, electron density, electron charge, and relaxation- (or collision-) time are addressed, along with the influence of temperature on these quantities. The conduction models must be verified or falsified through interpretation.
 
-In the microscopic picture of electrical conduction, Ohm's law results in a relationship (equation 38.12, page 1235 ref `Tippler`) between the specific resistance ($\rho$) and the effective electron mass ($m_e$), charge carrier density ($n$), elementary charge ($e$), and the time between two successive collisions ($\tau$):
+In the microscopic picture of electrical conduction, Ohm's law results in a relationship (eq 38.12, page 1235 {cite}`tipler2007physics`) between the specific resistance ($\rho$) and the effective electron mass ($m_e$), charge carrier density ($n$), elementary charge ($e$), and the time between two successive collisions ($\tau$):
 
 $$\rho=\frac{m_e}{ne^2\tau}$$ (eq:elek_gel)
 
@@ -180,7 +180,7 @@ In a metal, the electron density does not strongly depend on temperature $T$, bu
 
 Classical conduction theory predicts a temperature dependence proportional to the square root of the temperature ($\rho \sim \sqrt{T}$).
 
-The kinetic energy $E_{kin}$ of the electron is given by three degrees of freedom (i.e., movements in the x, y, and z directions), each contributing $\frac{1}{2}k_BT$ to the total energy (equipartition theorem, p 544 `Tippler`):
+The kinetic energy $E_{kin}$ of the electron is given by three degrees of freedom (i.e., movements in the x, y, and z directions), each contributing $\frac{1}{2}k_BT$ to the total energy (equipartition theorem, p 544 {cite}`tipler2007physics`):
 
 $$E_{kin}=\frac{1}{2}mv^2=\frac{3}{2}k_BT$$ (eq:Evrijheidsgraden)
 
@@ -188,7 +188,7 @@ where $v$ is the velocity of the electron, and $k_B$ is the Boltzmann constant.
 
 In the quantum mechanical model, lattice vibrations primarily limit the collision time. Because the number of quantized lattice vibrations increases linearly with temperature at low temperatures, the collision time and therefore the specific resistance also increase linearly with temperature.
 
-For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (vgl 38.45, p 1257 [`Tippler`]):
+For conduction in semiconductors, temperature changes in collision time are much smaller than changes in charge carrier density. Due to the forbidden band gap, the occupied valence bands and unoccupied conduction bands are separated. Conduction occurs through electrons in the conduction band and holes in the valence band. The probability that a valence electron can be thermally excited from the valence band to the conduction band is given by the Fermi-Dirac distribution (eq 38.45, p 1257 {cite}`tipler2007physics`):
 
 $$P(E)=\left(e^{\frac{E_g}{k_BT}}+1\right)^{-1}$$ (eq:FermiDirac)
 
