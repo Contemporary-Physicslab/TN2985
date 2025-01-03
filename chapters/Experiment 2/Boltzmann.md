@@ -202,7 +202,7 @@ Temperature-dependent measurements are usually performed in a cryostat. This dev
 
 ```{figure} /figures/Boltzmann/Cryo_1.jpg
 ---
-width: 50%
+width: 30%
 name: fig_cryo
 ---
 The cryostat with electronics.
