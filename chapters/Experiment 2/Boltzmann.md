@@ -166,7 +166,7 @@ Run your script and determine the Boltzmann constant accordingly. You should be 
 
 https://contemporary-physicslab.github.io/NP-new-style/main/Deel5/BoltzmannT.html
 
-In the experiment described above it is possible  investigated the $(U,I)$ characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, you can determine the effect of temperature on the characteristic of a diode and an Ohmic resistor.
+In the experiment described above it is possible  investigated the $(U,I)$ characteristic of a diode at a constant temperature. However, the Boltzmann energy distribution also includes a temperature dependence. Based on this experiment, the effect of temperature on the characteristic of a diode and an Ohmic resistor can be determined.
 
 ## Introduction
 
@@ -200,7 +200,7 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
 Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of $77\mathrm{K}$ at an atmospheric pressure of $1010\mathrm{hPa}$.
 
-```{figure} Figures/BoltzmannT/Cryo_1.jpg
+```{figure} /figures/Boltzmann/Cryo_1.jpg
 ---
 width: 50%
 name: fig_cryo
