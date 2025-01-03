@@ -1,6 +1,6 @@
 # Determining *g*
 
-```{figure} figures/Setup_exp_1.png
+```{figure} figures/Setup_exp_1_white.png
 :name: fig:exp:g
 :width: 70%
 
