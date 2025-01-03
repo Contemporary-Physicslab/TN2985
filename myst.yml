@@ -55,7 +55,7 @@ site:
     logo: figures/logo.png
     favicon: figures/favicon.ico
     hide_authors: true
-  template: book-theme
+  template: tudelft-theme #book-theme
   actions:
     - title: report issue
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
