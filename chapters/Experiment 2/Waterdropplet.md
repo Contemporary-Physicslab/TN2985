@@ -62,13 +62,13 @@ Using {eq}`eq:Fdrag` and $\beta = C_D A \rho /2$, {eq}`eq:bwgvgl` can be rewritt
 $$ m \frac{dv}{dt} = mg - \beta v^2$$ (eq:equation_of_motion)
 
 Here $F_B$ is neglected, as indicated earlier. This way of writing of the equation suggests that the parameter $\beta$ is constant. In that case the drag force would be proportional to the velocity squared. In general, however, this is not true, since $C_D$ yet depends on the Re-number (see {numref}`CdRe`). Equation {eq}`eq:equation_of_motion` is a non-linear (and therefore difficult to solve) differential equation in the velocity of the droplet.
-To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of Eq. {eq}`eq:equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
+To illustrate the velocity behaviour, we have plotted in {numref}`Experiment2_waterdropplet:fig:velocity` the exact solution of eq. {eq}`eq:equation_of_motion` for a situation representative of this experiment. Herein, it has been taken into
 account that $\beta$ depends on the velocity, through $C_D$. This solution has been obtained
 using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{mg/\beta}$ following from Eq. {eq}`eq:equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
 
 ```{figure} /figures/Waterdropplet/figuur3.png
 :name: Experiment2_waterdropplet:fig:velocity
-:width: 70%
+:width: 60%
 
 The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`eq:equation_of_motion`.
 ```
