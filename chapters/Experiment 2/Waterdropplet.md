@@ -100,7 +100,7 @@ The relative error in the drop velocity and the drop distance of the water dropl
 
 $$ s(t) = s_0 + v_0t + \frac{1}{2}gt^2 - \frac{\beta g^2}{12m}t^4 $$ (eq:stIE2-3)
 
-where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then Eq. {eq}`eq:stIE2-3` reduces to
+where $s_0$ is the travelled distance at $t=0$. When we design the experiment such that at $t=0$ both the traveled distance and the velocity are zero, then eq. {eq}`eq:stIE2-3` reduces to
 
 $$ s(t) - \frac{1}{2}gt^2 = -\frac{\beta g^2}{12m}t^4 $$ (eq:stIE2-4)
 
@@ -144,7 +144,7 @@ Do the following assignments.
 
 1. Find literature values for $g$, $\rho$ and $\mu$.
 1. Prove with a calculation that the buoyant force can indeed be neglected.
-1. Derive Eq. (5).
+1. Derive eq. (5).
 1. The upper detector is positioned such that the droplet will be detected immediately after release, meaning this detector does not require any adjustment. Position the lower detector as low as possible. Subsequently, you can vertically align the setup with a plump line. Perform the alignment and "lock" this by carefully raising the plateau of the lab jack, so as to make it touch the bottom of the tube with gentle but sufficient force. For proper alignment, a large fraction of the droplets will be
 detected and will result in the correct drop time on the display of measuring device.
 1. Determine the uncertainty in $s$ and $t$.
@@ -155,7 +155,7 @@ detected and will result in the correct drop time on the display of measuring de
 1. Why is the floating droplet heavier than the falling one, and why are their shapes identical?
 1. Determine the uncertainty in $A_{\perp}$. For this use $A_{\perp}=\frac{1}{4}  \pi (\alpha D)^2$.
 1. Express the drag coefficient $C_D$ in quantities you have measured or obtained otherwise, and derive the equation for the uncertainty of $C_D$.
-1. Make an estimate of the (range of the) literature value of $C_D$. Use {numref}`CdRe` for this.
+1. Make an estimate of the (range of the) literature value of $C_D$, use {numref}`CdRe` for this.
 
 ```
 
