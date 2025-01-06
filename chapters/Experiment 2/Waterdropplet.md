@@ -30,6 +30,7 @@ with $d$ is a characteristic dimension, here the largest diameter of the droplet
 
 ```{figure} /figures/Waterdropplet/figuur1.png
 :name: CdRe
+:width: 80%
 
 Drag coefficient $C_D$ as a function of the Re-number, for a sphere (----) and a disk (- - -).
 ```
