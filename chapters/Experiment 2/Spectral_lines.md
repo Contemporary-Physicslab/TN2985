@@ -197,7 +197,7 @@ At the derivation of eq. {eq}`eq:reflection_angle_um` we assume that the inciden
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
 
 ```{figure} /figures/Spectral/figuur10.png
-:width: 80%
+:width: 70%
 :name: fig:Collimation
 
 By placing the lens at the right position, the source is collimated.
@@ -222,7 +222,7 @@ What is beneficial to the accuracy of the determination of the wavelength of a s
 The setup that we will use for the determination of the wavelength of the visible spectral lines of the Hg lamp is shown in {numref}`fig:II8_Setup`. This setup is also called the monochromator setup. The only moving part of the setup is the diffraction grating. The grating will be mounted on a turntable with an angle distribution that makes it possible to measure the angle (See {numref}`fig:II8_Setup`).
 
 ```{figure} /figures/Spectral/figuur11_EN.png
-:width: 80%
+:width: 60%
 :name: fig:II8_Setup
 
 Setup for measuring the wavelength of spectral lines.
