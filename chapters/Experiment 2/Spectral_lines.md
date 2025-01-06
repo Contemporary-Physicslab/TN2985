@@ -55,7 +55,7 @@ The relation with light rays is that the propagation direction of the light in a
 
 
 ```{figure} /figures/Spectral/figuur4_EN.png
-:width: 80%
+:width: 70%
 :name: fig:Wave_propagation
 
 Propagation of a wavefront according to the Huygens principle. Left a spherically shaped wavefront and right a plane wavefront.
@@ -65,14 +65,14 @@ The image on the right in {numref}`fig:Wave_propagation` displays the same way o
 
 
 ```{figure} /figures/Spectral/figuur5.png
-:width: 80%
+:width: 60%
 :name: fig:plane_to_source
 
 A plane light wave falls on a screen with a hole with a diameter comparable to the wavelength. According to the principle of Huygens, the hole acts like a point source that emits spherically extending waves.
 ```
 
 
-In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson you can also see how the intensity of the light.
+In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson {cite}`wolfson2007essential` you can also see how the intensity of the light.
 
 ```{figure} /figures/Spectral/figuur6.png
 :width: 80%
