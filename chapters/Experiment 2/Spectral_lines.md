@@ -13,7 +13,7 @@ A diffraction grating is a plate with a very large number of parallel lines on i
 
 
 ```{figure} /figures/Spectral/figuur1.png
-:width: 80%
+:width: 60%
 :name: fig:Diffraction_Grating
 
 Schematic representation of a diffraction grating. Typical measurements are 5x5 cm. The number of lines per mm is in the range 100-1000.
