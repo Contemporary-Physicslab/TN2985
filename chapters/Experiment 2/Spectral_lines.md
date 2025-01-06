@@ -72,7 +72,7 @@ A plane light wave falls on a screen with a hole with a diameter comparable to t
 ```
 
 
-In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of Wolfson {cite}`wolfson2007essential` you can also see how the intensity of the light.
+In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left side. The light that falls in the hole, emits spherically propagating waves according to the Huygens principle. If the size of the hole is of the same order as the wavelength, most of the light is diffracted. To see a demonstration with a tank filled with water, look up 'ripple tank diffraction' on YouTube. In Fig. 32.33 (c) of {cite}`wolfson2007essential` you can also see how the intensity of the light.
 
 ```{figure} /figures/Spectral/figuur6.png
 :width: 80%
@@ -113,13 +113,13 @@ What consequences does a change in $d, m$ and/or $\lambda$ have on the angle in 
 In {numref}`fig:two_point_sources` the distance between the screen and a source is of the same order as the distance between two sources. This concerns distances of the order 10 $\mu \mathrm{m}$. In practice we work with distance in the range of $10 - 100 \mathrm{cm}$. So, we are interested in what happens in *points* that are *far away* from the sources.
 
 ```{figure} /figures/Spectral/figuur7.png
-:width: 80%
+:width: 60%
 :name: fig:three_point_sources
 
 The upper part of this figure is identical to {numref}`fig:two_point_sources`, the only difference is that the point P is now infinitely far away from the sources. There is constructive interference in point P. The bottom right part of the figure shows that extra holes with spacing $d$ also contribute to  the constructive interference. The slanted striped lines on the right side of the figure indicate the development of plane wavefronts (parallel bundle).
 ```
 
-{numref}`fig:three_point_sources` shows that the paths from the sources towards P now run parallel to each other. Because of this, the condition for constructive interference (eqn. {eq}`eq:order_of_interference`) is exact.
+{numref}`fig:three_point_sources` shows that the paths from the sources towards P now run parallel to each other. Because of this, the condition for constructive interference (eq. {eq}`eq:order_of_interference`) is exact.
 
 
 
@@ -142,7 +142,7 @@ The direction of the first order diffraction of light with one certain wavelengt
 Up until now, we have discussed the operation of a diffraction grating according to a transmission grating. However, reflection gratings are more commonly used. These have accurate grooves instead of translucent lines. Everything that has been said above about plane waves, point sources, including {eq}`eq:order_of_interference` is also true for reflection gratings.
 
 
-At the derivation of eqn. {eq}`eq:order_of_interference` it is assumed that the incoming plane wave falls perpendicular into the diffraction grating. That restriction does not have to be made. The plane wave can also fall at an angle with the normal of the diffraction grating. {numref}`fig:Grating_reflection` demonstrates how the angles of the exiting bundles can be found for a parallel bundle that falls at angle $i$ with the normal of the diffraction grating.
+At the derivation of eq. {eq}`eq:order_of_interference` it is assumed that the incoming plane wave falls perpendicular into the diffraction grating. That restriction does not have to be made. The plane wave can also fall at an angle with the normal of the diffraction grating. {numref}`fig:Grating_reflection` demonstrates how the angles of the exiting bundles can be found for a parallel bundle that falls at angle $i$ with the normal of the diffraction grating.
 
 
 ```{figure} /figures/Spectral/figuur8.png
@@ -163,7 +163,7 @@ $$
 d \sin u_m = d \sin i + m\lambda
 $$ (eq:reflection_angle_um)
 
-This is the grating equation. It follows from this equation that, if a plane wave with a certain wavelength falls on the diffraction grating under an angle $i$, different plane waves are reflected with the same wavelength under different angles $u_m$. We can determine the wavelength of a certain component by accurately measuring $i$ and $u_m$, and using eqn. {eq}`eq:reflection_angle_um`.
+This is the grating equation. It follows from this equation that, if a plane wave with a certain wavelength falls on the diffraction grating under an angle $i$, different plane waves are reflected with the same wavelength under different angles $u_m$. We can determine the wavelength of a certain component by accurately measuring $i$ and $u_m$, and using eq. {eq}`eq:reflection_angle_um`.
 
 
 ```{exercise}
@@ -173,7 +173,7 @@ $m$ can also be negative. What does this say about the relation between $i$ and 
 
 ```{exercise}
 :class: dropdown
-When does eqn. {eq}`eq:order_of_interference` equal eqn. {eq}`eq:reflection_angle_um`?
+When does eq. {eq}`eq:order_of_interference` equal eq. {eq}`eq:reflection_angle_um`?
 ```
 
 #### Processing and generating light with a flat wavefront
@@ -191,7 +191,7 @@ The course of the wavefronts at the focusing of a light bundle with a plane wave
 When the focal point is placed on a screen, the position of the spot can be used to determine the direction of the bundle. The relation between the direction of the bundle and the position on the screen is shown on the right side in {numref}`fig:Course_of_light`.
 
 #### Incident light bundle. Optical system.
-At the derivation of eqn. {eq}`eq:reflection_angle_um` we assume that the incident light is a parallel bundle. This assumption is not justified for the lamp used in this experiment. The light of the mercury lamp is divergent by nature. To counter this, we will need to  *collimate* the sources.
+At the derivation of eq. {eq}`eq:reflection_angle_um` we assume that the incident light is a parallel bundle. This assumption is not justified for the lamp used in this experiment. The light of the mercury lamp is divergent by nature. To counter this, we will need to  *collimate* the sources.
 
 
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
@@ -250,7 +250,7 @@ $$ (eq:angle_inc_refl)
 ```{exercise}
 :class: dropdown
 
-Show that when you fill in eqn. {eq}`eq:angle_inc_refl` in the grating formula {eq}`eq:reflection_angle_um`, you get the following condition for light with wavelength $\lambda$ that falls on the set point.
+Show that when you fill in eq. {eq}`eq:angle_inc_refl` in the grating formula {eq}`eq:reflection_angle_um`, you get the following condition for light with wavelength $\lambda$ that falls on the set point.
 
 ```
 
@@ -270,7 +270,7 @@ For the situation drawn in {numref}`fig:II8_Setup`, is $m$ positive or negative?
 ```{exercise}
 :class: dropdown
 
-From measurements of $\alpha$ and $\phi$ we can use eqn. {eq}`eq:II8_Que8` to calculate $\lambda$. If we call the uncertainties in $\alpha$ and $\phi$, u($\alpha$) and u($\phi$) respectively, derive the law of propagation of errors for the uncertainty in $\lambda$, $u(\lambda)$. 
+From measurements of $\alpha$ and $\phi$ we can use eq. {eq}`eq:II8_Que8` to calculate $\lambda$. If we call the uncertainties in $\alpha$ and $\phi$, u($\alpha$) and u($\phi$) respectively, derive the law of propagation of errors for the uncertainty in $\lambda$, $u(\lambda)$. 
 ```
 
 *If the difference between two spectral lines is very small,* they cannot be distinguished by the naked eye, and the diffraction grating cannot be rotated accurately enough.
@@ -291,7 +291,7 @@ We calculate $\Delta u$ from the distance of the spectral lines on the camera an
 ```{exercise}
 :class: dropdown
 
-With eqn. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurements of $u$ and $\Delta u$. Of course you want to know uncertainty in $\Delta \lambda$. If you use the law of propagation for errors in the common way, you encounter a notation problem. Thus, call the angle of reflection v (was u) and the change in the angle of reflection $\Delta v$ (was $\Delta u$). If we indicate the uncertainties in v and $\Delta v$ with $u(v)$ and $u(\Delta v)$, derive the law of propagation of errors for the uncertainty in $\Delta \lambda$, $u(\lambda$).
+With eq. {eq}`eq:deltalabda` we can determine $\Delta \lambda$ from measurements of $u$ and $\Delta u$. Of course you want to know uncertainty in $\Delta \lambda$. If you use the law of propagation for errors in the common way, you encounter a notation problem. Thus, call the angle of reflection v (was u) and the change in the angle of reflection $\Delta v$ (was $\Delta u$). If we indicate the uncertainties in v and $\Delta v$ with $u(v)$ and $u(\Delta v)$, derive the law of propagation of errors for the uncertainty in $\Delta \lambda$, $u(\lambda$).
 ```
 
 #### Resolving (separating) power
@@ -349,7 +349,7 @@ Also note that a set of colours represents one order.
 
 1. Make a plot in which you plot the calculated wavelength on the vertical axis with its respected uncertainty against the order m on the horizontal axis. Plot the literary values as horizontal dotted lines in the same figure.
 1. Calculate the weighted average of the wavelength for each measured spectral line and calculate the uncertainty in this average value. Take as weight $w = 1/(u(\lambda))^2$. Use the given formulas from the Appendix for this. Does the result contradict the literary value?
-1. Next, study the splitting of the yellow Hg lines. Replace the screen by the camera. Portray an order of the yellow lines on the camera (note: The colour can be different on the screen. Pay close attention.). (Think about the width of the slit and the use of the filter). Save the result for the report. (Use the save icon at the middle top.) Determine the distance between the lines on the screen in pixels. Calculate the difference in the angle of reflection $\Delta u$ from this. Check if your value of u is still current. Calculate the difference in the wavelength $\Delta \lambda$ with eqn. {eq}`eq:deltalabda`. What is the uncertainty $u(\Delta \lambda)$?
+1. Next, study the splitting of the yellow Hg lines. Replace the screen by the camera. Portray an order of the yellow lines on the camera (note: The colour can be different on the screen. Pay close attention.). (Think about the width of the slit and the use of the filter). Save the result for the report. (Use the save icon at the middle top.) Determine the distance between the lines on the screen in pixels. Calculate the difference in the angle of reflection $\Delta u$ from this. Check if your value of u is still current. Calculate the difference in the wavelength $\Delta \lambda$ with eq. {eq}`eq:deltalabda`. What is the uncertainty $u(\Delta \lambda)$?
 1. 	Replace the Hg-lamp with the Na-lamp and use the camera instead of the screen. Measure the angels of the visible spectral lines. What is the angle that corresponds with the 0$^{th}$ order? Specify the orders to the measured angles and calculate for each order the wavelength and its uncertainty. Again try to find splitting for all lines (except the 0$^{th}$ order of course). Do the individual results agree with the literature values? Calculate the weighted average and its uncertainty.
 
 ### Evaluation phase
