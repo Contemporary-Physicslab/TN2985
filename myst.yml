@@ -20,13 +20,13 @@ project:
       children:
         - file: chapters/rules.md
         - file: chapters/labjournal.md
-    - file: chapters/Labsafety/Veiligheid.md
+    - file: chapters/Labsafety/Labsafety/Veiligheid.md
       children:
-        - file: chapters/Labsafety/Generalsafety.md
-        - file: chapters/Labsafety/Lasersafety.md
-        - file: chapters/Labsafety/Afval.md
-        - file: chapters/Labsafety/Lasersafety.md
-        - file: chapters/Labsafety/Cryogenes.md
+        - file: chapters/Labsafety/Labsafety/Generalsafety.md
+        - file: chapters/Labsafety/Labsafety/Lasersafety.md
+        - file: chapters/Labsafety/Labsafety/Afval.md
+        - file: chapters/Labsafety/Labsafety/Lasersafety.md
+        - file: chapters/Labsafety/Labsafety/Cryogenes.md
        # - file: chapters/Labsafety/Radiation.md
     - file: chapters/ChatGPT.md
     - file: chapters/FAQ.md
