@@ -18,6 +18,7 @@ project:
     - file: index.md
     - file: intro.md
       children:
+        - file: chapters/content.md
         - file: chapters/rules.md
         - file: chapters/labjournal.md
   #  - file: chapters/Labsafety/Labsafety/Veiligheid.md
