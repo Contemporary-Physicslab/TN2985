@@ -24,17 +24,8 @@ project:
         - file: chapters/genAI.md
         - file: chapters/FAQ.md
 
-    # git submodule update --remote
-    - file: chapters/Labsafety/Labsafety/Introduction.md
-      children:
-   #     - file: chapters/Labsafety/Labsafety/Generalsafety.md
-        - file: chapters/Labsafety/Labsafety/Lasersafety.md
-        - file: chapters/Labsafety/Labsafety/Lasersafety.md
-    #    - file: chapters/Labsafety/Labsafety/Afval.md
-  #      - file: chapters/Labsafety/Labsafety/Cryogenes.md
-       # - file: chapters/Labsafety/Radiation.md
-    
 
+    # git submodule update --remote
     - title: Data analysis with Python
       children:
         - file: chapters/MU/External/FYPLC/book/README_MINOR.md
