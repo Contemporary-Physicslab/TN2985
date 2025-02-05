@@ -26,7 +26,7 @@ Your knowledge of measurement and uncertainty will be assessed in an online test
 The first experiment is the same for everyone and involves determining the gravitational acceleration $g$ within 0.5\%. You and your lab-partner ought to determine the fourth significant number of the gravitational acceleration. This experiment will help you get acquainted with experiments in physics. During two pre-scheduled afternoons you will work on a scientific paper using the RevTex-template. You are allowed to work at home, but it is mandatory to at least show a draft version. This will help you to adjust major mistakes. Such a paper is different in many elements from reports in other engineering subjects. The paper will be assessed.
 
 ### Experiment 2
-The second experiment will be done pairwise. There are five experiments in total of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
+The second experiment will be done pairwise. There are several experiments (different experiments each year) of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
 
 Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on labjournal.
 

@@ -1,3 +1,9 @@
+---
+downloads:
+  - file: ./Template_labjournal.ipymb
+    title: The template of the electronic labjournal
+---
+
 # Lab journal
 Before each experiment, you will do assignments to help you prepare for and understand the experiment. During the experiment, you will collect data, write down settings of the equipment, make notes, etc. All this information should be clearly organized in a single document, your lab journal. If you have used your lab journal considerately, another researcher should be able to finish the experiment you started. Another researcher should also be able to assess your work using your lab journal as well. Keeping up a lab journal is thus an important part of scientific research and lab work. As we value it so high, as it is vital to establish the reliability and validity of a study, we only grade your report when your lab journal is handed in through Vocareum.
 
@@ -28,7 +34,6 @@ The structure of the lab journal is very similar to that of a scientific report.
 * Expectations: Write down the expected outcome.
 * Desired accuracy: How accurate do you want the outcome of the experiment to be, e.g. difference between result and literature value. 
 
-
 **Preparation**
 
 * Task: Write down the tasks involved in the prescribed experiment. 
@@ -43,14 +48,12 @@ The structure of the lab journal is very similar to that of a scientific report.
 * Comments: Any comments about things that require specific attention.
 * Accuracy: Room for calculations addressing accuracy, measurement uncertainty and error propagation.
 
-%
 **Execution**
 
 * Table: Write down all measurements in a labeled table. Values that do not change should not be inside a table.
 * Observations: Observations that are not quantitative in nature *the light bulb started to glow, producing visible light for the first time*.
 * Comments: Further comments that might be important for the collection of data.
 
-%
 **Processing**
 
 * Graphs: The graphs following from the data collection and processing (described in the method section).
@@ -59,12 +62,10 @@ The structure of the lab journal is very similar to that of a scientific report.
 * Calculations: Calculations of your final answers. Additional calculations with regard to measurement uncertainty. 
 * Comments: Further comments addressing the processing of data, e.g. removing data points. 
 
-%
 **Evaluation**
 
 * Discussion: Discussing your results when the description does not fit within the processing.
 * Conclusion: The final conclusion, the scientific claim you draw which can be justified by your data.
 
-
 ## Jupyter Notebook
-We have made online templates in Vocareum available. For this, we made use of Jupyter Notebook. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). When you start the first experiment, you have to invite your partner so you can work together in the same lab journal. When finished, you can submit your lab journal and it will be graded. 
+We have made a Jupyter Notebook template available, you can download it at the top of this page. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).You are required to hand in your labjournal along with your report.
