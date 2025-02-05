@@ -24,6 +24,13 @@ project:
         - file: chapters/genAI.md
         - file: chapters/FAQ.md
 
+    - title: Labsafety
+      children:
+        - file: chapters/Labsafety/Introduction.md
+          children:
+            - file: chapters/Labsafety/Generalsafety.md
+            - file: chapters/Labsafety/Lasersafety.md
+            - file: chapters/Labsafety/Cryogenes.md
 
     # git submodule update --remote
     - title: Data analysis with Python
