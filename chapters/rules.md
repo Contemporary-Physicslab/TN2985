@@ -1,6 +1,7 @@
 # Rules and regulations
 This introductory laboratory course provides you with your first experience in conducting physics experiments. This includes taking measurements, processing them, and recording the results in a short paper.
 
+(rules_attendance)=
 ## Rules of attendance
 To ensure that all students can complete the Introductory Laboratory Course in time, it is essential that everybody does what is asked of them. This has proved difficult for some students. This has forced us to make use of a penalty system. When penalties are imposed, they can have serious consequences: they could result in you failing the course and therefore failing the entire minor. (Below, the sanctions are indicated in italics.) For this reason, we strongly advise you to take note of the penalties for infractions like late arrival and do all you can to avoid them.
 

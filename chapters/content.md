@@ -61,7 +61,7 @@ When you enroll in the Introductory Laboratory Course you will receive a persona
 The practical sessions in the IE block cover the following topics: Python, IE$_1$, writing a lab report, and IE$_2$. 
 
 ```{table} Time schedule with deadlines and expected hours of homework.
-:label: time schedule
+:label: table_time_schedule
 :align: center 
 
 | Week | Topic | Deadline | Time required | Mandatory |
