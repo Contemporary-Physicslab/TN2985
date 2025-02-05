@@ -22,6 +22,8 @@ project:
         - file: chapters/rules.md
         - file: chapters/labjournal.md
         - file: chapters/genAI.md
+        - file: chapters/FAQ.md
+        
   #  - file: chapters/Labsafety/Labsafety/Veiligheid.md
   #    children:
    #     - file: chapters/Labsafety/Labsafety/Generalsafety.md
