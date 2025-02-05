@@ -21,7 +21,6 @@ If your grade for IE$_2$ is lower than a 5.5, you will be allowed to hand in a s
 ### Measurement and uncertainty
 Measurement and uncertainty is a chapter in this manual which you will have to read. There will be a number of exercises, some of which will involve the use of Python. These exercises will prepare you for the test. There is an afternoon scheduled where a TA is available for help if you have questions about measurement and uncertainty and the use of Python. However, you are allowed to work at home and consult the TA using MS Teams.
 
-
 Your knowledge of measurement and uncertainty will be assessed in an online test using Jupyter Notebooks. You are allowed to bring this manual, premade scripts, notes etc. ,in other words, it is an open book exam. You are not allowed to consult others during the online test.
 
 ### Experiment 1
@@ -30,28 +29,23 @@ The first experiment is the same for everyone and involves determining the gravi
 ### Experiment 2
 The second experiment will be done pairwise. There are five experiments in total of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
 
-
 Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on labjournal.
-
 
 **Determining the half-life of K-40**
 
 Two different methods are used to determine the half-life of K-40. The literature value is used to determine which method yields the best value. However, one should consider the trade offs as well!
 
-
 **Spectral lines of Sodium or Mercury**
 
 Spectral lines can be determined to identify atoms and molecules of distant stars. In this experiment you will determine the spectral lines of Sodium or Mercury using spectroscopy.
-
 
 **Boltzmann constant and electronic instruments**
 
 This experiment consist of two parts. You will determine the characteristics of a low pass filter and subsequently determine the Boltzmann constant (or vice versa). In the first part of the experiment you will use an oscilloscope and in the second part a digital multi meter. The experiments focus on using accurate instruments often used in physics labs (not allowed for students with a background in electronics).
 
-**Waterdroplet** 
+**Water droplet** 
 
-In this experiment you will investigate two aspects of a waterdroplet: the size and shape of waterdroplet and the drag coefficient. 
-
+In this experiment you will investigate two aspects of a water droplet: the size and shape of water droplet and the drag coefficient. 
 
 **Surface tension**
 
@@ -59,6 +53,7 @@ In this experiment you will investigate the surface tension of water. You are fr
 
 **Millikan**
 
+In this historic experiment you will determine the elementary charge by emerging charged oil droplets between two charged plates.
 
 ## Schedule and deadlines
 When you enroll in the Introductory Laboratory Course you will receive a personal timetable. This timetable shows, amongst other things, the date of the lab safety test, the time and place of the experiments and the deadlines. If you fail the online safety test, you will not be allowed to take part in the rest of the course. 
@@ -66,6 +61,7 @@ When you enroll in the Introductory Laboratory Course you will receive a persona
 
 The practical sessions in the IE block cover the following topics: Python, IE$_1$, writing a lab report, and IE$_2$. 
 
+```{table} Time schedule with deadlines and expected hours of homework.
 | Week | Topic | Deadline | Time required | Mandatory |
 | ---- | ----- | -------- | ------------- | --------- |
 | 1.1 | Introduction | - | 2 + 2 (reading) | V |
@@ -80,6 +76,7 @@ The practical sessions in the IE block cover the following topics: Python, IE$_1
 | 4.1 | x | - | - | X |
 | 4.2 | Report writing | - | 4 | X |
 | 4.3 | Report writing | 27 sept hand in report | 4 + 2 (finishing report) | X |
+```
 
 Table: Time schedule with deadlines and expected hours of homework.
 
