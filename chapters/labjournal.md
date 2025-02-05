@@ -1,6 +1,6 @@
 ---
 downloads:
-  - file: ./Template_labjournal.ipymb
+  - file: Template_Labjournal.ipymb
     title: The template of the electronic labjournal
 ---
 

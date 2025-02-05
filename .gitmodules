@@ -3,4 +3,4 @@
 	url = https://github.com/Contemporary-Physicslab/FYPLC.git
 [submodule "chapters/Labsafety/Labsafety"]
 	path = chapters/Labsafety/Labsafety
-	url = https://github.com/Contemporary-Physicslab/Labsafety
+	url = https://github.com/Contemporary-Physicslab/Labsafety.git
