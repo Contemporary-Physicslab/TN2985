@@ -2,5 +2,5 @@
 	path = chapters/MU/External/FYPLC
 	url = https://github.com/Contemporary-Physicslab/FYPLC.git
 [submodule "chapters/Labsafety"]
-	path = chapters//Labsafety
+	path = chapters/Labsafety
 	url = https://github.com/Contemporary-Physicslab/Labsafety.git
