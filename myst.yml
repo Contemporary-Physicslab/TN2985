@@ -32,7 +32,7 @@ project:
             - file: chapters/Labsafety/Lasersafety.md
             - file: chapters/Labsafety/Cryogenes.md
             - file: chapters/Labsafety/Waste.md
-            - file: chapters/Labsafety/Biohazards.md
+            - file: chapters/Labsafety/Bio.md
 
     # git submodule update --remote
     - title: Data analysis with Python
