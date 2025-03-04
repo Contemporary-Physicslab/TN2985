@@ -38,9 +38,9 @@ Two different methods are used to determine the half-life of K-40. The literatur
 
 Spectral lines can be determined to identify atoms and molecules of distant stars. In this experiment you will determine the spectral lines of Sodium or Mercury using spectroscopy.
 
-**Boltzmann constant and electronic instruments**
+**Boltzmann**
 
-This experiment consist of two parts. You will determine the characteristics of a low pass filter and subsequently determine the Boltzmann constant (or vice versa). In the first part of the experiment you will use an oscilloscope and in the second part a digital multi meter. The experiments focus on using accurate instruments often used in physics labs (not allowed for students with a background in electronics).
+This experiment consist of two parts. You will determine the Boltzmann constant by characterizing the ($V,I$)-behavior of a silicium diode by a constant temperature. In the second part you will focus on the behavior of the diode as function of temperature.
 
 **Water droplet** 
 
@@ -57,8 +57,7 @@ In this historic experiment you will determine the elementary charge by emerging
 ## Schedule and deadlines
 When you enroll in the Introductory Laboratory Course you will receive a personal timetable. This timetable shows, amongst other things, the date of the lab safety test, the time and place of the experiments and the deadlines. If you fail the online safety test, you will not be allowed to take part in the rest of the course. 
 
-
-The practical sessions in the IE block cover the following topics: Python, IE$_1$, writing a lab report, and IE$_2$. 
+The practical sessions cover the following topics: Python, IE$_1$, writing a lab report, and IE$_2$. 
 
 ```{table} Time schedule with deadlines and expected hours of homework.
 :label: table_time_schedule
@@ -77,5 +76,5 @@ The practical sessions in the IE block cover the following topics: Python, IE$_1
 | 3.3 | IE$_2$ | - | 4 | V |
 | 4.1 | x | - | - | X |
 | 4.2 | Report writing | - | 4 | X |
-| 4.3 | Report writing | 27 sept hand in report | 4 + 2 (finishing report) | X |
+| 4.3 | Report writing | Friday before exam week | 4 + 2 (finishing report) | X |
 ```

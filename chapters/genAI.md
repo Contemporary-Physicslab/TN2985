@@ -31,11 +31,11 @@ By maintaining transparency, you contribute to academic integrity and help set s
 
 ````{note}
 The text above has been written with ChatGPT 4o using the prompt:
-```
+
 For an introduction course to experimentation in physics, write a page on responsible use of genAI. Cover:
 - data-analysis in python can be used with genAI, but code should be understandable and adaptable by the researcher.
 - in writing genAI is of good use, but make yourself an initial text. genAI can be asked for spell check, assessing the quality, hinting on ideas to include etc.
 - being transparent on the use, reflect whether and how you used genAI.
-```
+
 The produced text has then been adapted to fit within the spirit and regulation of this course.
 ````
