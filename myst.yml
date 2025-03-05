@@ -56,7 +56,7 @@ project:
     - title: Second experiment
       children:
         - file: chapters/Experiment 2/Boltzmann.md
-        - file: chapters/Experiment 2/Oscilloscope.md
+        #- file: chapters/Experiment 2/Oscilloscope.md
         - file: chapters/Experiment 2/K40.md
         - file: chapters/Experiment 2/Spectral_lines.md
         - file: chapters/Experiment 2/Waterdropplet.md
