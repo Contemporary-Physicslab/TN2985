@@ -9,6 +9,6 @@ site:
 ```{figure} cover.jpg
 :width: 80%
 :align: center
-
-A course for the minor Modern Physics at the University of Technology of Delft.
 ```
+
+**A course for the minor Modern Physics at the University of Technology of Delft.**
