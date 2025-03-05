@@ -6,9 +6,12 @@ site:
   hide_title_block: true
 ---
 
-```{figure} cover.jpg
-:width: 80%
-:align: center
++++{"kind": "split-image"}
+
+## Introduction to Experimentation in Physics
+
+```{image} cover.jpg
+
 ```
 
-**A course for the minor Modern Physics at the University of Technology of Delft.**
+A course for the minor Modern Physics at the University of Technology of Delft.
