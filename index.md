@@ -6,6 +6,14 @@ site:
   hide_title_block: true
 ---
 
+
++++{"kind": "split-image"}
+
+## Introduction to Experimentation in Physics
+
+```{image} cover.jpg
+
+
 <div style="text-align: center; font-size: 24px">
 
 Introduction to physics experiments
@@ -15,9 +23,14 @@ Introduction to physics experiments
 ```{figure} cover.jpg
 :width: 80%
 :align: center
+
 ```
 <div style="text-align: center;">
 
 **A lab course for the minor Modern Physics at the University of Technology of Delft.**
 
+
+A course for the minor Modern Physics at the University of Technology of Delft.
+
 </div>
+
