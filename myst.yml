@@ -23,6 +23,7 @@ project:
         - file: chapters/labjournal.md
         - file: chapters/genAI.md
         - file: chapters/FAQ.md
+        - file: licenses.md
 
     # not a git submodule 
     - file: chapters/Labsafety/Introduction.md
@@ -54,7 +55,6 @@ project:
         - file: chapters/Experiment 1/Determining g.md        
         - file: chapters/Experiment 1/Labjournal.ipynb
     - file: chapters/Experiment 2/into.md
-    - title: Second experiment
       children:
         - file: chapters/Experiment 2/Boltzmann.md
         #- file: chapters/Experiment 2/Oscilloscope.md
@@ -62,7 +62,7 @@ project:
         - file: chapters/Experiment 2/Spectral_lines.md
         - file: chapters/Experiment 2/Waterdropplet.md
         - file: chapters/Experiment 2/Millikan.md
-    - file: testpage.md
+#    - file: testpage.md
 
 site:
   options:

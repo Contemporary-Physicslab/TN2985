@@ -64,7 +64,7 @@ In this experiment we will determine the $(U,I)$-characteristics of a silicon di
 ### Voltage divider
 In this experiment we use a voltage divider circuit to make a $(U,I)$-characteristic of a diode, see {numref}`fig:Boltzmann:volt_div-setup`. A simple voltage divider is a circuit with two resistors in series ''sharing'' the voltage of the source. If you do not remember the rules that apply in series circuits, look these up yourselves. The formulas are given below.
 
-```{note}
+```{tip}
         Series circuit
 
 $$
