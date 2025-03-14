@@ -25,52 +25,56 @@ The structure of the lab journal is very similar to that of a scientific report.
 
 **General**
 
-| what | bla|
+| Heading | What to include |
 | --- | ---|
 | Title of the experiment | Write down a concise, comprehensive title.|
 | Start date| Write the starting date of your experiment. |
-
-* Title of the experiment: Write down a concise, comprehensive title.
-* Start date: Write the starting date of your experiment. 
-* Expected end date: Write down the expected end date of the experiment.
-* Partner: If applicable, write the name of your partner. 
-* Goal: Write down the aim of the experiment. 
-* Research question: If applicable, write down the research question. If a prescribed experiment does not have a concrete research question, write a more elaborate goal. 
-* Expectations: Write down the expected outcome.
-* Desired accuracy: How accurate do you want the outcome of the experiment to be, e.g. difference between result and literature value. 
+| Expected end date| Write down the expected end date of the experiment.|
+| Partner| If applicable, write the name of your partner. |
+| Goal| Write down the aim of the experiment. |
+| Research question| If applicable, write down the research question. If a prescribed experiment does not have a concrete research question, write a more elaborate goal. |
+| Expectations| Write down the expected outcome.|
+| Desired accuracy| How accurate do you want the outcome of the experiment to be, e.g. difference between result and literature value. |
 
 **Preparation**
-
-* Task: Write down the tasks involved in the prescribed experiment. 
-* Theory: Write down the theory that is required to understand and carry out the experiment, in a few very short sentences.
-* Method: Write down, in general terms, what the experiment is like. A more precise description of the single steps is noted in the procedure.
-* Independent variable: The variable you change.
-* Dependent variable: The variable that you want to measure.
-* Controlled variable: Variables that might influence the outcomes of the experiment and thus have to be kept constant (as possible).
-* Instruments & settings: The instruments used in the experiment, and their settings. These settings may change throughout the experiment. Note the accompanied accuracy of the instruments for those particular settings in this section.
-* Procedure: Describe the steps that have to be carried out, or have been carried out, to do the experiment. 
-* Set up: An image, drawing or reference to the experimental setup.
-* Comments: Any comments about things that require specific attention.
-* Accuracy: Room for calculations addressing accuracy, measurement uncertainty and error propagation.
+| Heading | What to include |
+| --- | ---|
+| Task| Write down the tasks involved in the prescribed experiment. 
+| Theory| Write down the theory that is required to understand and carry out the experiment, in a few very short sentences.|
+| Method| Write down, in general terms, what the experiment is like. A more precise description of the single steps is noted in the procedure.|
+| Independent variable| The variable you change.|
+| Dependent variable| The variable that you want to measure.|
+| Controlled variable| Variables that might influence the outcomes of the experiment and thus have to be kept constant (as possible).|
+| Instruments & settings| The instruments used in the experiment, and their settings. These settings may change throughout the experiment. Note the accompanied accuracy of the instruments for those particular settings in this section.|
+| Procedure| Describe the steps that have to be carried out, or have been carried out, to do the experiment. |
+| Set up| An image, drawing or reference to the experimental setup.|
+| Comments| Any comments about things that require specific attention.|
+| Accuracy| Room for calculations addressing accuracy, measurement uncertainty and error propagation.|
 
 **Execution**
 
-* Table: Write down all measurements in a labeled table. Values that do not change should not be inside a table.
-* Observations: Observations that are not quantitative in nature *the light bulb started to glow, producing visible light for the first time*.
-* Comments: Further comments that might be important for the collection of data.
+| Heading | What to include |
+| --- | ---|
+| Table| Write down all measurements in a labeled table. Values that do not change should not be inside a table.|
+| Observations| Observations that are not quantitative in nature *the light bulb started to glow, producing visible light for the first time*.|
+| Comments| Further comments that might be important for the collection of data.|
 
 **Processing**
 
-* Graphs: The graphs following from the data collection and processing (described in the method section).
-* Trend: The general trend that can be seen in the data, similarities with expectations following from e.g. theoretical models. 
-* Analysis: A further analysis of the data
-* Calculations: Calculations of your final answers. Additional calculations with regard to measurement uncertainty. 
-* Comments: Further comments addressing the processing of data, e.g. removing data points. 
+| Heading | What to include |
+| --- | ---|
+| Graphs| The graphs following from the data collection and processing (described in the method section).|
+| Trend| The general trend that can be seen in the data, similarities with expectations following from e.g. theoretical models. |
+| Analysis| A further analysis of the data|
+| Calculations| Calculations of your final answers. Additional calculations with regard to measurement uncertainty. |
+| Comments| Further comments addressing the processing of data, e.g. removing data points. |
 
 **Evaluation**
 
-* Discussion: Discussing your results when the description does not fit within the processing.
-* Conclusion: The final conclusion, the scientific claim you draw which can be justified by your data.
+| Heading | What to include |
+| --- | ---|
+| Discussion| Discussing your results when the description does not fit within the processing.|
+| Conclusion| The final conclusion, the scientific claim you draw which can be justified by your data.|
 
 ## Jupyter Notebook
 We have made a Jupyter Notebook template available, you can download it at the top of this page. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).You are required to hand in your labjournal along with your report.
