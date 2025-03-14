@@ -8,7 +8,7 @@ In order to prevent the risks of possible accidents, a number of rules and guide
 :width: 80%
 :name: fig:veiligheid:safety
 
-We must try to prevent this...
+We must try to prevent this... (picture generated with AI)
 ```
 
 ## General
@@ -52,7 +52,7 @@ If an accident does occur, report it immediately to the assistant. If help is ne
 :width: 60%
 :name: fig:veiligheid:drunk
 
-It sometimes happens that students still have alcohol in their blood when they have to do a practical. If this is the case, they are not welcome.
+It sometimes happens that students still have alcohol in their blood when they have to do a practical. If this is the case, they are not welcome. (picture generated with AI)
 ```
 
 ## Equipment & materials

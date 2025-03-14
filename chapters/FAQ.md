@@ -18,10 +18,3 @@ If it is absolutely impossible to come in person (such as in the case of illness
 
 Our teaching-assistants are all very competent and experienced. However, in case of any disagreement, contact the coordinator. The coordinator will assign a second TA to check the grading. We want to state that in previous cases, the second TA always agreed with the first, with a max difference of 0.3 / 10 in grade!
 ```
-
-```{admonition}  My grade is below 5.5. Can I still pass the course?
-:class: dropdown
-
-If your grade for the second experiment is lower than a 5.5, you will be allowed to hand in a second version. The grade for this second version will not be higher than a 6.0, but in some cases that will be enough to allow you to pass the course.
-```
-

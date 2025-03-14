@@ -1,7 +1,7 @@
 ---
 downloads:
   - file: Template_Labjournal.ipynb
-    title: The template of the electronic labjournal
+    title: The template of the electronic lab journal
 ---
 
 # Lab journal
@@ -77,4 +77,4 @@ The structure of the lab journal is very similar to that of a scientific report.
 | Conclusion| The final conclusion, the scientific claim you draw which can be justified by your data.|
 
 ## Jupyter Notebook
-We have made a Jupyter Notebook template available, you can download it at the top of this page. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).You are required to hand in your labjournal along with your report.
+We have made a Jupyter Notebook template available, you can download it at the top of this page. Jupyter Notebook uses various online languages (Python, LaTeX, HTML, Markdown). Often used codes can be found [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). You are required to hand in your lab journal along with your report.

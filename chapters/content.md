@@ -28,7 +28,7 @@ The first experiment is the same for everyone and involves determining the gravi
 ### Experiment 2
 The second experiment will be done pairwise. There are several experiments (different experiments each year) of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
 
-Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on labjournal.
+Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on lab journal.
 
 **Determining the half-life of K-40**
 
