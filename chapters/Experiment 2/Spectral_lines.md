@@ -193,7 +193,6 @@ When the focal point is placed on a screen, the position of the spot can be used
 #### Incident light bundle. Optical system.
 At the derivation of eq. {eq}`eq:reflection_angle_um` we assume that the incident light is a parallel bundle. This assumption is not justified for the lamp used in this experiment. The light of the mercury lamp is divergent by nature. To counter this, we will need to  *collimate* the sources.
 
-
 Collimation is easily done for a point source. You only need to place the source in the focal point of a convergent lens. In fact, the exact opposite of what is happening in {numref}`fig:Course_of_light`. Unfortunately, the lamp used in our experiment is not a point source. A small slit placed in the focal point of a lens will be needed to collimate the source, see {numref}`fig:Collimation`.
 
 ```{figure} /figures/Spectral/figuur10.png

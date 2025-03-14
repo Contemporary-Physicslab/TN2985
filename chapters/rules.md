@@ -43,7 +43,7 @@ If you fail to hand in and upload a paper on time, it will be marked 1 out of 10
 To check that you have not copied somebody else’s work, or parts of it, your paper is scanned for plagiarism. If one or more passages are found to be identical to another paper, that is treated as fraud and the Board of Examiners is informed. The board has the power to impose very severe penalties, not least excluding you from the course.
 
 ## Software
-You need to install <a href = "https://www.arduino.cc" target="_blank">Arduino</a>. Furthermore, you will use LaTeX. A simple way to use LaTeX is using [Overleaf](https://www.overleaf.com).
+You need to install <a href = "https://www.arduino.cc" target="_blank">Arduino</a>. Furthermore, you will use LaTeX. A simple way to use LaTeX is using [Overleaf](https://www.overleaf.com). For running the Jupyter Notebooks, we recommend [VSC](https://code.visualstudio.com/).
 
 ## Contact
 For advice, or to make complaints, please contact:  

@@ -72,8 +72,8 @@ The practical sessions cover the following topics: Python, IE$_1$, writing a lab
 | 2.2 | Experiment 1 | - | 4+2 (preparation) | V |
 | 2.3 | Report writing | Hand in draft for feedback | 4 | X |
 | 3.1 | Report writing | Hand in report | 4+2 (finishing report) | V |
-| 3.2 | IE$_2$ | - | 4+2 (assignments) | V |
-| 3.3 | IE$_2$ | - | 4 | V |
+| 3.2 | Experiment 2 | - | 4+2 (assignments) | V |
+| 3.3 | Experiment 2 | - | 4 | V |
 | 4.1 | x | - | - | X |
 | 4.2 | Report writing | - | 4 | X |
 | 4.3 | Report writing | Friday before exam week | 4 + 2 (finishing report) | X |

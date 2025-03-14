@@ -25,6 +25,11 @@ The structure of the lab journal is very similar to that of a scientific report.
 
 **General**
 
+| what | bla|
+| --- | ---|
+| Title of the experiment | Write down a concise, comprehensive title.|
+| Start date| Write the starting date of your experiment. |
+
 * Title of the experiment: Write down a concise, comprehensive title.
 * Start date: Write the starting date of your experiment. 
 * Expected end date: Write down the expected end date of the experiment.
