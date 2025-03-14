@@ -1,11 +1,6 @@
 # Determining *g*
 
-```{figure} figures/setup_exp_1_white.png
-:name: fig:exp:g
-:width: 70%
-
-The same setup can be used for both experiments
-```
+This experiment doesn't introduce you to any new physics that you aren't familiar with already... it is used to help you think about setting up an rigorous physics experiment.
 
 ## Experimental goal
 In this experiment you will determine the gravitational acceleration on earth, $g$. Find the fourth significant figure and determine $g$ within 0.1\% accuracy of the value established by scientists. The determined values should be compared to the literature value.
@@ -15,6 +10,13 @@ The physics involved is pretty easy, but devising a proper method, analyzing the
 1. Devise a proper method.
 2. Process, analyse and present your data.
 3. Write a concise, scientific paper on your findings.
+
+```{figure} figures/setup_exp_1_white.png
+:name: fig:exp:g
+:width: 70%
+
+The same setup can be used for both experiments
+```
 
 ## Introduction
 The gravitational force causes you to fall (accelerate) back to earth when you jump. The value of the gravitational acceleration $g$ is well known. Near the surface in the Netherlands it has a value of 9.812 m/s$^2$. How can we determine this value with simple methods but high precision ourselves?
@@ -29,7 +31,7 @@ $$
 
 When the period and the length are determined, the gravitational acceleration can be calculated.
 
-### Free fall
+### Free-fall
 The movement of a falling object in a vacuum can be described by:
 
 $$
@@ -47,7 +49,7 @@ $$
 
 ## Method
 ### Preparation phase
-1. Choose either the Pendulum or the Freefall experiment
+1. Choose either the Pendulum or the Free-fall experiment
 2. Install the free Arduino software on your laptop: www.arduino.cc and download the script for the experiment from Brightspace.
 3. Do a trial run for the experiment using the stopwatch on your mobile phone. 
 4. Carry out the experiment five times for a fixed length or height.

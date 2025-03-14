@@ -53,6 +53,7 @@ project:
       children:
         - file: chapters/Experiment 1/Determining g.md        
         - file: chapters/Experiment 1/Labjournal.ipynb
+    - file: chapters/Experiment 2/into.md
     - title: Second experiment
       children:
         - file: chapters/Experiment 2/Boltzmann.md
