@@ -1,7 +1,7 @@
 
-# Course content & Final grade
+# Course content
 
-The course consist of an introduction to **measurement and uncertainty** combined with an introduction to **Python** and **two experiments**. For each experiment, you will write a paper. You are allowed to work together, however, your partner for the second experiment should be different from the person you worked with during the first experiment. This is due to the fact that an important aspect of the minor is that you will meet new people with different (educational) backgrounds. We want to stimulate this by forming new teams.
+The course consist of an introduction to **measurement and uncertainty** combined with an introduction to **Python** and **two introductory experiments**. For each experiment, you will write a paper. You are allowed to work together, however, your partner for the second experiment should be different from the person you worked with during the first experiment. This is due to the fact that an important aspect of the minor is that you will meet new people with different (educational) backgrounds. We want to stimulate this by forming new teams.
 
 The final grade for the course is calculated by:
 
@@ -17,15 +17,15 @@ If your grade for IE$_2$ is lower than a 5.5, you will be allowed to hand in a s
 | IE$_1$ | paper | student pair | 40\% |
 | IE$_2$ | paper | student pair | 40\% | 
 
-### Measurement and uncertainty
+## Measurement and uncertainty
 Measurement and uncertainty is a chapter in this manual which you will have to read. There will be a number of exercises, some of which will involve the use of Python. These exercises will prepare you for the test. There is an afternoon scheduled where a TA is available for help if you have questions about measurement and uncertainty and the use of Python. However, you are allowed to work at home and consult the TA using MS Teams.
 
 Your knowledge of measurement and uncertainty will be assessed in an online test using Jupyter Notebooks. You are allowed to bring this manual, premade scripts, notes etc. ,in other words, it is an open book exam. You are not allowed to consult others during the online test.
 
-### Experiment 1
+## Introductory Experiment 1
 The first experiment is the same for everyone and involves determining the gravitational acceleration $g$ within 0.5\%. You and your lab-partner ought to determine the fourth significant number of the gravitational acceleration. This experiment will help you get acquainted with experiments in physics. During two pre-scheduled afternoons you will work on a scientific paper using the RevTex-template. You are allowed to work at home, but it is mandatory to at least show a draft version. This will help you to adjust major mistakes. Such a paper is different in many elements from reports in other engineering subjects. The paper will be assessed.
 
-### Experiment 2
+## Introductory Experiment 2
 The second experiment will be done pairwise. There are several experiments (different experiments each year) of which one is to be chosen. You should enroll yourselves at BrightSpace for the preferred experiment. Note that we have only a limited number of equipment available and some of the groups will be quickly filled. 
 
 Please prepare the experiments for which you enrolled. This saves valuable time during the scheduled hours. Preparation means that you read the chapter, carry out the assignments and start working on lab journal.
