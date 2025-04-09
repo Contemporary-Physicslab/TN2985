@@ -66,7 +66,7 @@ project:
 
 site:
   options:
-    logo: figures/logo.png
+    logo: ./figures/logo.png
     favicon: figures/favicon.ico
     hide_authors: true
     style: ./style/style.css
