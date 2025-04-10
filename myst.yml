@@ -70,6 +70,7 @@ site:
     favicon: figures/favicon.ico
     hide_authors: true
     style: ./style/style.css
+    folders: true
   template: book-theme
   actions:
     - title: report issue
