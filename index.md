@@ -19,7 +19,8 @@ site:
 <div style="text-align: center; font-size: 24px">
 
 Introduction to physics experiments  
-test 1.0
+test 1.1 
+% aanpassing SPA uit en output: html in myst
 
 
 </div>
