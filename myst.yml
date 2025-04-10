@@ -74,11 +74,11 @@ site:
   actions:
     - title: report issue
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
-  nav: 
-    - title: Python
-      url: /chapters/MU/External/FYPLC/book/
-    - title: Experiment 1
-      url: /chapters/Experiment 1
+  # nav: 
+  #   - title: Python
+  #     url: /chapters/MU/External/FYPLC/book/
+  #   - title: Experiment 1
+  #     url: /chapters/Experiment 1
 
 # sphinx:
 #   config:
