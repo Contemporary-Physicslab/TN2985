@@ -71,7 +71,9 @@ site:
     hide_authors: true
     style: ./style/style.css
     folders: true
+    enable_service_worker: false # uitzetten van SPAmodus
   template: book-theme
+  output: html
   actions:
     - title: report issue
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
