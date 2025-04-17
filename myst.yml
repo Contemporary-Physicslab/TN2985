@@ -65,14 +65,15 @@ project:
 #    - file: testpage.md
 
 site:
+  template: book-theme
   options:
     logo: ./figures/logo.png
     favicon: figures/favicon.ico
     hide_authors: true
-    style: ./style/style.css
+   # style: ./style/style.css
     folders: true
     enable_service_worker: false # uitzetten van SPAmodus
-  template: book-theme
+  
   output: html
   actions:
     - title: report issue
@@ -83,8 +84,3 @@ site:
   #   - title: Experiment 1
   #     url: /chapters/Experiment 1
 
-# sphinx:
-#   config:
-#     extensions:
-#       - sphinx_tudelft_theme
-#     html_theme: sphinx_tudelft_theme
