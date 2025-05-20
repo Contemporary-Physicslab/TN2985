@@ -78,7 +78,7 @@ When working with spectral lamps, know that some of the light that comes of is i
 High temperature objects (furnaces, reactors, oil baths) and low temperature objects (solid CO$_2$, cryogenic liquids such as liquid nitrogen) pose a risk of burns. There is a thermal risk above 80$^o$C and below -20$^o$C in the event of contact. Below -20$^o$C, objects that are grasped will 'stick', with a risk of frostbite. At temperatures below -40$^o$C, the same effects as with heating occur. When the cryogenic gases escape, they remain low, which can cause a dangerously high concentration that displaces the oxygen present. Any reduction in oxygen concentration below 21% is potentially dangerous. Inhaling oxygen-poor air can cause a person to lose consciousness.
 
 ```{figure} Figures/cryo.jpg
-:width: 80%
+:width: 60%
 :name: fig:cryo
 
 Proper working methods with cryogenic substances require, among other things, the correct clothing.
@@ -90,7 +90,7 @@ In a (technical) scientific laboratory, liquid nitrogen is often used. The tempe
 - loose-fitting work jackets that can be removed immediately
 
 ```{figure} Figures/cryo.gif
-:width: 80%
+:width: 50%
 
 ```
 
