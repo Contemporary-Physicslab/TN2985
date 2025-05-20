@@ -35,7 +35,7 @@ In the sciences lab this is tackled by our chance by having you take a number of
 :width: 80%
 :name: fig:veiligheid:zuurkast
 
-A poorly designed workplace is an invite to accidents...
+A poorly designed workplace is an invite to accidents... [Photo by HSE - TNW - TU Delft]
 ```
 
 On our side, a lot has already been done to reduce or completely eliminate the risks. We expect the same effort from you, which includes:
@@ -113,22 +113,22 @@ The person who builds a setup with a laser must prevent reflections of the laser
 
 For each practical, you are expected to have done a safety check. Before starting, check the following points:
 
-o I know what to do during the practical.\
-o I have done a risk inventory and know what can go wrong.\
-o Any risks are listed in the lab journal, including associated measures to reduce risks.\
-o The safety assessment has been checked by the supervisor.\
-o All necessary materials are present and intact.\
-o The desk is set up for the experiment: only the necessary materials are present.\
-o My coat and bag are stored.\
-o Food and drinks are put away.
+- [ ] I know what to do during the practical.
+- [ ] I have done a risk inventory and know what can go wrong.
+- [ ] Any risks are listed in the lab journal, including associated measures to reduce risks.
+- [ ] The safety assessment has been checked by the supervisor.
+- [ ] All necessary materials are present and intact.
+- [ ] The desk is set up for the experiment: only the necessary materials are present.
+- [ ] My coat and bag are stored.
+- [ ] Food and drinks are put away.
 
 If one of the above points cannot be checked, report to the supervisor.
 
 A similar inventory will follow afterwards. You may only leave after you have signed out and shown the checklist.
 
-o All materials have been cleared away, the space in and around the desk has been left 'clean' again.\
-o All electrical equipment has been switched off.\
-o Any defects (regardless of whether they occurred during the experiment) have been reported to the supervisor.
+- [ ] All materials have been cleared away, the space in and around the desk has been left 'clean' again.
+- [ ] All electrical equipment has been switched off.
+- [ ] Any defects (regardless of whether they occurred during the experiment) have been reported to the supervisor.
 
 ## Safetytest
 

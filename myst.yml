@@ -8,7 +8,7 @@ project:
     - name: Freek Pols
   bibliography:
     - references.bib
-  license: CC-BY-SA-4.0
+  license: CC-BY-SA-4.0 / TUD approved
   downloads:
     - id: TN2985
   exports:
@@ -16,6 +16,7 @@ project:
       template: ./template
       output: exports/TN2985.pdf  
       id: TN2985
+  
 
 
   jupyter: true
@@ -42,15 +43,15 @@ project:
     # git submodule update --remote
     - title: Data analysis with Python
       children:
-        - file: chapters/MU/External/FYPLC/book/README_MINOR.md
+        - file: chapters/MU/FYPLC/README_MINOR.md
           children:
-            - file: chapters/MU/External/FYPLC/book/Course files/Software.md
-            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 1/Notebook 1 Python Basics.ipynb
-            - file: chapters/MU/External/FYPLC/book/Course files/Good Programming Practices/Good coding practices.ipynb
-            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 2/Notebook 2 Functions.ipynb
-            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 3/Notebook 3 Program Flow Control.ipynb
-            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
-            - file: chapters/MU/External/FYPLC/book/Course files/Notebook 5/Notebook 5 Data in Python.ipynb
+            - file: chapters/MU/FYPLC/Course files/Software.md
+            - file: chapters/MU/FYPLC/Course files/Notebook 1/Notebook 1 Python Basics.ipynb
+            - file: chapters/MU/FYPLC/Course files/Good Programming Practices/Good coding practices.ipynb
+            - file: chapters/MU/FYPLC/Course files/Notebook 2/Notebook 2 Functions.ipynb
+            - file: chapters/MU/FYPLC/Course files/Notebook 3/Notebook 3 Program Flow Control.ipynb
+            - file: chapters/MU/FYPLC/Course files/Notebook 4/Notebook 4 Scientific Computing.ipynb
+            - file: chapters/MU/FYPLC/Course files/Notebook 5/Notebook 5 Data in Python.ipynb
         - file: chapters/measurements.ipynb
         - file: chapters/MU/Exercises.ipynb
         - file: chapters/MU/Answers.ipynb
@@ -80,7 +81,8 @@ site:
     folders: true
     enable_service_worker: false # uitzetten van SPAmodus
   
-  output: html
+    output: html
+    
   actions:
     - title: FEEDBACK
       url: https://github.com/Contemporary-Physicslab/TN2985/issues

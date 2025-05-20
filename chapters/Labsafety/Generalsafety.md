@@ -135,12 +135,9 @@ How to prevent Repetitive Strain Injury (RSI)
 
 • Learn to deal with tension.
 
-• Ensure healthy computer
-workstation ergonomics.
+• Ensure healthy computer workstation ergonomics.
 
-• Contact Facility Management
-Services to help you
-organizing your workplace.
+• Contact Facility Management Services to help you organizing your workplace.
 
 
 
@@ -155,23 +152,12 @@ You take extra care of your surroundings and thereby reduce safety and security 
 When something occurs in your circle:
 1. Assess the situation.
 
-2. - When someone is in direct need
-
-of help you call the TU Delft
-Internal Alarm Number
-
-internal alarm number.
-
-
-- For non-urgent matters you
-
-contact the Service Desk.
+2. - When someone is in direct need of help you call the TU Delft Internal Alarm Number
+   - For non-urgent matters you contact the Service Desk.
 
 
 
-Call +31(0)15 27 88888 using a landline at TU
-
-Delft or your mobile phone
+Call +31(0)15 27 88888 using a landline at TU Delft or your mobile phone
 
 Save number in your mobile phone!
 
