@@ -58,7 +58,6 @@ It sometimes happens that students still have alcohol in their blood when they h
 ## Equipment & materials
 
 ### Lamps, lenses & gratings
-
 The gas discharge lamps that you use during practicals have a start-up time. You also cannot turn the lamps back on immediately after you have turned them off. They have to cool down first. Turn them on in time. Do NOT turn them off in between.
 
 Some lamps, such as the mercury lamp, also emit UV radiation. So handle them with care, never look directly into the lamp and do not leave it on unnecessarily after you have finished the experiment.
@@ -67,11 +66,11 @@ These gas discharge lamps become very hot. The housing also becomes very warm. D
 
 The lenses and gratings that you use are very sensitive. They can quickly become scratched, which reduces the functioning of the component. Never put the optical instruments on a table, only hold them by the metal base, and when you use them, secure them immediately! This prevents them from falling and becoming damaged.
 
-```{figure} Figures/drunklab3.jpg
+```{figure} Figures/neonlamp.jpg
 :width: 60%
 :name: fig:kwiklamp
 
-HIER EEN FOTO VAN EEN KWIKLAMP
+When working with spectral lamps, know that some of the light that comes of is invisible (UV or IR).
 ```
 
 ### Cryogenic substances
@@ -90,6 +89,11 @@ In a (technical) scientific laboratory, liquid nitrogen is often used. The tempe
 - special cold-insulating gloves that are loose enough to be able to remove them immediately if liquid nitrogen accidentally splashes in
 - loose-fitting work jackets that can be removed immediately
 
+```{figure} Figures/cryo.gif
+:width: 80%
+
+```
+
 Practical work with cryogenic substances with shorts, open shoes or loose-fitting boots is not permitted. The risks are too high for that. Also see the extensive description on the theme [cryogenic substances](./Cryogenes.md).
 
 ### Lasers
@@ -97,6 +101,11 @@ Practical work with cryogenic substances with shorts, open shoes or loose-fittin
 In some experiments you work with lasers. Lasers can develop a large amount of energy. Never look into the beam of a laser!
 
 The (negative) consequences depend on the wavelength and intensity of the radiation, the duration of the exposure and the part of the body that is exposed. The best-known harmful effects of exposure to electromagnetic radiation are related to the development of heat in tissue (thermal effect). The skin and (especially) the eyes are the organs that are most vulnerable.
+
+```{figure} Figures/laser2.jpg
+:width: 50%
+```
+
 
 The person who builds a setup with a laser must prevent reflections of the laser light. There are also lasers that have an invisible beam (ultraviolet, infrared) but which can still cause damage to the eyes. These lasers are extra dangerous precisely because of the invisible beam. Make sure there is sufficient shielding. In addition to shielding the laser, you must also use laser safety glasses. Also see the extensive description on the theme [laser safety](./Lasersafety.md).
 

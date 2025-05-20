@@ -1,5 +1,8 @@
 version: 1
 project:
+  plugins:
+    - plugins/pdf_exercise.mjs
+
   title: Introduction to Experimentation in Physics
   authors:
     - name: Freek Pols
@@ -10,7 +13,7 @@ project:
     - id: TN2985
   exports:
     - format: pdf
-      template: plain_latex_book # myst templates list --tex
+      template: ./template
       output: exports/TN2985.pdf  
       id: TN2985
 
@@ -19,9 +22,9 @@ project:
    # lite: true
   toc:
     - file: index.md
-    - file: ./intro.md
+    - file: intro.md
       children:
-        - file: ./chapters/content.md
+        - file: chapters/content.md
         - file: chapters/rules.md
         - file: chapters/labjournal.md
         - file: chapters/genAI.md
@@ -79,7 +82,7 @@ site:
   
   output: html
   actions:
-    - title: report issue
+    - title: FEEDBACK
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
   # nav: 
   #   - title: Python

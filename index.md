@@ -7,21 +7,15 @@ site:
 ---
 
 
-## Introduction to Experimentation in Physics
-
-
 ```{figure} cover.jpg
 :width: 80%
 :align: center
 
 ```
 
-<div style="text-align: center; font-size: 24px">
+<div style="text-align: center; font-size: 32px">
 
 Introduction to physics experiments  
-test 1.1 
-% aanpassing SPA uit en output: html in myst
-
 
 </div>
 
