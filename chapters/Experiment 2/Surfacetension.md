@@ -10,10 +10,9 @@ Before you arrive at the practical, you are expected to have properly studied th
 Surface tension is a well-known phenomenon. At least, we are all familiar with it. We are familiar with water striders on the water, water sticking to the side of a rain pipe, and so on. But the idea of surface tension is rather comprehensive, often only an approximation of the phenomenon due to the abrupt transition from liquid to gas is given. The main idea is that the potential energy of a molecule at the surface is higher than at other places in the liquid. This implies that energy is needed to add molecules. Therefore there is a force that 'resist' against surface expansion. Surface tension is also an important factor in the phenomenon of capillarity, where liquid rises in a tube. 
 
 ```{figure} /figures/surfacetension/schaatsrijder.jpg
----
-name: surf_tens_1
-width: 50%
----
+:label: surf_tens_1
+:width: 50%
+
 A water strider makes use of surface tension
 ```
 
@@ -32,10 +31,9 @@ $$
 here $\rho$ is the density of the liquid, $g$ the acceleration due to gravity. All we ought to do is determine what force is required to pull the ring out of the water...
 
 ```{figure} /figures/Surfacetension/opstelling_nouy.jpg
----
-name: nouy_opst
-width: 50%
----
+:label: nouy_opst
+:width: 50%
+
 The experimental setup for determining the surface tension using the ring of Du Noüy.
 ```
 
@@ -60,10 +58,9 @@ Here, $\rho$ is the density of the liquid and $g$ is the gravitational constant.
 The capillary rise height $h$ is measured with a microscope (see {numref}`fig:capmethod`. First, focus the scope on the surface of the water in the tray and note the height of the scope. Consequently, focus the scope on the top of the liquid in the capillary and note the height again. The difference between the noted heights is the capillary rise height $h$.
 
 ```{figure} /figures/Surfacetension/cappilairmethod.jpg
----
-name: capmethod
-width: 50%
----
+:label: capmethod
+:width: 50%
+
 The experimental setup to determine the surfacetension using capillary rise
 ```
 ## Experimental approach

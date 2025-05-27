@@ -29,7 +29,7 @@ However, measuring $0.2\mathrm{\mu V}$ does not mean this is the exact value you
 ```{admonition} Example
 :class: dropdown
 
-Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$. For the Dynatek D9100 with a $2\mathrm{V}$ range is stated that the inaccuracy is given by: $\pm 0.5\\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6\mathrm{mV}$ + 1 digit ($1\mathrm{mV}$) gives an accuracy of $7\mathrm{mV}$. The reading should be written as: $1.234 \pm 0.007 \mathrm{V}$. 
+Suppose we use a $3\frac{1}{2}$ digit DMM and read a value of $1.234\mathrm{V}$. For the Dynatek D9100 with a $2\mathrm{V}$ range is stated that the inaccuracy is given by: $\pm 0.5\%$ of the reading + 1 count. So: 0.5\% of the reading yields $6\mathrm{mV}$ + 1 digit ($1\mathrm{mV}$) gives an accuracy of $7\mathrm{mV}$. The reading should be written as: $1.234 \pm 0.007 \mathrm{V}$. 
 ```
 
 ```{exercise}
@@ -53,7 +53,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 ```
 
 ```{figure} /figures/Boltzmann/Figuur1.png
-:name: fig:II:circuits
+:label: fig:II:circuits
 :width: 70%
 
 Two ways of measuring current and voltage through a diode
@@ -91,7 +91,7 @@ $$
 An advantages of this circuit is that we do not measure current directly. As the current changes a few decades, we approximate the original circuit (without instruments). 
 
 ```{figure} /figures/Boltzmann/volt_div.png
-:name: fig:Boltzmann:volt_div-setup
+:label: fig:Boltzmann:volt_div-setup
 :width: 50%
 
 The experimental setup to determine the $(U,I)$-characteristic of the diode
@@ -135,7 +135,7 @@ $$
 where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
 
 ```{figure} /figures/Boltzmann/figuur12.png
-:name: fig:UIcharacteristic
+:label: fig:UIcharacteristic
 :width: 70%
 
 The $(U,I)$-characteristic of the diode as determined by two first year physics students (2019). The slope is used to determine the Boltzmann constant.
@@ -201,10 +201,9 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of $77\mathrm{K}$ at an atmospheric pressure of $1010\mathrm{hPa}$.
 
 ```{figure} /figures/Boltzmann/Cryo_1.jpg
----
-width: 30%
-name: fig_cryo
----
+:width: 30%
+:name: fig_cryo
+
 The cryostat with electronics.
 ```
 

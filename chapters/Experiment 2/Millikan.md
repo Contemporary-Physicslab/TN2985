@@ -20,7 +20,7 @@ When the droplets move at a constant speed, there is a frictional force at play.
 
 $$F_w=6\pi\eta rv$$ (eq:Stokes) 
 
-Here, $\eta$ is the viscosity of air, $r$ is the radius of the droplet and $v$ is the velocity of the droplet. This equation only holds under certain conditions. Since the droplets are small ($0.5*10^{-6}$)m, this is on the order of the free path of gas molecules ($0.07*10^{-6}$m) and a correction factor must be taken into account. This ensures that the no-slip condition does not apply at the edge of the droplets. The viscosity must therefore be divided by a correction factor of $k=1+\frac{b}{p\cdot r}$ where the correction factor is $b=80 \textrm{μm} \cdot \textrm{hPa}$, $p$ is the pressure in Pa and $r$ is the radius of the droplet (in m).
+Here, $\eta$ is the viscosity of air, $r$ is the radius of the droplet and $v$ is the velocity of the droplet. This equation only holds under certain conditions. Since the droplets are small ($0.5*10^{-6}$)m, this is on the order of the free path of gas molecules ($0.07*10^{-6}$m) and a correction factor must be taken into account. This ensures that the no-slip condition does not apply at the edge of the droplets. The viscosity must therefore be divided by a correction factor of $k=1+\frac{b}{p\cdot r}$ where the correction factor is $b=80 \mu \textrm{m} \cdot \textrm{hPa}$, $p$ is the pressure in Pa and $r$ is the radius of the droplet (in m).
 
 
 For the droplet's radius it holds: 

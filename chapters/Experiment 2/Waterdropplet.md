@@ -29,7 +29,7 @@ $$ \mathrm{Re} = \frac{\rho v d}{\mu}, $$ (eq:Re)
 with $d$ is a characteristic dimension, here the largest diameter of the droplet perpendicular to the velocity, and 	$\mu$ the dynamic viscosity of air. {numref}`CdRe` gives the dependence of $C_D$ on the Re-number, for a spherical and a cylindrical particle.
 
 ```{figure} /figures/Waterdropplet/figuur1.png
-:name: CdRe
+:label: CdRe
 :width: 80%
 
 Drag coefficient $C_D$ as a function of the Re-number, for a sphere (----) and a disk (- - -).
@@ -44,7 +44,7 @@ On the basis of the above, it follows for Re $<$ 1:
 $$ C_D = \frac{24}{\mathrm{Re}} $$ (eq:C_D)
 
 ```{figure} /figures/Waterdropplet/figuur2.png
-:name: Experiment2_waterdropplet:fig:flow_pattern
+:label: Experiment2_waterdropplet:fig:flow_pattern
 :width: 80%
 
 Flow pattern around a sphere as a function of the Re-number.
@@ -67,7 +67,7 @@ account that $\beta$ depends on the velocity, through $C_D$. This solution has b
 using numerical methods. In the Figure it can be seen that the droplet after approximately four seconds almost reaches its saturation velocity of 12.9 m/s. This exactly equals the value $v_{sat}=\sqrt{mg/\beta}$ following from Eq. {eq}`eq:equation_of_motion` for $C_D=0.4$. As will become clear, the maximum drop time in the experiment is about 0.6 s. Thus, the saturation velocity is far from reached.
 
 ```{figure} /figures/Waterdropplet/figuur3.png
-:name: Experiment2_waterdropplet:fig:velocity
+:label: Experiment2_waterdropplet:fig:velocity
 :width: 60%
 
 The velocity of a falling water droplet in air as a function of the drop time. The diameter of the droplet, taken here as spherical, is 6 mm. After about 4 $s$, the saturation velocity is almost reached. The curve is the exact solution, obtained by numeric integration of Eq. {eq}`eq:equation_of_motion`.
@@ -89,7 +89,7 @@ $t < 0.7$ s. In that case, the second order correction is negligibly small compa
 In {numref}`Experiment2_waterdropplet:fig:relative_error` curves for the drop velocity and the drop distance have been plotted, indicating the error with respect to the exact solution if only the first order term in Eq. {eq}`eq:vterms` is included. In this, for the first order term $C_D=0.4$ has been taken, the constant value for a spherical droplet also used for {numref}`CdRe`. Given the maximum drop time of about 0.6 s, the error is less than 1\% for the drop velocity and less that 0.3\% for the drop distance. In this experiment we neglect these errors. Note that the larger values of $C_D$, occurring for the smaller velocities at the start of the drop trajectory, apparently do not play a significant role.
 
 ```{figure} /figures/Waterdropplet/figuur4.png
-:name: Experiment2_waterdropplet:fig:relative_error
+:label: Experiment2_waterdropplet:fig:relative_error
 :width: 70%
 
 The relative error in the drop velocity and the drop distance of the water droplet with respect to the exact result, when only taking into account the effect of the drag force to first order. The diameter of the spherical droplet is 6 mm for both curves.
@@ -108,7 +108,7 @@ In words, this says that the drop distance in air at any time is reduced with re
 $-\beta g^2/(12m)$. Since we have $\beta=\rho_{air} A_{\perp} C_D/2$, $C_D$ can be determined from the slope, provided that $m$ and $A_{\perp}$ are known. The mass $m$ is determined through weighing, while the perpendicular area $A_{\perp}$ is determined in a visualization experiment of a floating water droplet (see the next paragraph).
 
 ```{figure} /figures/Waterdropplet/figuur5.png
-:name: Experiment2_waterdropplet:fig:drop_test
+:label: Experiment2_waterdropplet:fig:drop_test
 :width: 30%
 
 Schematic of the drop test. The droplet falls a distance $s$.
@@ -122,7 +122,7 @@ When you ask somebody to draw a droplet, it is very likely that the person asked
 
 
 ```{figure} /figures/Waterdropplet/figuur6.png
-:name: Experiment2_waterdropplet:fig:setup
+:label: Experiment2_waterdropplet:fig:setup
 :width: 50%
 
 Setup to float a droplet.

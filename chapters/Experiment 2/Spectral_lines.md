@@ -14,7 +14,7 @@ A diffraction grating is a plate with a very large number of parallel lines on i
 
 ```{figure} /figures/Spectral/figuur1.png
 :width: 60%
-:name: fig:Diffraction_Grating
+:label: fig:Diffraction_Grating
 
 Schematic representation of a diffraction grating. Typical measurements are 5x5 cm. The number of lines per mm is in the range 100-1000.
 ```
@@ -27,7 +27,7 @@ A diffraction grating is an optical instrument which diffracts light. The larger
 
 ```{figure} /figures/Spectral/figuur2_EN.png
 :width: 80%
-:name: fig:Transmissive_grating
+:label: fig:Transmissive_grating
 
 A transmissive grating in operation. White light with a continuous colour spectrum from blue to red is split into multiple colours and orders.
 ```
@@ -40,7 +40,7 @@ This experiment focuses on the wave characteristics of light. The terms interfer
 
 ```{figure} /figures/Spectral/figuur3_EN.png
 :width: 80%
-:name: fig:Wave_patterns
+:label: fig:Wave_patterns
 
 Two characteristic wave patterns. Left: the extension of circular (spherical) shaped wavefronts. Right: plane (flat) waves moving to the right (= parallel light bundle).
 ```
@@ -56,7 +56,7 @@ The relation with light rays is that the propagation direction of the light in a
 
 ```{figure} /figures/Spectral/figuur4_EN.png
 :width: 70%
-:name: fig:Wave_propagation
+:label: fig:Wave_propagation
 
 Propagation of a wavefront according to the Huygens principle. Left a spherically shaped wavefront and right a plane wavefront.
 ```
@@ -66,7 +66,7 @@ The image on the right in {numref}`fig:Wave_propagation` displays the same way o
 
 ```{figure} /figures/Spectral/figuur5.png
 :width: 60%
-:name: fig:plane_to_source
+:label: fig:plane_to_source
 
 A plane light wave falls on a screen with a hole with a diameter comparable to the wavelength. According to the principle of Huygens, the hole acts like a point source that emits spherically extending waves.
 ```
@@ -76,7 +76,7 @@ In {numref}`fig:plane_to_source` a plane wave falls on the screen from the left 
 
 ```{figure} /figures/Spectral/figuur6.png
 :width: 80%
-:name: fig:two_point_sources
+:label: fig:two_point_sources
 
 A plane light wave falls on a screen with two holes. These holes work like point sources that emit spherically propagating waves in phase. Both waves interfere constructively in point P in this situation.
 ```
@@ -114,7 +114,7 @@ In {numref}`fig:two_point_sources` the distance between the screen and a source 
 
 ```{figure} /figures/Spectral/figuur7.png
 :width: 60%
-:name: fig:three_point_sources
+:label: fig:three_point_sources
 
 The upper part of this figure is identical to {numref}`fig:two_point_sources`, the only difference is that the point P is now infinitely far away from the sources. There is constructive interference in point P. The bottom right part of the figure shows that extra holes with spacing $d$ also contribute to  the constructive interference. The slanted striped lines on the right side of the figure indicate the development of plane wavefronts (parallel bundle).
 ```
@@ -147,7 +147,7 @@ At the derivation of eq. {eq}`eq:order_of_interference` it is assumed that the i
 
 ```{figure} /figures/Spectral/figuur8.png
 :width: 80%
-:name: fig:Grating_reflection
+:label: fig:Grating_reflection
 
 construction of the angle of reflection for a reflection grating. a) a plane wave falls at an angle $i$ onto the diffraction grating. The wavefront g reaches grating line 1. This incites the development of a spherical wavefront from 1. A time interval $\Delta t=(d\sin i)/c$ later reaches the plane front g grating line 2. b) at this point the spherical wavefront from 1 has the radius $d\sin i$. The vibrations on this wavefront and the ones in point 2 are in phase. The line that goes through 2 and touches the spherical wavefront determines the direction of propagation of the 0-th order exiting wavefronts (wavefront is perpendicular to direction of propagation) and c) the construction of the direction of the 1-st order exiting bundle.
 ```
@@ -183,7 +183,7 @@ A direct measurement of the direction of a parallel bundle will not be very accu
 
 ```{figure} /figures/Spectral/figuur9.png
 :width: 80%
-:name: fig:Course_of_light
+:label: fig:Course_of_light
 
 The course of the wavefronts at the focusing of a light bundle with a plane wavefront. On the right, the relation between the direction of the bundle and the position of the focal point is shown.
 ```
@@ -197,7 +197,7 @@ Collimation is easily done for a point source. You only need to place the source
 
 ```{figure} /figures/Spectral/figuur10.png
 :width: 70%
-:name: fig:Collimation
+:label: fig:Collimation
 
 By placing the lens at the right position, the source is collimated.
 ```
@@ -222,7 +222,7 @@ The setup that we will use for the determination of the wavelength of the visibl
 
 ```{figure} /figures/Spectral/figuur11_EN.png
 :width: 60%
-:name: fig:II8_Setup
+:label: fig:II8_Setup
 
 Setup for measuring the wavelength of spectral lines.
 ```
@@ -297,7 +297,7 @@ Spectral lines have a certain width. It is clear that when the distance between 
 
 ```{figure} /figures/Spectral/figuur12.png
 :width: 80%
-:name: fig:Resolving_Power
+:label: fig:Resolving_Power
 
 Resolving power
 ```

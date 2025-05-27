@@ -9,7 +9,7 @@ LASER: **L**ight **A**mplification by **S**timulated **E**mission of **R**adiati
 
 ```{figure} Figures/laser.jpg
 :width: 50%
-:name: fig:oog
+:label: fig:oog
 
 A demonstration experiment with a laser
 ```
@@ -18,7 +18,7 @@ A laser consists of a gain medium, a mechanism to supply energy to it, and somet
 
 ```{figure} Figures/Lasersafety/Laser_principle.png
 :width: 50%
-:name: fig:laser:principle
+:label: fig:laser:principle
 
 The principle of a laser, with a gain medium (1), pumping (2), a reflector (3), an output coupler (4) and a resulting laser beam (5).
 ```
@@ -30,7 +30,7 @@ Characteristics of laser light are:
 
 ```{figure} Figures/Lasersafety/Characteristics_of_laser_light.png
 :width: 80%
-:name: fig:laser:laservslamp
+:label: fig:laser:laservslamp
 
 Light emitted by a lamp (left) versus light emitted by a laser (right)
 ```
@@ -41,7 +41,7 @@ Lasers are also characterized by the duration of laser emission, continuous wave
 
 ```{figure} Figures/Lasersafety/Output_continuous_vs_pulsed.png
 :width: 90%
-:name: fig:laser:continuousvspulsed
+:label: fig:laser:continuousvspulsed
 
 The ouput of a continuous laser (left), a single pulse laser (center) and a repetitive pulse laser (right). 
 ```
@@ -51,7 +51,7 @@ The ouput of a continuous laser (left), a single pulse laser (center) and a repe
 
 ```{figure} Figures/Lasersafety/No_eating_sign.png
 :width: 40%
-:name: fig:noeating
+:label: fig:noeating
 
 
 ```
@@ -80,7 +80,7 @@ Always use a laser safety goggle!!!
 
 ```{figure} Figures/Lasersafety/No_jewellery_sign.png
 :width: 60%
-:name: fig:nojewellery
+:label: fig:nojewellery
 
 
 ```
@@ -94,7 +94,7 @@ Do not touch optical surfaces with bare hands and keep unused optics covered.
 
 ```{figure} Figures/laser2.jpg
 :width: 50%
-:name: fig:laser2
+:label: fig:laser2
 
 A laser set up 
 ```
@@ -105,7 +105,7 @@ Laser labs can be recognized from the door signs placed at the entrance next to 
 
 ```{figure} Figures/laserin.png
 :width: 50%
-:name: fig:laserin
+:label: fig:laserin
 
 Warning lights above the doors indicate whether the laser in the room is in use.
 ```
@@ -118,7 +118,7 @@ Warning lights above the doors indicate whether the laser in the room is in use.
 
 ```{figure} Figures/Lasersafety/Panic_button.png
 :width: 50%
-:name: fig:panicbutton
+:label: fig:panicbutton
 
 ```
 
@@ -127,7 +127,7 @@ In case of emergency the red button inside the laser laboratory can be pushed to
 
 ```{figure} Figures/Lasersafety/Laser_shutdown_button.png
 :width: 50%
-:name: fig:lasershutdownbutton
+:label: fig:lasershutdownbutton
 
 ```
 **Laser shut down button**  
@@ -166,7 +166,7 @@ Lasers are divided into several classes depending upon the power or energy of th
 
 ```{figure} Figures/laserclasses.png
 :width: 50%
-:name: fig:laserclasses
+:label: fig:laserclasses
 
 Different laserclasses based on their wavelength and power
 ```
@@ -192,7 +192,7 @@ Highly dangerous. Lasers in this class have output powers of more than 500 mW in
 ## Laser hazard
 ```{figure} Figures/laserhazard.png
 :width: 40%
-:name: fig:laserhazard
+:label: fig:laserhazard
 
 ```
 
@@ -231,7 +231,7 @@ Our eyes are very vulnerable to laser light, even at low power. Since laser ligh
 
 ```{figure} Figures/Lasersafety/Eye_illustration.png
 :width: 70%
-:name: fig:eyeillustration
+:label: fig:eyeillustration
 
 A schematic illustration of a laser beam entering an eye.
 ```
@@ -257,7 +257,7 @@ The layers of the skin, which are of concern in a discussion of laser hazards to
 
 ```{figure} Figures/Lasersafety/Skin_illustration.png
 :width: 70%
-:name: fig:skinillustration
+:label: fig:skinillustration
 
 A schematic illustration of the layers of the skin.
 ```
@@ -305,7 +305,7 @@ The **Checklist Laser Safety** (ask your LSO or HSE advisor) provides a summary 
 
 
 :::{table} Control measures as a function of the laser class
-::name table:measureslaser
+::label table:measureslaser
 | Laser class                                         | Nature of hazard                                                                               | Example of controlled area                                                                                                                                                                           | Outline of protective control measures                                                                                                                                                                                                        |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Class 1 & Class 2                                   | Minimal (N.B. Embedded lasers may present associated hazards)                                  | Unrestricted; i.e., a designated laser area is not normally required                                                                                                                                 | Follow warnings on labels and manufacturer's instructions for safe use                                                                                                                                                                        |
@@ -327,14 +327,14 @@ Laser safety eyewear shall be label ed according to NEN-EN-207 with type of lase
 
 ```{figure} Figures/Lasersafety/Eyewear_labelling1.jpg
 :width: 50% 
-:name: fig_eyewearlabelling1
+:label: fig_eyewearlabelling1
 
 An example of eyewear labelling.
 ```
 
 ```{figure} Figures/Lasersafety/Eyewear_labelling2.jpg
 :width: 50%
-:name: fig_eyewearlabelling2
+:label: fig_eyewearlabelling2
 
 An example of eyewear labelling.
 ```

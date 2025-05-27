@@ -21,14 +21,14 @@ The VSC terminal to interact with the computer using the command line
 ### Install packages
 If you're working with Python, you can install packages using pip. For example, to install the requests library, run:
 
-```{code}
+```{code} python
 pip install requirements
 ```
 requirements here refers to the packages that you want to install. 
 
 ````{note}
 On MAC's you probably need the pip3 pipline. Hence, the code will be:
-```{code}
+```{code} python
 pip3 install requirements
 ```
 ````
@@ -40,7 +40,7 @@ For the data-analysis you at least need to install the following packages:
 
 ````{exercise}
 Install these packages using:
-```{code}
+```{code} python
 pip install matplotlib numpy scipy
 ```
 ````
@@ -85,7 +85,7 @@ There are multiple download options at the site of conda. Be sure you download m
 
 Once installed, open the anaconda prompt. This opens a terminal (a text-based interface used to interact with the operating system by executing commands, scripts, or programs). To check whether the installation is correct and which version is installed, type: 
 
-```{code}
+```{code} python
 conda --version
 ```
 
@@ -100,14 +100,14 @@ Since you installed the minimal installation, we need to install the IDE's we wa
 
 To install the IDE Jupyter and [Jupyter lab](https://anaconda.org/conda-forge/jupyterlab), run the commands:
 
-```{code}
+```{code} python
 conda install anaconda::jupyter
 
 conda install -c conda-forge jupyterlab 
 ```
 For the packages, run the commands:
 
-```{code}
+```{code} python
 conda install conda-forge::matplotlib
 
 conda install conda-forge::numpy
@@ -119,7 +119,7 @@ conda install conda-forge::pandas
 
 or with a single sentence:
 
-```{code}
+```{code} python
 conda install conda-forge::matplotlib conda-forge::numpy conda-forge::scipy conda-forge::pandas
 ```
 

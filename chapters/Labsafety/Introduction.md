@@ -6,7 +6,7 @@ In order to prevent the risks of possible accidents, a number of rules and guide
 
 ```{figure} Figures/safety.jpg
 :width: 80%
-:name: fig:veiligheid:safety
+:label: fig:veiligheid:safety
 
 We must try to prevent this... (picture generated with AI)
 ```
@@ -33,7 +33,7 @@ In the sciences lab this is tackled by our chance by having you take a number of
 
 ```{figure} Figures/zuurkast.JPG
 :width: 80%
-:name: fig:veiligheid:zuurkast
+:label: fig:veiligheid:zuurkast
 
 A poorly designed workplace is an invite to accidents... [Photo by HSE - TNW - TU Delft]
 ```
@@ -50,7 +50,7 @@ If an accident does occur, report it immediately to the assistant. If help is ne
 
 ```{figure} Figures/drunklab3.jpg
 :width: 60%
-:name: fig:veiligheid:drunk
+:label: fig:veiligheid:drunk
 
 It sometimes happens that students still have alcohol in their blood when they have to do a practical. If this is the case, they are not welcome. (picture generated with AI)
 ```
@@ -68,7 +68,7 @@ The lenses and gratings that you use are very sensitive. They can quickly become
 
 ```{figure} Figures/neonlamp.jpg
 :width: 60%
-:name: fig:kwiklamp
+:label: fig:kwiklamp
 
 When working with spectral lamps, know that some of the light that comes of is invisible (UV or IR).
 ```
@@ -79,7 +79,7 @@ High temperature objects (furnaces, reactors, oil baths) and low temperature obj
 
 ```{figure} Figures/cryo.jpg
 :width: 60%
-:name: fig:cryo
+:label: fig:cryo
 
 Proper working methods with cryogenic substances require, among other things, the correct clothing.
 ```
@@ -88,11 +88,12 @@ In a (technical) scientific laboratory, liquid nitrogen is often used. The tempe
 - a face shield or safety glasses with side protectors against splashes
 - special cold-insulating gloves that are loose enough to be able to remove them immediately if liquid nitrogen accidentally splashes in
 - loose-fitting work jackets that can be removed immediately
-
+<!-- 
 ```{figure} Figures/cryo.gif
 :width: 50%
 
-```
+``` 
+-->
 
 Practical work with cryogenic substances with shorts, open shoes or loose-fitting boots is not permitted. The risks are too high for that. Also see the extensive description on the theme [cryogenic substances](./Cryogenes.md).
 
@@ -140,7 +141,7 @@ For a number of specific experiments, an additional test is required (cryogenic 
 In an experiment of the physics lab, research is done into the viscosity (stickiness) of glycerol. The setup to be used is shown in {numref}`glycerolcase`. Perform a risk analysis before performing this experiment. Consider what could go wrong with the experiment, what the consequences would be, and how potential risks could be reduced.
 
 ```{figure} Figures/glycerolcase.png
-:name: glycerolcase
+:label: glycerolcase
 :width: 60%
 
 An experimental setup used in the first year lab

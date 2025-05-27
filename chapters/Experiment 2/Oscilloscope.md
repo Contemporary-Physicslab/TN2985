@@ -45,7 +45,7 @@ I(t) = \frac{V}{R}e^{-t/\tau_0}
 $$ (eq:RCIt)
 
 ```{figure} /figures/RC/RC_circuit.png
-:name: fig:RC_circuit
+:label: fig:RC_circuit
 :width: 70%
 
 The RC-circuit to charge a capacitor
@@ -105,7 +105,7 @@ The Agilent DSO3062A (used in this experiment) has a bandwidth of $60\mathrm{MHz
 
 
 ```{figure} /figures/RC/figuur44.png
-:name: ii4:fig:2-channel
+:label: ii4:fig:2-channel
 :width: 80%
 
 A 2-channel oscilloscope allows to compare two signal, e.g. determine the phase difference.
@@ -122,7 +122,7 @@ To study a signal effectively, two settings are important: the vertical sensitiv
 :class: dropdown
 
 ```{figure} /figures/RC/figuur43.png
-:name: ii4:fig:blokgolf
+:label: ii4:fig:blokgolf
 :width: 70%
 
 Measurement of a periodic signal.
@@ -149,7 +149,7 @@ To read a signal effectively, it helps if the scope is not continuously updating
 - The vertical sensitivity is set to $0.2\mathrm{V/div}$. The scope is set to trigger at $0.35\mathrm{V}$. Draw the signal as seen on the scope.
 
 ```{figure} /figures/RC/figuur45.png
-:name: ii4:fig:driehoeksgolf
+:label: ii4:fig:driehoeksgolf
 :width: 70%
 
 The oscilloscope displaying a saw tooth wave signal.
