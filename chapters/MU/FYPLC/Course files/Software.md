@@ -148,7 +148,7 @@ Moving through your folder with the command line
 ### Jupyter Notebook and Jupyter Lab
 In this course we make use of .ipynb files which are Jupyter Notebooks. To run these notebooks we can use IDE's as *Jupyter Notebook* or *Jupyter Lab*. Jupyter Notebook is a web-based interface that allows users to create and share documents with live code, visualizations, and narrative text in a linear format. JupyterLab, on the other hand, is a more advanced interface offering a flexible and modular environment with multiple panels, including notebooks, terminals, and text editors, providing a more versatile experience for interactive computing. I prefer to use Jupyter lab.
 
-To start Jupyter lab, open the Anaconda terminal (Anaconda Prompt), move to the folder where you want to start Jupyter Lab in (where your files are located) and run the command `jupyter lab` in the terminal. A browser is started with which you can open your Notebooks, see {numref}`Figure {number} <fig_jl>`. Our first [notebook ](../../External/fyplc-python/Course%20files/Notebook%201/Notebook%201%20Python%20Basics.ipynb) tells you exactly how these notebooks work and how to develop and run code.
+To start Jupyter lab, open the Anaconda terminal (Anaconda Prompt), move to the folder where you want to start Jupyter Lab in (where your files are located) and run the command `jupyter lab` in the terminal. A browser is started with which you can open your Notebooks, see {numref}`fig_jl`. Our first [notebook ](../../External/fyplc-python/Course%20files/Notebook%201/Notebook%201%20Python%20Basics.ipynb) tells you exactly how these notebooks work and how to develop and run code.
 
 ```{figure} Figures/jupyterlab.PNG
 ---

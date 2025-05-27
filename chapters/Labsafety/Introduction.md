@@ -137,7 +137,7 @@ Before you can do your first experiment, you must pass at least two tests. First
 For a number of specific experiments, an additional test is required (cryogenic substances or working with lasers). You will be notified if this is necessary.
 
 ## Case study
-In an experiment of the physics lab, research is done into the viscosity (stickiness) of glycerol. The setup to be used is shown in {numref}`figure {number} <glycerolcase>`. Perform a risk analysis before performing this experiment. Consider what could go wrong with the experiment, what the consequences would be, and how potential risks could be reduced.
+In an experiment of the physics lab, research is done into the viscosity (stickiness) of glycerol. The setup to be used is shown in {numref}`glycerolcase`. Perform a risk analysis before performing this experiment. Consider what could go wrong with the experiment, what the consequences would be, and how potential risks could be reduced.
 
 ```{figure} Figures/glycerolcase.png
 :name: glycerolcase

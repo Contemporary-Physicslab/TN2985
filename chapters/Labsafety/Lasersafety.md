@@ -14,7 +14,7 @@ LASER: **L**ight **A**mplification by **S**timulated **E**mission of **R**adiati
 A demonstration experiment with a laser
 ```
 
-A laser consists of a gain medium, a mechanism to supply energy to it, and something to provide optical feedback. The **gain medium (1 in {numref}`figure {number} <fig:laser:principle>`)** is a material with properties that allow it to amplify light by stimulated emission. Light of a specific wavelength that passes through the gain medium is amplified. For the gain medium to amplify light, it needs to be supplied with energy. This process is called **pumping (2 in {numref}`figure {number} <fig:laser:principle>`)**. The energy is typically supplied as an electrical current, or as light at a different wavelength. Pump light may be provided by a flash lamp or by another laser. The most common type of laser uses feedback from an optical cavity – a pair of mirrors on either end of the gain medium: **reflector (3 in {numref}`figure {number} <fig:laser:principle>`)** and **output coupler (4 in {numref}`figure {number} <fig:laser:principle>`)**. Light bounces back and forth between the mirrors, passing through the gain medium and being amplified each time. Typically the output coupler is partially transparent and some of the light escapes through it. Depending on the design of the cavity (whether the mirrors are flat or curved), **the light coming out of the laser may spread out or form a narrow beam (5 in {numref}`figure {number} <fig:laser:principle>`)**.
+A laser consists of a gain medium, a mechanism to supply energy to it, and something to provide optical feedback. The **gain medium (1 in {numref}`fig:laser:principle`** is a material with properties that allow it to amplify light by stimulated emission. Light of a specific wavelength that passes through the gain medium is amplified. For the gain medium to amplify light, it needs to be supplied with energy. This process is called **pumping (2 in {numref}`fig:laser:principle`**. The energy is typically supplied as an electrical current, or as light at a different wavelength. Pump light may be provided by a flash lamp or by another laser. The most common type of laser uses feedback from an optical cavity – a pair of mirrors on either end of the gain medium: **reflector (3 in {numref}`fig:laser:principle`** and **output coupler (4 in {numref}`fig:laser:principle`**. Light bounces back and forth between the mirrors, passing through the gain medium and being amplified each time. Typically the output coupler is partially transparent and some of the light escapes through it. Depending on the design of the cavity (whether the mirrors are flat or curved), **the light coming out of the laser may spread out or form a narrow beam (5 in {numref}`fig:laser:principle`**.
 
 ```{figure} Figures/Lasersafety/Laser_principle.png
 :width: 50%
@@ -322,19 +322,19 @@ There is personal protection as well:
 Laser protective eyewear shal be specifically designed to withstand either direct or diffusely scattered beams depending upon the anticipated circumstances of exposure. The protective filter and frame shall exhibit a damage threshold for a specified exposure time, typically 10 seconds.
 
 **Labelling of Laser Safety Eyewear**
-Laser safety eyewear shall be label ed according to NEN-EN-207 with type of laser, wavelength(s) and the maximum power the eyewear provides protection for or with the optical density and the wavelength(s) the eyewear provides protection for. Additional labelling may be added for quick identification of eyewear in multiple laser laboratories. Examples of eyewear labelling are shown in {numref}`figure {number} <fig:eyewearlabelling1>` and in {numref}`figure {number} <fig:eyewearlabelling2>`.
+Laser safety eyewear shall be label ed according to NEN-EN-207 with type of laser, wavelength(s) and the maximum power the eyewear provides protection for or with the optical density and the wavelength(s) the eyewear provides protection for. Additional labelling may be added for quick identification of eyewear in multiple laser laboratories. Examples of eyewear labelling are shown in {numref}`fig_eyewearlabelling1` and in {numref}`fig_eyewearlabelling2`.
 
 
 ```{figure} Figures/Lasersafety/Eyewear_labelling1.jpg
 :width: 50% 
-:name: fig:eyewearlabelling1 
+:name: fig_eyewearlabelling1
 
 An example of eyewear labelling.
 ```
 
 ```{figure} Figures/Lasersafety/Eyewear_labelling2.jpg
 :width: 50%
-:name: fig:eyewearlabelling2 
+:name: fig_eyewearlabelling2
 
 An example of eyewear labelling.
 ```

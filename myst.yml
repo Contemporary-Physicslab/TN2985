@@ -8,7 +8,7 @@ project:
     - name: Freek Pols
   bibliography:
     - references.bib
-  license: CC-BY-SA-4.0 / TUD approved
+  license: CC-BY-SA-4.0
   downloads:
     - id: TN2985
   exports:
@@ -16,11 +16,9 @@ project:
       template: ./template
       output: exports/TN2985.pdf  
       id: TN2985
-  
-
-
   jupyter: true
    # lite: true
+  
   toc:
     - file: index.md
     - file: intro.md
@@ -80,9 +78,8 @@ site:
    # style: ./style/style.css
     folders: true
     enable_service_worker: false # uitzetten van SPAmodus
-  
-    output: html
-    
+  #  output: html
+
   actions:
     - title: FEEDBACK
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
