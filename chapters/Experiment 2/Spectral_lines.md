@@ -242,7 +242,6 @@ $$
 \begin{split}
     i = \alpha + \phi  \\
     u = \alpha - \phi
-    \label{eq:angle_inc_refl}
 \end{split}
 $$ (eq:angle_inc_refl)
 
