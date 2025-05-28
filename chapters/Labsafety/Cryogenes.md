@@ -1,8 +1,10 @@
 # Cryogenes
 
+```{iframe} https://youtube.com/embed/i7V89RuXyNU?feature=share
 
-https://youtube.com/shorts/i7V89RuXyNU?feature=share
-https://youtube.com/shorts/rLkPG9el8U8
+Never store cryogenes in a closed system as pressure builds!
+```
+
 
 
 ## Introduction
@@ -36,6 +38,11 @@ Physical properties of liquid nitrogen and liquid helium
 * When nitrogen or helium gas is released in substantial amounts, it displaces oxygen from the air and can cause asphyxiation.
 Eg. the vaporisation of 1 litre of liquid nitrogen forms almost 700 litres of gas and liquid helium almost 760 litres.
 
+````{warning}
+```{iframe} https://youtube.com/embed/rLkPG9el8U8
+Never store cryogenes in a closed system as pressure builds!
+```
+````
 ## Hazards of liquid nitrogen and liquid helium
 ```{warning}
 The cloudy vapor that appears when liquid N2 is exposed to the air is condensed atmospheric moisture. The gas itself is invisible.

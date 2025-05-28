@@ -9,7 +9,7 @@ This book is licensed under a [Creative Commons Attribution 4.0 International Li
 ### Figures & videos
 
 All figures and pictures have been made by the team of authors except for: 
-* the cover drawing which is published in Leerboek Natuurkunde 
+* the cover drawing which is published in Leerboek Natuurkunde; Horn \& de Gast N.V. Joh. Ykema's Uitgevers. Den Haag - 1934 
 * the schematic https://contemporary-physicslab.github.io/TN2985/millikan
 * ... 
 * the introductory [youtube clip](https://contemporary-physicslab.github.io/TN2985/boltzmann) on diodes 

@@ -6,11 +6,9 @@
 
 ## General Safety & Security at Applied Physics (AP)
 
-Iets over veiligheid 
-
 ### Responsibilities
 
-Iets over shared responsibilities
+Although some safety regulations can be implemented, not all risks can be avoided. Hence, there is a shared responsibility:
 
 ```{list-table} Shared responsibility
 :header-rows: 1
@@ -33,22 +31,14 @@ Iets over shared responsibilities
 
 3. If needed, the emergency centre of TU Delft will contact the external emergency services.
 
-When in doubt, always call the internal alarm number.
-
-Internal Alarm Number
-Be prepared for emergencies.
-
-
-Know where to find the emergency facilities (e.g. emergency exits, assembly point).
+When in doubt, always call the internal alarm number. Know where to find the emergency facilities (e.g. emergency exits, assembly point).
 
 ```{warning} Internal alarm number
 +31(0)15 27 88888
 ```
 
 
-### In case of…
-
-Site alarm/slow whoop (press to hear the slow whoop alarm): 
+### In case of site alarm 
 
 1. First think of your own safety.
 
@@ -63,10 +53,7 @@ Site alarm/slow whoop (press to hear the slow whoop alarm):
 
 
 
-### In case of…
-
-```{warning} Gas, smoke or fire:
-```
+### In case of gas, smoke or fire
 
 1. First think of your own safety.
 
@@ -74,80 +61,68 @@ Site alarm/slow whoop (press to hear the slow whoop alarm):
 
 3. Extinguish small fires if you feel confident.
 
-
-Keep in mind that a hand held fire
-
-extinguisher is empty after approx. 20 seconds.
+```{danger}
+Keep in mind that a hand held fire extinguisher is empty after approx. 20 seconds.
+```
 
 4. If possible, warn your colleagues and assist people with disabilities.
 
 5. Go to the nearest assembly point/checkpoint, see signs: 6. At the assembly point/checkpoint, wait for instructions of the in-house emergency response team ( Bedrijfshulpverlening, BHV).
 
 
+### Assembly points in case of emergencies, Applied Physics
 
-Safety at TU Delft
-Assembly points in case of emergencies, Applied Physics
-
-
-Assembly Points
-
-
-Safety at TU Delft
-Incidents, accidents, near misses and unsafe situations
-
-Incidents, accidents, near misses and unsafe situation are free lessons to learn from.
-
-
-Always report incidents, accidents, near misses and unsafe situations to the Health, Safety and Environmental advisor of the faculty.
+PICTURE HERE
 
 
 
-Safety at TU Delft
-Working outside office hours
+### Incidents, accidents, near misses and unsafe situations
+
+Incidents, accidents, near misses and unsafe situation are free lessons to learn from. Always report incidents, accidents, near misses and unsafe situations to the Health, Safety and Environmental advisor of the faculty.
+
+
+
+### Working outside office hours
 
 Office hours Faculty of Applied Sciences: 7:30 – 17:00h During office hours all categories in work activities are allowed.
 
-
 Outside office hours:
-• Valid personal campus card for the faculty building.
-
-• Activities category A are allowed.
-
-• Activities category B
-• Activities category C are NOT allowed.
+- Valid personal campus card for the faculty building.
+- Activities category A are allowed.
+- Activities category B
+- Activities category C are NOT allowed.
 
 
 Categories in work activities:
-• A – No-risk activities.
+- A – No-risk activities.
 
-• B – Low risk experimental activities are allowed if a knowledgeable colleague is at hearing distance.
+- B – Low risk experimental activities are allowed if a knowledgeable colleague is at hearing distance.
 
-• C – High risk activities.
+- C – High risk activities.
 
 
 
-Workplace at TU Delft
+## Workplace at TU Delft
 How to prevent Repetitive Strain Injury (RSI)
 
-• Alternate between repetitive and non-repetitive work.
+- Alternate between repetitive and non-repetitive work.
 
-• Take regular breaks, use Workrave.
+- Take regular breaks, use Workrave.
 
-• Learn to deal with tension.
+- Learn to deal with tension.
 
-• Ensure healthy computer workstation ergonomics.
+- Ensure healthy computer workstation ergonomics.
 
-• Contact Facility Management Services to help you organizing your workplace.
+- Contact Facility Management Services to help you organizing your workplace.
 
 
 
-Security at TU Delft
+## Security at TU Delft
 Awareness: Circle of 25 meters
 
 The Circle of 25 is a metaphor for the 25 meters around you.
 
 You take extra care of your surroundings and thereby reduce safety and security risks on the TU Delft Campus.
-
 
 When something occurs in your circle:
 1. Assess the situation.
@@ -156,11 +131,11 @@ When something occurs in your circle:
    - For non-urgent matters you contact the Service Desk.
 
 
-
+```{warning}
 Call +31(0)15 27 88888 using a landline at TU Delft or your mobile phone
 
 Save number in your mobile phone!
-
+```
 
 ## Campus card
 
@@ -179,38 +154,9 @@ In case of loss/theft: Report to Service Desk immediately.
 ## Advice on Safety & Security at TU Delft Conventional safety
 
 
-Anneke Koster-Ammerlaan
-
-Health, Safety and Environmental (HSE)
-
-Advisor, Faculty of Applied Sciences
-
-Department of Applied Physics
-
-Telephone number:06 42391886
-
-E-mail: M.J.J.Koster-Ammerlaan@tudelft.nl
-
-Advice on Safety & Security at TU Delft
-
-Biological safety
-
-Safety & security
-
-
-Marinka Almering
-
-Ron Massink
-
-Biological Safety Officer TU Delft
-
-Corporate manager Integrated Hazard Risk
-
-Telephone number: 015 2789966
-
-TU Delft
-
-E-mail: M.J.H.Almering@tudelft.nl
-
-Radiological safety
+- Anneke Koster-Ammerlaan
+- Health, Safety and Environmental (HSE)
+- Advisor, Faculty of Applied Sciences
+- E-mail: M.J.J.Koster-Ammerlaan@tudelft.nl
+- Advice on Safety & Security at TU Delft; Biological safety; Safety & security
 
