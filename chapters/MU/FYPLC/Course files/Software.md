@@ -89,10 +89,11 @@ Once installed, open the anaconda prompt. This opens a terminal (a text-based in
 conda --version
 ```
 
+````{aside}
 ```{figure} Figures/condaversion.PNG
-:figclass: margin
-:width: 100%
+:width: 80%
 ```
+````
 
 and press enter, the terminal will return the conda version.
 

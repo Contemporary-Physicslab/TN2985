@@ -72,8 +72,17 @@ Keep in mind that a hand held fire extinguisher is empty after approx. 20 second
 
 ### Assembly points in case of emergencies, Applied Physics
 
-PICTURE HERE
+```{figure} Figures/assembly.jpg
+:width: 60%
 
+At several places one can find signs with the nearest assembly point.
+```
+
+```{figure} Figures/warning side hall.jpg
+:width: 60%
+
+At several places one clearly indicated signs of fire extinguishers, and alarms.
+```
 
 
 ### Incidents, accidents, near misses and unsafe situations

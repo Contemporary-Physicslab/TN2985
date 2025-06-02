@@ -82,8 +82,5 @@ There are other resources as well, we provide some:
 
 [**Physics review:**](https://cdn.journals.aps.org/files/styleguide-pr.pdf) provides as well a list of requirements and guidelines.
 
-## Example
-An example of a report is given in the Appendix of this manual.
-
 ## Checks
 There are two scheduled day-parts were you ought to work in the first report. The first day-part is voluntary, you can agree with your partner to work at home. However, the second day-part has a mandatory aspect. You need to show your report or draft version at least once to a TA. The TA will help you by providing feedback. This prevents you from making often made mistakes or mistakes that could be easily avoided, such as forgetting to write a clear, concise subscript for each figure.

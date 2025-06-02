@@ -79,7 +79,7 @@ Always use a laser safety goggle!!!
 
 
 ```{figure} Figures/Lasersafety/No_jewellery_sign.png
-:width: 60%
+:width: 40%
 :label: fig:nojewellery
 
 
