@@ -6,6 +6,7 @@ project:
   title: Introduction to Experimentation in Physics
   authors:
     - name: Freek Pols
+  date: 2025-06-02
   bibliography:
     - references.bib
   license: CC-BY-SA-4.0
@@ -13,7 +14,7 @@ project:
     - id: TN2985
   exports:
     - format: pdf
-      template: ./template
+      template: curvenote
       output: exports/TN2985.pdf  
       id: TN2985
   jupyter: true
