@@ -259,6 +259,10 @@ For a constant current $I$, the voltage across a diode in the forward direction 
 Sketch the voltage behavior as a function of temperature and indicate how the bandgap can be determined from this.
 ```
 
+```{exercise}
+Devise a method to determine the bandgap of a semiconductor diode using {eq}`eq:iconst`. Describe how you will process the data. Let your work check and approve by the supervisor before you start the measurements.
+```
+
 ```{tip}
 :class: dropdown
 In the original experiment, the resistance of the choke coil and diodes in the cryostat had to be measured in the temperature range from $100\mathrm{K}$ to $300\mathrm{K}$ with steps of $5\mathrm{K}$, and heated at a rate of 2 degrees per minute.
