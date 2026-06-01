@@ -84,6 +84,8 @@ site:
   actions:
     - title: FEEDBACK
       url: https://github.com/Contemporary-Physicslab/TN2985/issues
+    - title: pdf
+      url: ./Exports/TN2985.pdf
   # nav: 
   #   - title: Python
   #     url: /chapters/MU/External/FYPLC/book/
