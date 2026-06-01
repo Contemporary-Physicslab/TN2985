@@ -7,7 +7,7 @@ downloads:
 # Lab journal
 Before each experiment, you will do assignments to help you prepare for and understand the experiment. During the experiment, you will collect data, write down settings of the equipment, make notes, etc. All this information should be clearly organized in a single document, your lab journal. If you have used your lab journal considerately, another researcher should be able to finish the experiment you started. Another researcher should also be able to assess your work using your lab journal as well. Keeping up a lab journal is thus an important part of scientific research and lab work. As we value it so high, as it is vital to establish the reliability and validity of a study, we only grade your report when your lab journal is handed in through Vocareum.
 
-```{figure} /figures/labjournalscan.PNG
+```{figure} figures/labjournalscan.PNG
 ---
 width: 80%
 name: fig:labj

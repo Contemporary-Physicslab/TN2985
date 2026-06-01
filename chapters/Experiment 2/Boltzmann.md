@@ -52,7 +52,7 @@ A DMM can be used as a voltmeter or ammeter. In the ideal case a voltmeter has a
 1. How does the resistor $R_1$ prevent blowing up the fuse of the Ammeter?
 ```
 
-```{figure} /figures/Boltzmann/Figuur1.png
+```{figure} figures/Boltzmann/Figuur1.png
 :label: fig:II:circuits
 :width: 70%
 
@@ -90,7 +90,7 @@ $$
 ```
 An advantages of this circuit is that we do not measure current directly. As the current changes a few decades, we approximate the original circuit (without instruments). 
 
-```{figure} /figures/Boltzmann/volt_div.png
+```{figure} figures/Boltzmann/volt_div.png
 :label: fig:Boltzmann:volt_div-setup
 :width: 50%
 
@@ -134,7 +134,7 @@ $$
 
 where $q$ is the charge of an electron, $-1.602\cdot10^{-19}\mathrm{C}$, $n$ an ideality factor which is 2 for Si, $I_0$ the reverse current when $V_D$ is strongly negative. For more (background) information, refer to {cite}`wolfson2007essential`, chapter 27-28.
 
-```{figure} /figures/Boltzmann/figuur12.png
+```{figure} figures/Boltzmann/figuur12.png
 :label: fig:UIcharacteristic
 :width: 70%
 
@@ -200,7 +200,7 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
 Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of $77\mathrm{K}$ at an atmospheric pressure of $1010\mathrm{hPa}$.
 
-```{figure} /figures/Boltzmann/Cryo_1.jpg
+```{figure} figures/Boltzmann/Cryo_1.jpg
 :width: 30%
 :name: fig_cryo
 

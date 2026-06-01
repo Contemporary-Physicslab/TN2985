@@ -44,7 +44,7 @@ $$
 I(t) = \frac{V}{R}e^{-t/\tau_0}
 $$ (eq:RCIt)
 
-```{figure} /figures/RC/RC_circuit.png
+```{figure} figures/RC/RC_circuit.png
 :label: fig:RC_circuit
 :width: 70%
 
@@ -104,7 +104,7 @@ During this experiment, our digital oscilloscopes have $N=8$ bit resolution, suc
 The Agilent DSO3062A (used in this experiment) has a bandwidth of $60\mathrm{MHz}$, meaning (in theory) signals with a period of $17\mathrm{ns}$ can be measured. When measuring a single channel, the time-dependent signal is shown. In this setting, the vertical axis displays the voltage, and the time is shown on the horizontal axis. A 2-channel oscilloscope allows two signals to be displayed on a shared horizontal axis, with each having its own vertical axis Y1 and Y2. An example is shown in {numref}`ii4:fig:2-channel`. Such feature allows to compare the time-dependent behaviour of the signals, e.g. the relative phase-shift.
 
 
-```{figure} /figures/RC/figuur44.png
+```{figure} figures/RC/figuur44.png
 :label: ii4:fig:2-channel
 :width: 80%
 
@@ -121,7 +121,7 @@ To study a signal effectively, two settings are important: the vertical sensitiv
 ````{exercise}
 :class: dropdown
 
-```{figure} /figures/RC/figuur43.png
+```{figure} figures/RC/figuur43.png
 :label: ii4:fig:blokgolf
 :width: 70%
 
@@ -148,7 +148,7 @@ To read a signal effectively, it helps if the scope is not continuously updating
 - Draw how the signal shown in {numref}`ii4:fig:driehoeksgolf` will be displayed when it continues on the left side on the screen if it reaches the end on the right.
 - The vertical sensitivity is set to $0.2\mathrm{V/div}$. The scope is set to trigger at $0.35\mathrm{V}$. Draw the signal as seen on the scope.
 
-```{figure} /figures/RC/figuur45.png
+```{figure} figures/RC/figuur45.png
 :label: ii4:fig:driehoeksgolf
 :width: 70%
 
