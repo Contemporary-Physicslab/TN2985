@@ -200,12 +200,14 @@ where $E$ is the electron's energy, and $E_g$ represents the bandgap energy.
 
 Temperature-dependent measurements are usually performed in a cryostat. This device consists of several compartments. The innermost compartment is the sample space, where the sample to be measured is located, optionally with a small oven for heating. Surrounding the sample space is a compartment for the coolant (liquid nitrogen or helium). In this experiment, liquid nitrogen is used for cooling. Nitrogen has a boiling point of $77\mathrm{K}$ at an atmospheric pressure of $1010\mathrm{hPa}$.
 
+````{aside}
 ```{figure} figures/Boltzmann/Cryo_1.jpg
-:width: 30%
+:width: 100%
 :name: fig_cryo
 
 The cryostat with electronics.
 ```
+````
 
 Between the space for the liquid nitrogen and the outer wall, there is an insulation compartment that is under vacuum, so that no heat is transferred to the liquid nitrogen through convection. Additionally, there is an absorption pump in this space that starts pumping once the compartment for the coolant is filled. The surfaces in this insulation space that face outward are also provided with a layer of super insulation that has a high reflective ability for thermal radiation.
 

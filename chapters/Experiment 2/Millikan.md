@@ -7,7 +7,7 @@ This is an old experiment that lacked documentation. If any information is missi
 Millikan's experiment is a classic physics experiment. The idea is that you can levitate small oil droplets between two capacitor plates. Because the charge is quantized and the mass and the applied electric field can be determined, you can determine the electric charge quantum.
 
 ```{figure} figures/Millikan/Scheme.png
-:width: 60%
+:width: 80%
 
 Schematic setup of Millikan's test, figure via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Simplified_scheme_of_Millikan%E2%80%99s_oil-drop_experiment.png) (commons)
 ```
@@ -33,7 +33,7 @@ where $v_g$ is the velocity without an external electric field.
 Show that the above equation applies to the radius of the oil droplet.
 ```
 
-```{figure} Figures/Millikan/Mill_forces.png
+```{figure} figures/Millikan/Mill_forces.png
 :width: 40%
 
 The forces acting on a charged oil droplet moving at a constant velocity.

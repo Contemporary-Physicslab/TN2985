@@ -120,13 +120,14 @@ Schematic of the drop test. The droplet falls a distance $s$.
 ### Visualization experiment
 When you ask somebody to draw a droplet, it is very likely that the person asked will draw the shape of a tear: thick at the bottom and converging to a tip at the top. A falling water droplet, however, is rather flat than elongated. A falling droplet resembles an "M\&M". To establish the shape of a droplet that is subject to air drag and to determine its cross-sectional area $A_{\perp}$, and from this the drag coefficient $C_D$, you will take photographs of the droplet. To enable this, you will float the droplet by placing it in an upward air flow in the setup depicted in {numref}`Experiment2_waterdropplet:fig:setup`.
 
-
+````{aside}
 ```{figure} figures/Waterdropplet/figuur6.png
 :label: Experiment2_waterdropplet:fig:setup
-:width: 50%
+:width: 100%
 
 Setup to float a droplet.
 ```
+````
 
 Position the pipette a few centimeters above the wire mesh, with the blower set to about 20 Volt, and create a droplet. Try to keep the floating droplet stable in the air flow long enough to take sharp photographs. This requires some trial and error and optimization with (among other things) the blower voltage and the pipette's position relative to the mesh. A transparent cylinder is available to guide the air flow, if necessary. Dry the mesh with a tissue if a droplet has fallen onto it; otherwise the setup is not ready for the next attempt.
 
